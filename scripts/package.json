@@ -7,7 +7,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node .",
+    "start": "ts-node --files .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
