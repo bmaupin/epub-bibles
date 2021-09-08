@@ -1,20 +1,26 @@
 'use strict';
 
-import Epub, { IChapter, IEpubGenOptions } from 'epub-gen';
+import nodepub from 'nodepub';
 const fsPromises = require('fs').promises;
 
 const DATA_DIRECTORY = '../data';
 
 const generateBible = async (languageCode: string, bibleName: string) => {
-  const option = {
-    appendChapterTitles: false,
-    author: '',
-    content: [] as IChapter[],
+  const metadata = {
+    author: 'Various authors',
     // TODO
-    // cover: "http://demo.com/url-to-cover-image.jpg", // Url or File path, both ok.
-    lang: languageCode,
+    cover: '../test-cover.png',
+    // TODO: can we remove this?
+    genre: 'Non-Fiction',
+    // TODO: use a different UUID for each bible
+    id: '36fc86d0-08ed-47c8-abf7-2d30227467e0',
+    // TODO
+    images: [],
+    language: languageCode,
     title: bibleName,
-  } as IEpubGenOptions;
+  };
+
+  const epub = nodepub.document(metadata);
 
   for (const bookDirectory of await fsPromises.readdir(
     `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
@@ -33,19 +39,15 @@ const generateBible = async (languageCode: string, bibleName: string) => {
       // TODO: add a chapter title heading to each chapter with a link back to the contents page
 
       const chapterData = await fsPromises.readFile(
-        `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`
+        `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
+        'utf8'
       );
 
-      option.content.push({
-        data: chapterData,
-        // TODO: this makes it so that the content isn't even available...
-        // excludeFromToc: true,
-        title: chapterTitle,
-      });
+      epub.addSection(chapterTitle, chapterData);
     }
   }
 
-  new Epub(option, `../${bibleName}.epub`);
+  await epub.writeEPUB('..', bibleName);
 };
 
 const main = async () => {
