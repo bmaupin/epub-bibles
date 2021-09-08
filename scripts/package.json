@@ -5,7 +5,7 @@
     "node": ">=0.14"
   },
   "description": "",
-  "main": "index.ts",
+  "main": "generate-bibles.ts",
   "scripts": {
     "start": "ts-node --files .",
     "test": "echo \"Error: no test specified\" && exit 1"
