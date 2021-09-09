@@ -22,6 +22,17 @@ const getTableOfContentsTitle = (languageCode: string): string => {
   }
 };
 
+const getEpubId = (bibleName: string): string => {
+  switch (bibleName) {
+    case 'La Bible Segond 1910':
+      return '36fc86d0-08ed-47c8-abf7-2d30227467e0';
+    default:
+      throw new Error(
+        `Unhandled bible name when getting EPUB ID: ${bibleName}`
+      );
+  }
+};
+
 const getChapterNumber = (chapterFile: string): number => {
   return Number(chapterFile.slice(0, 3));
 };
@@ -70,8 +81,7 @@ const generateBible = async (languageCode: string, bibleName: string) => {
     cover: '../test-cover.png',
     // TODO: can we remove this?
     genre: 'Non-Fiction',
-    // TODO: use a different UUID for each bible
-    id: '36fc86d0-08ed-47c8-abf7-2d30227467e0',
+    id: getEpubId(bibleName),
     images: [],
     language: languageCode,
     title: bibleName,
