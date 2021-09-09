@@ -3,5 +3,8 @@
  *
  */
 declare module 'nodepub' {
-  export function document(metadata: any): any;
+  export function document(
+    metadata: any,
+    generateContentsCallback?: Function
+  ): any;
 }
