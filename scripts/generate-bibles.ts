@@ -8,7 +8,9 @@ const DATA_DIRECTORY = '../data';
 const generateBible = async (languageCode: string, bibleName: string) => {
   const metadata = {
     author: 'Various authors',
-    // TODO
+    // TODO: this isn't necessary, but then the contents page title is blank in the TOC...
+    // contents: 'Table of Contents',
+    // TODO: use a real cover image
     cover: '../test-cover.png',
     // TODO: can we remove this?
     genre: 'Non-Fiction',
@@ -43,7 +45,12 @@ const generateBible = async (languageCode: string, bibleName: string) => {
         'utf8'
       );
 
-      epub.addSection(chapterTitle, chapterData);
+      epub.addSection(
+        chapterTitle,
+        chapterData,
+        // Exclude the chapter from the TOC and the contents page
+        true
+      );
     }
   }
 
