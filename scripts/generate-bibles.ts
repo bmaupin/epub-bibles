@@ -5,6 +5,23 @@ const fsPromises = require('fs').promises;
 
 const DATA_DIRECTORY = '../data';
 
+const getTableOfContentsTitle = (languageCode: string): string => {
+  switch (languageCode) {
+    case 'ar':
+      return 'جدول محتويات';
+    case 'en':
+      return 'Table of Contents';
+    case 'es':
+      return 'Tabla de contenido';
+    case 'fr':
+      return 'Table des matières';
+    default:
+      throw new Error(
+        `Unhandled language code when getting table of contents name: ${languageCode}`
+      );
+  }
+};
+
 const getChapterNumber = (chapterFile: string): number => {
   return Number(chapterFile.slice(0, 3));
 };
@@ -29,6 +46,7 @@ const generateBookContentsPageData = (
     // TODO: add CSS white-space: nowrap; around the chapter title to avoid breaking bookname and chapter number
     // https://developer.mozilla.org/docs/Web/CSS/white-space
     // TODO: remove link underline in this page??
+    // TODO: use double line spacing in CSS to make it easier to click chapters?
     bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
 
     // Add separator after every chapter except the last one
@@ -47,15 +65,13 @@ const generateBookContentsPageData = (
 const generateBible = async (languageCode: string, bibleName: string) => {
   const metadata = {
     author: 'Various authors',
-    // TODO: this isn't necessary, but then the contents page title is blank in the TOC...
-    // contents: 'Table of Contents',
+    contents: getTableOfContentsTitle(languageCode),
     // TODO: use a real cover image
     cover: '../test-cover.png',
     // TODO: can we remove this?
     genre: 'Non-Fiction',
     // TODO: use a different UUID for each bible
     id: '36fc86d0-08ed-47c8-abf7-2d30227467e0',
-    // TODO
     images: [],
     language: languageCode,
     title: bibleName,
