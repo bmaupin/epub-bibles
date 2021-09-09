@@ -74,14 +74,17 @@ const generateBookContentsPageData = (
 };
 
 const generateBible = async (languageCode: string, bibleName: string) => {
+  console.log(`Generating EPUB for ${bibleName}`);
+
   const metadata = {
     author: 'Various authors',
     contents: getTableOfContentsTitle(languageCode),
-    // TODO: use a real cover image
-    cover: '../test-cover.png',
-    // TODO: can we remove this?
+    // TODO: write a function to get the cover image (cover.*?)
+    cover: `${DATA_DIRECTORY}/${languageCode}/${bibleName}/cover-source.jpg`,
+    // TODO: remove this (https://github.com/kcartlidge/nodepub/issues/15)
     genre: 'Non-Fiction',
     id: getEpubId(bibleName),
+    // TODO: remove this (https://github.com/kcartlidge/nodepub/issues/15)
     images: [],
     language: languageCode,
     title: bibleName,
@@ -95,6 +98,9 @@ const generateBible = async (languageCode: string, bibleName: string) => {
   for (const bookDirectory of await fsPromises.readdir(
     `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
   )) {
+    // Skip cover files
+    if (bookDirectory.startsWith('cover')) continue;
+
     // Strip the book number off the directory to get the name
     const bookName = bookDirectory.slice(3);
 
