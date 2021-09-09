@@ -12,11 +12,11 @@ const getChapterNumber = (chapterFile: string): number => {
 const generateBookContentsPageData = (
   bookName: string,
   chapterFiles: string[],
-  sectionCount: number
+  bookContentsPageIndex: number
 ): string => {
   let bookContentsPageData = `<p><h1><a href="toc.xhtml">${bookName}</a></h1></p>\n<p>`;
   // Keep separate track of the section index per book
-  let sectionIndex = sectionCount;
+  let sectionIndex = bookContentsPageIndex;
 
   // Increment once to factor the index of this contents page
   sectionIndex += 1;
@@ -28,9 +28,11 @@ const generateBookContentsPageData = (
 
     // TODO: add CSS white-space: nowrap; around the chapter title to avoid breaking bookname and chapter number
     // https://developer.mozilla.org/docs/Web/CSS/white-space
+    // TODO: remove link underline in this page??
     bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
 
-    if (sectionIndex !== sectionCount + chapterFiles.length) {
+    // Add separator after every chapter except the last one
+    if (sectionIndex !== bookContentsPageIndex + chapterFiles.length) {
       bookContentsPageData += '<span>&nbsp;|&nbsp;</span>';
     }
 
@@ -61,8 +63,8 @@ const generateBible = async (languageCode: string, bibleName: string) => {
 
   const epub = nodepub.document(metadata);
 
-  // Keep track of how many sections we've added to use for contents pages for each book
-  let sectionCount = 0;
+  // This should always point to the index of the current book contents page
+  let bookContentsPageIndex = 1;
 
   for (const bookDirectory of await fsPromises.readdir(
     `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
@@ -74,23 +76,21 @@ const generateBible = async (languageCode: string, bibleName: string) => {
       `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}`
     );
 
-    // TODO: for each book, create a contents page with all chapters
     const bookContentsPageData = generateBookContentsPageData(
       bookName,
       chapterFiles,
-      sectionCount
+      bookContentsPageIndex
     );
-
     epub.addSection(bookName, bookContentsPageData);
-    sectionCount += 1;
 
     for (const chapterFile of chapterFiles) {
       const chapterNumber = getChapterNumber(chapterFile);
       const chapterTitle = `${bookName} ${chapterNumber}`;
 
-      // TODO: add a chapter title heading to each chapter with a link back to the contents page
+      // Add a chapter title heading to each chapter with a link back to the contents page
+      let chapterData = `<p><h1><a href="s${bookContentsPageIndex}.xhtml">${chapterTitle}</a></h1></p>\n`;
 
-      const chapterData = await fsPromises.readFile(
+      chapterData += await fsPromises.readFile(
         `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
         'utf8'
       );
@@ -101,8 +101,9 @@ const generateBible = async (languageCode: string, bibleName: string) => {
         // Exclude the chapter from the TOC and the contents page
         true
       );
-      sectionCount += 1;
     }
+
+    bookContentsPageIndex += chapterFiles.length + 1;
   }
 
   await epub.writeEPUB('..', bibleName);
