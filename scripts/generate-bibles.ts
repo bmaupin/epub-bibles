@@ -80,7 +80,7 @@ const generateBible = async (languageCode: string, bibleName: string) => {
     author: 'Various authors',
     contents: getTableOfContentsTitle(languageCode),
     // TODO: write a function to get the cover image (cover.*?)
-    cover: `${DATA_DIRECTORY}/${languageCode}/${bibleName}/cover-source.jpg`,
+    cover: `${DATA_DIRECTORY}/${languageCode}/${bibleName}/cover.jpg`,
     // TODO: remove this (https://github.com/kcartlidge/nodepub/issues/15)
     genre: 'Non-Fiction',
     id: getEpubId(bibleName),
