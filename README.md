@@ -39,6 +39,9 @@ Steps:
    $ se create-draft -a Anonymous -t "La Bible Segond 1910"
    ```
 
+   - The title will go on top in a larger font, the author will go on the bottom in a smaller font
+   - Use "Anonymous" for the author to exclude it from the cover image
+
 1. Copy the image, e.g.
 
    ```
