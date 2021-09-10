@@ -24,6 +24,10 @@ Prerequisites:
 
 Steps:
 
+1. Find a public domain image to use as the cover
+
+   - This is a nice source: [https://www.brooklynmuseum.org/opencollection/exhibitions/3207](https://www.brooklynmuseum.org/opencollection/exhibitions/3207) > _Objects_
+
 1. Download and crop the source image
 
 1. Create a temporary directory
