@@ -1,3 +1,10 @@
+p {
+  /* Add extra line height to account for verse numbers */
+  line-height: 1.3em;
+}
+
 sup {
   font-size: 70%;
+  /* Remove the extra line height added by sup elements (verse numbers) */
+  line-height: 0;
 }
