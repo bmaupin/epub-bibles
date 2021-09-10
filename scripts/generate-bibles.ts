@@ -90,6 +90,8 @@ const generateBible = async (languageCode: string, bibleName: string) => {
 
   const epub = nodepub.document(metadata);
 
+  epub.addCSS(await fsPromises.readFile('style.css', 'utf8'));
+
   // This should always point to the index of the current book contents page
   let bookContentsPageIndex = 1;
 
