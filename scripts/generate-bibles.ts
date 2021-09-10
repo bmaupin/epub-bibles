@@ -42,7 +42,7 @@ const generateBookContentsPageData = (
   chapterFiles: string[],
   bookContentsPageIndex: number
 ): string => {
-  let bookContentsPageData = `<p><h1><a href="toc.xhtml">${bookName}</a></h1></p>\n<p>`;
+  let bookContentsPageData = `<h1><a href="toc.xhtml">${bookName}</a></h1>\n<p>`;
   // Keep separate track of the section index per book
   let sectionIndex = bookContentsPageIndex;
 
@@ -118,7 +118,7 @@ const generateBible = async (languageCode: string, bibleName: string) => {
       const chapterTitle = `${bookName} ${chapterNumber}`;
 
       // Add a chapter title heading to each chapter with a link back to the contents page
-      let chapterData = `<p><h1><a href="s${bookContentsPageIndex}.xhtml">${chapterTitle}</a></h1></p>\n`;
+      let chapterData = `<h1><a href="s${bookContentsPageIndex}.xhtml">${chapterTitle}</a></h1>\n`;
 
       chapterData += await fsPromises.readFile(
         `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
