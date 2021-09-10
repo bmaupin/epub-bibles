@@ -5,8 +5,27 @@ const fsPromises = require('fs').promises;
 
 const DATA_DIRECTORY = '../data';
 
-const getTableOfContentsTitle = (languageCode: string): string => {
+const getAuthor = (languageCode: string): string => {
+  // TODO: would this be better in a JSON file? It'd be easier to contribute to...
   switch (languageCode) {
+    case 'en':
+      return 'Various authors';
+    case 'es':
+      return 'AA.VV.';
+    // https://fr.wikipedia.org/wiki/AA.VV. 🤷
+    case 'fr':
+      return 'AA.VV.';
+    default:
+      throw new Error(
+        `Unhandled language code when getting table of contents name: ${languageCode}`
+      );
+  }
+};
+
+const getTableOfContentsTitle = (languageCode: string): string => {
+  // TODO: would this be better in a JSON file? It'd be easier to contribute to...
+  switch (languageCode) {
+    // https://ar.wikipedia.org/wiki/%D8%AC%D8%AF%D9%88%D9%84_%D9%85%D8%AD%D8%AA%D9%88%D9%8A%D8%A7%D8%AA 🤷
     case 'ar':
       return 'جدول محتويات';
     case 'en':
@@ -87,7 +106,7 @@ const generateBible = async (languageCode: string, bibleName: string) => {
   console.log(`Generating EPUB for ${bibleName}`);
 
   const metadata = {
-    author: 'Various authors',
+    author: getAuthor(languageCode),
     contents: getTableOfContentsTitle(languageCode),
     // TODO: write a function to get the cover image (cover.*?)
     // TODO: work around https://github.com/kcartlidge/nodepub/issues/17
