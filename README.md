@@ -1,3 +1,46 @@
+Public domain Bibles packaged as EPUB files.
+
+(Coming soon) See the [Releases](../../releases) page for the files.
+
+## About
+
+Many of the EPUBs for public domain Bibles are poorly formatted. This is a simple attempt to generate well-formatted Bibles.
+
+This is loosely inspired by [Standard Ebooks](https://standardebooks.org/), which [does not include Bibles as part of their collection](https://standardebooks.org/contribute/collections-policy).
+
+## How to read these files
+
+#### E-reader
+
+For most E-readers (Kobo, Nook, etc.), you should just be able to copy the file to your E-reader.
+
+For Kindles, you will need to convert them first to MOBI files using a tool such as [calibre](https://calibre-ebook.com/).
+
+#### Android
+
+You can read these files using the Google Play Books app, or an alternative such as [Book Reader](https://play.google.com/store/apps/details?id=com.github.axet.bookreader&hl=fr&gl=US).
+
+#### iOS
+
+You can read these files using the iBooks app.
+
+#### Linux/Mac/Windows
+
+While you can read these files on a computer, it's less work and you'll have more options with a site such as [bible.com](https://www.bible.com/bible/)
+
+## Features
+
+- Custom covers featuring public domain art in the style of [Standard Ebooks](https://standardebooks.org/) covers
+- Table of contents with entries only for each book
+- Content page for each book with entries for each chapter
+  - The heading links back to the main table of contents
+- Chapter titles that link back to the book content page
+
+## Other free EPUB Bible sources
+
+- [ESV Classic Reference Bible](https://www.crossway.org/books/esv-classic-reference-bible-ebook/)
+- [https://ebible.org/download.php](https://ebible.org/download.php)
+
 ## Development
 
 #### Creating a cover image
