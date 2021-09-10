@@ -37,6 +37,14 @@ const getChapterNumber = (chapterFile: string): number => {
   return Number(chapterFile.slice(0, 3));
 };
 
+const replaceAll = (
+  str: string,
+  find: string | RegExp,
+  replace: string
+): string => {
+  return str.replace(new RegExp(find, 'g'), replace);
+};
+
 const generateBookContentsPageData = (
   bookName: string,
   chapterFiles: string[],
@@ -52,7 +60,11 @@ const generateBookContentsPageData = (
   for (const chapterFile of chapterFiles) {
     const chapterNumber = getChapterNumber(chapterFile);
     // Use non-breaking spaces here and elsewhere to prevent line breaks in the middle of the chapter entry
-    const chapterTitle = `${bookName}&nbsp;${chapterNumber}`;
+    const chapterTitle = replaceAll(
+      `${bookName} ${chapterNumber}`,
+      ' ',
+      '&nbsp;'
+    );
     const chapterEpubFilename = `s${sectionIndex}.xhtml`;
 
     bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
