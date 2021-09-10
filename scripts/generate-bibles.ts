@@ -51,16 +51,16 @@ const generateBookContentsPageData = (
 
   for (const chapterFile of chapterFiles) {
     const chapterNumber = getChapterNumber(chapterFile);
-    const chapterTitle = `${bookName} ${chapterNumber}`;
+    // Use non-breaking spaces here and elsewhere to prevent line breaks in the middle of the chapter entry
+    const chapterTitle = `${bookName}&nbsp;${chapterNumber}`;
     const chapterEpubFilename = `s${sectionIndex}.xhtml`;
 
-    // TODO: add CSS white-space: nowrap; around the chapter title to avoid breaking bookname and chapter number
-    // https://developer.mozilla.org/docs/Web/CSS/white-space
     bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
 
     // Add separator after every chapter except the last one
     if (sectionIndex !== bookContentsPageIndex + chapterFiles.length) {
-      bookContentsPageData += '<span>&nbsp;|&nbsp;</span>';
+      // The normal space at the end allows a line break if needed
+      bookContentsPageData += '&nbsp;| ';
     }
 
     sectionIndex += 1;
