@@ -56,8 +56,6 @@ const generateBookContentsPageData = (
 
     // TODO: add CSS white-space: nowrap; around the chapter title to avoid breaking bookname and chapter number
     // https://developer.mozilla.org/docs/Web/CSS/white-space
-    // TODO: remove link underline in this page??
-    // TODO: use double line spacing in CSS to make it easier to click chapters?
     bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
 
     // Add separator after every chapter except the last one
