@@ -5,9 +5,8 @@ See the [Releases](../../releases) page for the files.
 --->
 
 <!--- TODO: update link to cover.jpg once https://github.com/kcartlidge/nodepub/issues/17 is fixed --->
-<img src="data/fr/La Bible Segond 1910/cover.jpeg" alt="cover sample" width="400"/>
-
-<!--- TODO: add preview image of a sample page --->
+<img alt="cover sample" align="left" src="data/fr/La Bible Segond 1910/cover.jpeg" width="400"/>
+<img alt="page sample" src="sample-page.png" width="400"/>
 
 ## About
 
