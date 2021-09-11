@@ -3,3 +3,7 @@ sup {
   /* Remove the extra line height added by sup elements (verse numbers) */
   line-height: 0;
 }
+
+.book-title {
+  text-align: center;
+}

@@ -69,7 +69,8 @@ const generateBookContentsPageData = (
   chapterFiles: string[],
   bookContentsPageIndex: number
 ): string => {
-  let bookContentsPageData = `<h1><a href="toc.xhtml">${bookName}</a></h1>\n<p>`;
+  // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
+  let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookName.toUpperCase()}</a></h2>\n<p>`;
   // Keep separate track of the section index per book
   let sectionIndex = bookContentsPageIndex;
 
