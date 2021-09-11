@@ -10,21 +10,25 @@ See the [Releases](../../releases) page for the files.
 
 ## About
 
-Many of the EPUBs for public domain Bibles are poorly formatted. This is a simple attempt to generate well-formatted Bibles.
+This is a simple attempt to generate well-formatted EPUB Bibles intended primarily for use with E-readers.
 
 This is loosely inspired by [Standard Ebooks](https://standardebooks.org/), which [does not include Bibles as part of their collection](https://standardebooks.org/contribute/collections-policy).
 
 ## How to read these files
 
-#### E-reader
+### E-readers
 
 For most E-readers (Kobo, Nook, etc.), you should just be able to copy the file to your E-reader.
 
-For Kindles, you will need to convert them first to MOBI files using a tool such as [calibre](https://calibre-ebook.com/).
+For Kindle E-readers, you will need to convert them first to MOBI files using a tool such as [calibre](https://calibre-ebook.com/).
+
+### Other devices
+
+Because these files are limited to Bibles available in the public domain, if you wish to read the Bible on another device in most cases it would be preferable to read a more modern translation using a different method such as the [Bible app](https://www.bible.com/app) or [bible.com](https://www.bible.com/bible/).
 
 #### Android
 
-You can read these files using the Google Play Books app, or an alternative such as [Book Reader](https://play.google.com/store/apps/details?id=com.github.axet.bookreader&hl=fr&gl=US).
+You can read these files using the [Google Play Books](https://play.google.com/store/apps/details?id=com.google.android.apps.books) app, or an alternative such as [Book Reader](https://play.google.com/store/apps/details?id=com.github.axet.bookreader&hl=fr&gl=US).
 
 #### iOS
 
@@ -32,7 +36,7 @@ You can read these files using the iBooks app.
 
 #### Linux/Mac/Windows
 
-While you can read these files on a computer, it's less work and you'll have more options with a site such as [bible.com](https://www.bible.com/bible/)
+You can read these files using an app such as [calibre](https://calibre-ebook.com/).
 
 ## Features
 
@@ -43,6 +47,7 @@ While you can read these files on a computer, it's less work and you'll have mor
 - Chapter titles that link back to the book content page
 - Uniform line spacing
 - Punctuation fixes
+- Deliberately minimal styling (no custom fonts, margins, etc) since most E-readers have very good default styling
 
 ## Other free EPUB Bible sources
 
@@ -150,3 +155,16 @@ npm start
    cd ..
    rm -rf tmp
    ```
+
+### Creating sample page image
+
+1. Open Google Play Books
+1. Select html element in browser dev tools
+1. Drag width until it's 600 pixels wide
+1. Take screenshot of browser window
+1. Open in GIMP
+1. _Image_ > _Canvas Size_
+1. Resize image to 600 x 900
+1. Offset: X: -10, Y: -130
+1. Erase the top and bottom content manually with eraser
+1. Export image
