@@ -127,6 +127,30 @@ const applyPunctuationFixes = (
   return chapterData;
 };
 
+// Add a chapter title heading to each chapter with a link back to the contents page
+const insertChapterTitle = (
+  chapterData: string,
+  bookName: string,
+  chapterNumber: number,
+  bookContentsPageIndex: number
+): string => {
+  // Replace the first verse number with the chapter title
+  const openingSup = chapterData.indexOf('<sup>');
+  const closingSup = chapterData.indexOf('</sup>');
+
+  const chapterTitle =
+    // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
+    `<span class="chapter-title-book"><a href="s${bookContentsPageIndex}.xhtml">${bookName.toUpperCase()}</a> </span>` +
+    `<span class="chapter-title-number">${chapterNumber}</span> `;
+
+  chapterData =
+    chapterData.slice(0, openingSup) +
+    chapterTitle +
+    chapterData.slice(closingSup + '</sup>'.length);
+
+  return chapterData;
+};
+
 const generateBible = async (languageCode: string, bibleName: string) => {
   console.log(`Generating EPUB for ${bibleName}`);
 
@@ -176,14 +200,17 @@ const generateBible = async (languageCode: string, bibleName: string) => {
       const chapterNumber = getChapterNumber(chapterFile);
       const chapterTitle = `${bookName} ${chapterNumber}`;
 
-      // Add a chapter title heading to each chapter with a link back to the contents page
-      let chapterData = `<h1><a href="s${bookContentsPageIndex}.xhtml">${chapterTitle}</a></h1>\n`;
-
-      chapterData += await fsPromises.readFile(
+      let chapterData = await fsPromises.readFile(
         `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
         'utf8'
       );
       chapterData = applyPunctuationFixes(chapterData, languageCode);
+      chapterData = insertChapterTitle(
+        chapterData,
+        bookName,
+        chapterNumber,
+        bookContentsPageIndex
+      );
 
       epub.addSection(
         chapterTitle,
