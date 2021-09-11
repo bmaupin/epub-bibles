@@ -42,7 +42,7 @@ While you can read these files on a computer, it's less work and you'll have mor
 - Content page for each book with entries for each chapter
   - The heading links back to the main table of contents
 - Chapter titles that link back to the book content page
-- Uniform line spacing taking into account extra space taken up by verse numbers
+- Uniform line spacing
 - Punctuation fixes
 
 ## Other free EPUB Bible sources
