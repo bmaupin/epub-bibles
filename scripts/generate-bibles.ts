@@ -102,6 +102,30 @@ const generateBookContentsPageData = (
   return bookContentsPageData;
 };
 
+const applyPunctuationFixes = (
+  chapterData: string,
+  languageCode: string
+): string => {
+  if (['ar', 'es', 'fr'].includes(languageCode)) {
+    // Replace quotes with guillemets
+    chapterData = replaceAll(chapterData, '“', '«');
+    chapterData = replaceAll(chapterData, '”', '»');
+  }
+
+  if (languageCode === 'fr') {
+    // Insert a non-breaking space before certain punctuation marks if they follow a word character
+    chapterData = replaceAll(chapterData, /(\w)([;:!?])/, '$1&nbsp;$2');
+
+    // Insert a non-breaking space before guillemets
+    chapterData = replaceAll(chapterData, /([^\s])([«»])/, '$1&nbsp;$2');
+
+    // Insert a non-breaking space after guillemets
+    chapterData = replaceAll(chapterData, /([«»])([^\s])/, '$1&nbsp;$2');
+  }
+
+  return chapterData;
+};
+
 const generateBible = async (languageCode: string, bibleName: string) => {
   console.log(`Generating EPUB for ${bibleName}`);
 
@@ -158,6 +182,7 @@ const generateBible = async (languageCode: string, bibleName: string) => {
         `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
         'utf8'
       );
+      chapterData = applyPunctuationFixes(chapterData, languageCode);
 
       epub.addSection(
         chapterTitle,
