@@ -1,8 +1,8 @@
 Public domain Bibles packaged as EPUB files.
 
-<!--- TODO: Remove "(Coming soon)" --->
-
-(Coming soon) See the [Releases](../../releases) page for the files.
+<!--- TODO
+See the [Releases](../../releases) page for the files.
+--->
 
 <!--- TODO: update link to cover.jpg once https://github.com/kcartlidge/nodepub/issues/17 is fixed --->
 <img src="data/fr/La Bible Segond 1910/cover.jpeg" alt="cover sample" width="400"/>
@@ -52,19 +52,36 @@ While you can read these files on a computer, it's less work and you'll have mor
 
 ## Development
 
-#### Creating a cover image
+### Creating the EPUB files
 
-Prerequisites:
+#### Prerequisites
+
+1. Install Node.js (see `engines` in [package.json](scripts/package.json) for the specific version to install)
+1. Install dependencies
+
+   ```
+   cd scripts
+   npm install
+   ```
+
+#### Steps
+
+```
+cd scripts
+npm start
+```
+
+### Creating a cover image
+
+#### Prerequisites
 
 1. Install the Standard Ebooks tools: [https://github.com/standardebooks/tools#installation](https://github.com/standardebooks/tools#installation)
 
 1. Install the League Spartan font
 
-   1. Go here: [https://github.com/theleagueof/league-spartan/releases](https://github.com/theleagueof/league-spartan/releases)
+   1. Download the latest release from here: [https://github.com/theleagueof/league-spartan/releases](https://github.com/theleagueof/league-spartan/releases)
 
-   1. Download the latest release
-
-   1. Extract LeagueSpartan-2.220/static/TTF/LeagueSpartan-Regular.ttf from the downloaded file
+   1. Extract LeagueSpartan-N.NNN/static/TTF/LeagueSpartan-Regular.ttf from the downloaded file
 
    1. Install the font
 
@@ -74,7 +91,7 @@ Prerequisites:
       fc-cache -f -v
       ```
 
-Steps:
+#### Steps
 
 1. Find a public domain image to use as the cover
 
