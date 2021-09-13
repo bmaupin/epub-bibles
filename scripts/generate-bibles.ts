@@ -61,7 +61,12 @@ const replaceAll = (
   find: string | RegExp,
   replace: string
 ): string => {
-  return str.replace(new RegExp(find, 'g'), replace);
+  // Use a RegExp object as-is if we get one as it may contain flags, otherwise the second RegExp constructor parameter will override them
+  if (typeof find === 'string') {
+    return str.replace(new RegExp(find, 'g'), replace);
+  } else {
+    return str.replace(find, replace);
+  }
 };
 
 const generateBookContentsPageData = (
