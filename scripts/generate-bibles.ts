@@ -120,7 +120,12 @@ const applyPunctuationFixes = (
 
   if (languageCode === 'fr') {
     // Insert a non-breaking space before certain punctuation marks if they follow a word character
-    chapterData = replaceAll(chapterData, /(\w)([;:!?])/, '$1&nbsp;$2');
+    chapterData = replaceAll(
+      chapterData,
+      // https://stackoverflow.com/a/65052998/399105
+      /([\w\p{L}\p{M}])([;:!?])/gu,
+      '$1&nbsp;$2'
+    );
 
     // Insert a non-breaking space before guillemets
     chapterData = replaceAll(chapterData, /([^\s])([«»])/, '$1&nbsp;$2');
