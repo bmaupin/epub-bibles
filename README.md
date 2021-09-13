@@ -100,6 +100,7 @@ npm start
 1. Find a public domain image to use as the cover
 
    - This is a nice source: [https://www.brooklynmuseum.org/opencollection/exhibitions/3207](https://www.brooklynmuseum.org/opencollection/exhibitions/3207) > _Objects_
+   - Other sources are listed here: [https://standardebooks.org/manual/1.6.2/10-art-and-images#10.3.3.6.2](https://standardebooks.org/manual/1.6.2/10-art-and-images#10.3.3.6.2)
 
 1. Download and crop the source image
 
