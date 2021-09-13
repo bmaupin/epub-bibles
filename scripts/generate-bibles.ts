@@ -127,11 +127,19 @@ const applyPunctuationFixes = (
       '$1&nbsp;$2'
     );
 
-    // Insert a non-breaking space before guillemets
-    chapterData = replaceAll(chapterData, /([^\s])([«»])/, '$1&nbsp;$2');
+    // TODO: should we also do this for other languages, e.g. en, es?
+    // TODO: should we also do something similar for " ?
+    // Make sure « is preceded by a normal space
+    chapterData = replaceAll(chapterData, /([^\s])(«)/, '$1 $2');
 
-    // Insert a non-breaking space after guillemets
-    chapterData = replaceAll(chapterData, /([«»])([^\s])/, '$1&nbsp;$2');
+    // Make sure « is followed by a non-breaking space
+    chapterData = replaceAll(chapterData, /(«)([^\s])/, '$1&nbsp;$2');
+
+    // Make sure » is preceded by a non-breaking space
+    chapterData = replaceAll(chapterData, /([^\s])(»)/, '$1&nbsp;$2');
+
+    // Make sure » is followed by a normal space
+    chapterData = replaceAll(chapterData, /(»)([^\s])/, '$1 $2');
   }
 
   return chapterData;
