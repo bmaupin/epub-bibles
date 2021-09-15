@@ -16,3 +16,9 @@ sup {
   font-size: 1.5em;
   font-weight: bold;
 }
+
+.selah {
+  display: block;
+  font-style: italic;
+  text-align: right;
+}
