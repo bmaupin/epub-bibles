@@ -97,7 +97,7 @@ const generateBookContentsPageData = (
     // Add separator after every chapter except the last one
     if (sectionIndex !== bookContentsPageIndex + chapterFiles.length) {
       // The normal space at the end allows a line break if needed
-      bookContentsPageData += '&nbsp;| ';
+      bookContentsPageData += '&nbsp;• ';
     }
 
     sectionIndex += 1;
