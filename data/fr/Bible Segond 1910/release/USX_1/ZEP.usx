@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="ZEP" style="id">ZEPFLS1910.PTX, Louis Segond 1910, French, 31-10-2011, Moon Sun Kim. Updated for DBL by E. Canales, September 2012.</book>
+  <para style="ide">UTF-8</para>
+  <para style="h">SOPHONIE</para>
+  <para style="toc3">So</para>
+  <para style="toc1">Sophonie</para>
+  <para style="toc2">Sophonie</para>
+  <para style="mt1">SOPHONIE</para>
+  <para style="imt1">INTRODUCTION AU LIVRE DE SOPHONIE</para>
+  <para style="imt3">(Lu 19:41-44. De 30:1-10. Ha 3:18.)</para>
+  <para style="ip">Ce livre est intitulé «Sophonie» (Dieu le protège), du nom du prophète inspiré à l’époque où Josias, fils d’Amon, était roi de Juda. Sophonie était fils de Cuschi et arrière-petit-fils d’Ézéchias. La question ici est celle de savoir si Dieu s’intéresse vraiment aux hommes et mène encore l’histoire. Le prophète répond à cette double interrogation à un moment dramatique de l’histoire de Juda.</para>
+  <para style="ip">Les chapitres 1:1 à 2:3 annonçaient que Dieu viendrait juger les habitants de Jérusalem en particulier, et de Juda en général. Les autres êtres vivants et même l’environnement en seraient concernés. Le châtiment divin toucherait toutes les catégories sociales de Juda. Elles s’étaient détournées de Dieu.</para>
+  <para style="ip">Jérusalem ne cherchait pas le Seigneur (1:6; 3:6). C’était là son péché. Il en résulta de multiples compromissions religieuses telles l’idolâtrie (1:4, 8), une suffisance orgueilleuse (3:11), une confiance futile dans les richesses (1:11, 18) et l’incrédulité (1:12). Les responsables du peuple devinrent des traîtres par rapport à la mission initiale.</para>
+  <para style="ip">Le chapitre 2:4-15 montre que Dieu allait détruire aussi les nations voisines de Juda. Les raisons étaient multiples: arrogance, outrage, agression et oppression du peuple de Dieu. Étaient concernés: Gaza, Askalon, Ékron, Canaan, Moab, Ammon, l’Éthiopie, l’Assyrie entre autres.</para>
+  <para style="ip">Au chapitre 3, le Dieu restaurateur fait savoir qu’il laissera un peuple humble dans le pays. Certes Jérusalem n’avait pas écouté l’appel de Dieu (3:1-8). Cependant, les humbles déjà appelés (2:1-8) se convertiront (3:9-10) et constitueront le reste d’Israël (3:11-13). Enfin, Dieu restaurera Jérusalem. Il résuma sa volonté en ces termes: <char style="it">«Je ferai de vous un sujet de louange et de gloire…»</char> (3:19-20). Il s’agit bien des humbles du pays (2:3; 3:12).</para>
+  <para style="ip">Sophonie annonce aux humbles de tous les temps la tendresse divine dont ils sont l’objet. L’Éternel s’en prend à tous ceux qui font passer leurs intérêts personnels avant ses exigences.</para>
+  <para style="ie"/>
+  <chapter number="1" style="c" sid="ZEP 1"/>
+  <para style="s">Menaces contre Juda et Jérusalem</para>
+  <para style="r">V. 1-6: cf. 2 Ch 34. (Jé 4:23, etc.; 7:8-20.)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="ZEP 1:1"/>La parole de l’Éternel qui fut adressée à Sophonie, fils de Cuschi, fils de Guedalia, fils d’Amaria, fils d’Ézéchias, au temps de Josias, fils d’Amon, roi de Juda.<verse eid="ZEP 1:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="ZEP 1:2"/>Je détruirai tout sur la face de la terre,</para>
+  <para style="q" vid="ZEP 1:2">Dit l’Éternel.<verse eid="ZEP 1:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="ZEP 1:3"/>Je détruirai les hommes et les bêtes,</para>
+  <para style="q" vid="ZEP 1:3">Les oiseaux du ciel et les poissons de la mer,</para>
+  <para style="q" vid="ZEP 1:3">Les objets de scandale, et les méchants avec eux;</para>
+  <para style="q" vid="ZEP 1:3">J’exterminerai les hommes de la face de la terre,</para>
+  <para style="q" vid="ZEP 1:3">Dit l’Éternel.<verse eid="ZEP 1:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="ZEP 1:4"/>J’étendrai ma main sur Juda,</para>
+  <para style="q" vid="ZEP 1:4">Et sur tous les habitants de Jérusalem;</para>
+  <para style="q" vid="ZEP 1:4">J’exterminerai de ce lieu les restes de Baal,</para>
+  <para style="q" vid="ZEP 1:4">Le nom de ses ministres et les prêtres avec eux,<verse eid="ZEP 1:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="ZEP 1:5"/>Ceux qui se prosternent sur les toits devant l’armée des cieux,</para>
+  <para style="q" vid="ZEP 1:5">Ceux qui se prosternent en jurant par l’Éternel</para>
+  <para style="q" vid="ZEP 1:5">Et en jurant par leur roi,<verse eid="ZEP 1:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="ZEP 1:6"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">1:6 </char>
+      <char style="xt" closed="false">
+        <ref loc="ISA 1:4">És 1:4</ref>; <ref loc="ISA 59:13">59:13</ref>. <ref loc="JER 15:6">Jé 15:6</ref>.</char>
+    </note>Ceux qui se sont détournés de l’Éternel,</para>
+  <para style="q" vid="ZEP 1:6">Et ceux qui ne cherchent pas l’Éternel,</para>
+  <para style="q" vid="ZEP 1:6">Qui ne le consultent pas.<verse eid="ZEP 1:6"/></para>
+  <para style="s">Le jour de l’Éternel</para>
+  <para style="r">V. 7-13: cf. <ref loc="AMO 8:2-8">Am 8:2-8</ref>. <ref loc="JER 5:15-17">Jé 5:15-17</ref>, <ref loc="JER 5:26-29">26-29</ref>. <ref loc="MIC 6:9-16">Mi 6:9-16</ref>.</para>
+  <para style="q">
+    <verse number="7" style="v" sid="ZEP 1:7"/>Silence devant le Seigneur, l’Éternel!</para>
+  <para style="q" vid="ZEP 1:7">Car le jour de l’Éternel est proche,</para>
+  <para style="q" vid="ZEP 1:7">Car l’Éternel a préparé le sacrifice,</para>
+  <para style="q" vid="ZEP 1:7">Il a choisi ses conviés.<verse eid="ZEP 1:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="ZEP 1:8"/>Au jour du sacrifice de l’Éternel,</para>
+  <para style="q" vid="ZEP 1:8">Je châtierai les princes et les fils du roi,</para>
+  <para style="q" vid="ZEP 1:8">Et tous ceux qui portent des vêtements étrangers.<verse eid="ZEP 1:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="ZEP 1:9"/>En ce jour-là, je châtierai tous ceux qui sautent par-dessus le seuil,</para>
+  <para style="q" vid="ZEP 1:9">Ceux qui remplissent de violence et de fraude la maison de leur maître.<verse eid="ZEP 1:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="ZEP 1:10"/>En ce jour-là, dit l’Éternel,</para>
+  <para style="q" vid="ZEP 1:10">Il y aura des cris à la porte des poissons,</para>
+  <para style="q" vid="ZEP 1:10">Des lamentations dans l’autre quartier de la ville,</para>
+  <para style="q" vid="ZEP 1:10">Et un grand désastre sur les collines.<verse eid="ZEP 1:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="ZEP 1:11"/>Gémissez, habitants de Macthesch!</para>
+  <para style="q" vid="ZEP 1:11">Car tous ceux qui trafiquent sont détruits,</para>
+  <para style="q" vid="ZEP 1:11">Tous les hommes chargés d’argent sont exterminés.<verse eid="ZEP 1:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="ZEP 1:12"/>En ce temps-là, je fouillerai Jérusalem avec des lampes,</para>
+  <para style="q" vid="ZEP 1:12">Et je châtierai les hommes qui reposent sur leurs lies,</para>
+  <para style="q" vid="ZEP 1:12">Et qui disent dans leur cœur: L’Éternel ne fait ni bien ni mal.<verse eid="ZEP 1:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="ZEP 1:13"/>Leurs biens seront au pillage,</para>
+  <para style="q" vid="ZEP 1:13">Et leurs maisons seront dévastées;</para>
+  <para style="q" vid="ZEP 1:13">Ils auront bâti des maisons, qu’ils n’habiteront plus,</para>
+  <para style="q" vid="ZEP 1:13">Ils auront planté des vignes, dont ils ne boiront plus le vin.<verse eid="ZEP 1:13"/></para>
+  <para style="r">V. 14-18: cf. <ref loc="EZK 7">Éz 7</ref>. <ref loc="JOL 2:1-11">Joë 2:1-11</ref>. <ref loc="LUK 21:22">Lu 21:22</ref>, <ref loc="LUK 21:34-36">34-36</ref>.</para>
+  <para style="q">
+    <verse number="14" style="v" sid="ZEP 1:14"/>Le grand jour de l’Éternel est proche,</para>
+  <para style="q" vid="ZEP 1:14">Il est proche, il arrive en toute hâte;</para>
+  <para style="q" vid="ZEP 1:14">Le jour de l’Éternel fait entendre sa voix,</para>
+  <para style="q" vid="ZEP 1:14">Et le héros pousse des cris amers.<verse eid="ZEP 1:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="ZEP 1:15"/>
+    <note caller="b" style="x">
+      <char style="xo" closed="false">1:15 </char>
+      <char style="xt" closed="false">
+        <ref loc="JOL 2:1">Joë 2:1</ref>, <ref loc="JOL 2:2">2</ref>.</char>
+    </note>Ce jour est un jour de fureur,</para>
+  <para style="q" vid="ZEP 1:15">Un jour de détresse et d’angoisse,</para>
+  <para style="q" vid="ZEP 1:15">Un jour de ravage et de destruction,</para>
+  <para style="q" vid="ZEP 1:15">Un jour de ténèbres et d’obscurité,</para>
+  <para style="q" vid="ZEP 1:15">Un jour de nuées et de brouillards,<verse eid="ZEP 1:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="ZEP 1:16"/>Un jour où retentiront la trompette et les cris de guerre</para>
+  <para style="q" vid="ZEP 1:16">Contre les villes fortes et les tours élevées.<verse eid="ZEP 1:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="ZEP 1:17"/>Je mettrai les hommes dans la détresse,</para>
+  <para style="q" vid="ZEP 1:17">Et ils marcheront comme des aveugles,</para>
+  <para style="q" vid="ZEP 1:17">Parce qu’ils ont péché contre l’Éternel;</para>
+  <para style="q" vid="ZEP 1:17">Je répandrai leur sang comme de la poussière,</para>
+  <para style="q" vid="ZEP 1:17">Et leur chair comme de l’ordure.<verse eid="ZEP 1:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="ZEP 1:18"/>Ni leur <note caller="c" style="x"><char style="xo" closed="false">1:18 </char><char style="xt" closed="false"><ref loc="PRO 11:4">Pr 11:4</ref>. <ref loc="EZK 7:19">Éz 7:19</ref>.</char></note>argent ni leur or ne pourront les délivrer,</para>
+  <para style="q" vid="ZEP 1:18">
+    <note caller="d" style="x">
+      <char style="xo" closed="false">1:18 </char>
+      <char style="xt" closed="false">v. 14, 15, 16.</char>
+    </note>Au jour de la fureur de l’Éternel;</para>
+  <para style="q" vid="ZEP 1:18">Par le feu de sa jalousie tout le pays sera consumé;</para>
+  <para style="q" vid="ZEP 1:18">Car il détruira soudain tous les habitants du pays.<verse eid="ZEP 1:18"/></para>
+  <chapter eid="ZEP 1"/>
+  <chapter number="2" style="c" sid="ZEP 2"/>
+  <para style="s">Menaces contre les peuples étrangers</para>
+  <para style="r">V. 1-3: cf. <ref loc="AMO 5:4">Am 5:4</ref>, <ref loc="AMO 5:14">14</ref>, <ref loc="AMO 5:15">15</ref>. <ref loc="EZK 9:4-6">Éz 9:4-6</ref>. <ref loc="JOL 2:12-14">Joë 2:12-14</ref>. <ref loc="MAT 3:2">Mt 3:2</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="ZEP 2:1"/>Rentrez en vous-mêmes, examinez-vous,</para>
+  <para style="q" vid="ZEP 2:1">Nation sans pudeur,<verse eid="ZEP 2:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="ZEP 2:2"/>Avant que le décret s’exécute</para>
+  <para style="q" vid="ZEP 2:2">Et que ce jour passe comme la balle,</para>
+  <para style="q" vid="ZEP 2:2">Avant que la colère ardente de l’Éternel fonde sur vous,</para>
+  <para style="q" vid="ZEP 2:2">Avant que le jour de la colère de l’Éternel fonde sur vous!<verse eid="ZEP 2:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="ZEP 2:3"/>Cherchez l’Éternel, vous tous, humbles du pays,</para>
+  <para style="q" vid="ZEP 2:3">Qui pratiquez ses ordonnances!</para>
+  <para style="q" vid="ZEP 2:3">Recherchez la justice, recherchez l’humilité!</para>
+  <para style="q" vid="ZEP 2:3">Peut-être serez-vous épargnés au jour de la colère de l’Éternel.<verse eid="ZEP 2:3"/></para>
+  <para style="r">V. 4-7: cf. <ref loc="JER 47">Jé 47</ref>. <ref loc="EZK 25:15-17">Éz 25:15-17</ref>. <ref loc="AMO 1:6-8">Am 1:6-8</ref>.</para>
+  <para style="q">
+    <verse number="4" style="v" sid="ZEP 2:4"/>Car Gaza sera délaissée,</para>
+  <para style="q" vid="ZEP 2:4">Askalon sera réduite en désert,</para>
+  <para style="q" vid="ZEP 2:4">Asdod sera chassée en plein midi,</para>
+  <para style="q" vid="ZEP 2:4">Ékron sera déracinée.<verse eid="ZEP 2:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="ZEP 2:5"/>Malheur aux habitants des côtes de la mer, à la nation des Kéréthiens!</para>
+  <para style="q" vid="ZEP 2:5">L’Éternel a parlé contre toi, Canaan, pays des Philistins!</para>
+  <para style="q" vid="ZEP 2:5">Je te détruirai, tu n’auras plus d’habitants.<verse eid="ZEP 2:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="ZEP 2:6"/>Les côtes de la mer seront des pâturages, des demeures pour les bergers,</para>
+  <para style="q" vid="ZEP 2:6">Et des parcs pour les troupeaux.<verse eid="ZEP 2:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="ZEP 2:7"/>Ces côtes seront pour les restes de la maison de Juda;</para>
+  <para style="q" vid="ZEP 2:7">C’est là qu’ils paîtront;</para>
+  <para style="q" vid="ZEP 2:7">Ils reposeront le soir dans les maisons d’Askalon;</para>
+  <para style="q" vid="ZEP 2:7">Car l’Éternel, leur Dieu, ne les oubliera pas,</para>
+  <para style="q" vid="ZEP 2:7">Et il ramènera leurs captifs.<verse eid="ZEP 2:7"/></para>
+  <para style="r">V. 8-11: cf. <ref loc="JER 48">Jé 48</ref>; <ref loc="JER 49:1-6">49:1-6</ref>. <ref loc="EZK 25:1-11">Éz 25:1-11</ref>.</para>
+  <para style="q">
+    <verse number="8" style="v" sid="ZEP 2:8"/>J’ai entendu les injures de Moab</para>
+  <para style="q" vid="ZEP 2:8">Et les outrages des enfants d’Ammon,</para>
+  <para style="q" vid="ZEP 2:8">Quand ils insultaient mon peuple</para>
+  <para style="q" vid="ZEP 2:8">Et s’élevaient avec arrogance contre ses frontières.<verse eid="ZEP 2:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="ZEP 2:9"/>C’est pourquoi, je suis vivant! Dit l’Éternel des armées, le Dieu d’Israël,</para>
+  <para style="q" vid="ZEP 2:9">Moab sera comme Sodome, et les enfants d’Ammon comme Gomorrhe,</para>
+  <para style="q" vid="ZEP 2:9">Un lieu couvert de ronces, une mine de sel, un désert pour toujours;</para>
+  <para style="q" vid="ZEP 2:9">Le reste de mon peuple les pillera,</para>
+  <para style="q" vid="ZEP 2:9">Le reste de ma nation les possédera.<verse eid="ZEP 2:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="ZEP 2:10"/>Cela leur arrivera pour leur orgueil,</para>
+  <para style="q" vid="ZEP 2:10">Parce qu’ils ont insulté et traité avec arrogance</para>
+  <para style="q" vid="ZEP 2:10">Le peuple de l’Éternel des armées.<verse eid="ZEP 2:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="ZEP 2:11"/>L’Éternel sera terrible contre eux,</para>
+  <para style="q" vid="ZEP 2:11">Car il anéantira tous les dieux de la terre;</para>
+  <para style="q" vid="ZEP 2:11">Et chacun se prosternera devant lui dans son pays,</para>
+  <para style="q" vid="ZEP 2:11">Dans toutes les îles des nations.<verse eid="ZEP 2:11"/></para>
+  <para style="r">V. 12-15: cf. Éz 30:5, 9. (Na 1 à 3.)</para>
+  <para style="q">
+    <verse number="12" style="v" sid="ZEP 2:12"/>Vous aussi, Éthiopiens,</para>
+  <para style="q" vid="ZEP 2:12">Vous serez frappés par mon épée.<verse eid="ZEP 2:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="ZEP 2:13"/>Il étendra sa main sur le septentrion,</para>
+  <para style="q" vid="ZEP 2:13">Il détruira l’Assyrie,</para>
+  <para style="q" vid="ZEP 2:13">Et il fera de Ninive une solitude,</para>
+  <para style="q" vid="ZEP 2:13">Une terre aride comme le désert.<verse eid="ZEP 2:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="ZEP 2:14"/>Des troupeaux se coucheront au milieu d’elle,</para>
+  <para style="q" vid="ZEP 2:14">Des animaux de toute espèce;</para>
+  <para style="q" vid="ZEP 2:14">Le pélican et le hérisson</para>
+  <para style="q" vid="ZEP 2:14">Habiteront parmi les chapiteaux de ses colonnes;</para>
+  <para style="q" vid="ZEP 2:14">Des cris retentiront aux fenêtres;</para>
+  <para style="q" vid="ZEP 2:14">La dévastation sera sur le seuil,</para>
+  <para style="q" vid="ZEP 2:14">Car les lambris de cèdre seront arrachés.<verse eid="ZEP 2:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="ZEP 2:15"/>Voilà donc cette ville joyeuse,</para>
+  <para style="q" vid="ZEP 2:15">Qui s’assied avec assurance,</para>
+  <para style="q" vid="ZEP 2:15">Et qui dit en son cœur:</para>
+  <para style="q" vid="ZEP 2:15">Moi, et rien que moi!</para>
+  <para style="q" vid="ZEP 2:15">Eh quoi! Elle est en ruines,</para>
+  <para style="q" vid="ZEP 2:15">C’est un repaire pour les bêtes!</para>
+  <para style="q" vid="ZEP 2:15">Tous ceux qui passeront près d’elle</para>
+  <para style="q" vid="ZEP 2:15">Siffleront et agiteront la main.<verse eid="ZEP 2:15"/></para>
+  <chapter eid="ZEP 2"/>
+  <chapter number="3" style="c" sid="ZEP 3"/>
+  <para style="s">Châtiment de Jérusalem</para>
+  <para style="r">V. 1-8: cf. <ref loc="EZK 22">Éz 22</ref>. Jé 25:4, etc. <ref loc="MAT 23:37-39">Mt 23:37-39</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="ZEP 3:1"/>Malheur à la ville rebelle et souillée,</para>
+  <para style="q" vid="ZEP 3:1">A la ville pleine d’oppresseurs!<verse eid="ZEP 3:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="ZEP 3:2"/>Elle n’écoute aucune voix,</para>
+  <para style="q" vid="ZEP 3:2">Elle n’a point égard à la correction,</para>
+  <para style="q" vid="ZEP 3:2">Elle ne se confie pas en l’Éternel,</para>
+  <para style="q" vid="ZEP 3:2">Elle ne s’approche pas de son Dieu.<verse eid="ZEP 3:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="ZEP 3:3"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">3:3 </char>
+      <char style="xt" closed="false">
+        <ref loc="PRO 28:15">Pr 28:15</ref>. <ref loc="EZK 22:27">Éz 22:27</ref>.</char>
+    </note>Ses chefs au milieu d’elle sont des lions rugissants;</para>
+  <para style="q" vid="ZEP 3:3">Ses juges sont des loups du soir qui ne gardent rien pour le matin.<verse eid="ZEP 3:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="ZEP 3:4"/>
+    <note caller="b" style="x">
+      <char style="xo" closed="false">3:4 </char>
+      <char style="xt" closed="false">
+        <ref loc="JER 23:11">Jé 23:11</ref>, <ref loc="JER 23:32">32</ref>. <ref loc="HOS 9:7">Os 9:7</ref>.</char>
+    </note>Ses prophètes sont téméraires, infidèles;</para>
+  <para style="q" vid="ZEP 3:4">Ses sacrificateurs profanent les choses saintes, violent la loi.<verse eid="ZEP 3:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="ZEP 3:5"/>L’Éternel est juste au milieu d’elle,</para>
+  <para style="q" vid="ZEP 3:5">
+    <note caller="c" style="x">
+      <char style="xo" closed="false">3:5 </char>
+      <char style="xt" closed="false">
+        <ref loc="DEU 32:4">De 32:4</ref>.</char>
+    </note>Il ne commet point d’iniquité;</para>
+  <para style="q" vid="ZEP 3:5">Chaque matin il produit à la lumière ses jugements,</para>
+  <para style="q" vid="ZEP 3:5">Sans jamais y manquer;</para>
+  <para style="q" vid="ZEP 3:5">Mais celui qui est inique ne connaît pas la honte.<verse eid="ZEP 3:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="ZEP 3:6"/>J’ai exterminé des nations; leurs tours sont détruites;</para>
+  <para style="q" vid="ZEP 3:6">J’ai dévasté leurs rues, plus de passants!</para>
+  <para style="q" vid="ZEP 3:6">Leurs villes sont ravagées, plus d’hommes, plus d’habitants!<verse eid="ZEP 3:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="ZEP 3:7"/>Je disais: Si du moins tu voulais me craindre,</para>
+  <para style="q" vid="ZEP 3:7">Avoir égard à la correction,</para>
+  <para style="q" vid="ZEP 3:7">Ta demeure ne serait pas détruite,</para>
+  <para style="q" vid="ZEP 3:7">Tous les châtiments dont je t’ai menacée n’arriveraient pas;</para>
+  <para style="q" vid="ZEP 3:7">Mais ils se sont hâtés de pervertir toutes leurs actions.<verse eid="ZEP 3:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="ZEP 3:8"/>Attendez-moi donc, dit l’Éternel,</para>
+  <para style="q" vid="ZEP 3:8">Au jour où je me lèverai pour le butin,</para>
+  <para style="q" vid="ZEP 3:8">Car j’ai résolu de rassembler les nations,</para>
+  <para style="q" vid="ZEP 3:8">De rassembler les royaumes,</para>
+  <para style="q" vid="ZEP 3:8">Pour répandre sur eux ma fureur,</para>
+  <para style="q" vid="ZEP 3:8">Toute l’ardeur de ma colère;</para>
+  <para style="q" vid="ZEP 3:8">Car par le feu de ma jalousie tout le pays sera consumé.<verse eid="ZEP 3:8"/></para>
+  <para style="s">Promesses</para>
+  <para style="r">V. 9-20: cf. (De 4:29-31; 30:1-10. (Za 2:10-12. És 12; 62.) (Jé 23:3-8.) Éz 37:21-28.)</para>
+  <para style="q">
+    <verse number="9" style="v" sid="ZEP 3:9"/>Alors je donnerai aux peuples des lèvres pures,</para>
+  <para style="q" vid="ZEP 3:9">Afin qu’ils invoquent tous le nom de l’Éternel,</para>
+  <para style="q" vid="ZEP 3:9">Pour le servir d’un commun accord.<verse eid="ZEP 3:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="ZEP 3:10"/>D’au-delà des fleuves de l’Éthiopie</para>
+  <para style="q" vid="ZEP 3:10">Mes adorateurs, mes dispersés, m’apporteront des offrandes.<verse eid="ZEP 3:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="ZEP 3:11"/>En ce jour-là, tu n’auras plus à rougir de toutes tes actions</para>
+  <para style="q" vid="ZEP 3:11">Par lesquelles tu as péché contre moi;</para>
+  <para style="q" vid="ZEP 3:11">Car alors j’ôterai du milieu de toi ceux qui triomphaient avec arrogance,</para>
+  <para style="q" vid="ZEP 3:11">Et tu ne t’enorgueilliras plus sur ma montagne sainte.<verse eid="ZEP 3:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="ZEP 3:12"/>Je laisserai au milieu de toi un peuple humble et petit,</para>
+  <para style="q" vid="ZEP 3:12">Qui trouvera son refuge dans le nom de l’Éternel.<verse eid="ZEP 3:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="ZEP 3:13"/>Les restes d’Israël ne commettront point d’iniquité,</para>
+  <para style="q" vid="ZEP 3:13">Ils ne diront point de mensonges,</para>
+  <para style="q" vid="ZEP 3:13">Et il ne se trouvera pas dans leur bouche une langue trompeuse;</para>
+  <para style="q" vid="ZEP 3:13">Mais ils paîtront, ils se reposeront, et personne ne les troublera.<verse eid="ZEP 3:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="ZEP 3:14"/>Pousse des cris de joie, <note caller="d" style="x"><char style="xo" closed="false">3:14 </char><char style="xt" closed="false"><ref loc="ZEC 9:9">Za 9:9</ref>.</char></note>fille de Sion!</para>
+  <para style="q" vid="ZEP 3:14">Pousse des cris d’allégresse, Israël!</para>
+  <para style="q" vid="ZEP 3:14">Réjouis-toi et triomphe de tout ton cœur, <note caller="e" style="x"><char style="xo" closed="false">3:14 </char><char style="xt" closed="false"><ref loc="ZEC 9:9">Za 9:9</ref>.</char></note>fille de Jérusalem!<verse eid="ZEP 3:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="ZEP 3:15"/>L’Éternel a détourné tes châtiments,</para>
+  <para style="q" vid="ZEP 3:15">Il a éloigné ton ennemi;</para>
+  <para style="q" vid="ZEP 3:15">Le roi d’Israël, l’Éternel, est au milieu de toi;</para>
+  <para style="q" vid="ZEP 3:15">Tu n’as plus de malheur à éprouver.<verse eid="ZEP 3:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="ZEP 3:16"/>En ce jour-là, on dira à Jérusalem: Ne crains rien!</para>
+  <para style="q" vid="ZEP 3:16">Sion, que tes mains ne s’affaiblissent pas!<verse eid="ZEP 3:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="ZEP 3:17"/>L’Éternel, ton Dieu, est au milieu de toi, comme un héros qui sauve;</para>
+  <para style="q" vid="ZEP 3:17">Il fera de toi sa plus grande joie;</para>
+  <para style="q" vid="ZEP 3:17">Il gardera le silence dans son amour;</para>
+  <para style="q" vid="ZEP 3:17">Il aura pour toi des transports d’allégresse.<verse eid="ZEP 3:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="ZEP 3:18"/>Je rassemblerai ceux qui sont dans la tristesse, loin des fêtes solennelles,</para>
+  <para style="q" vid="ZEP 3:18">Ceux qui sont sortis de ton sein;</para>
+  <para style="q" vid="ZEP 3:18">L’opprobre pèse sur eux.<verse eid="ZEP 3:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="ZEP 3:19"/>Voici, en ce temps-là, j’agirai contre tous tes oppresseurs;</para>
+  <para style="q" vid="ZEP 3:19">Je délivrerai les boiteux et je recueillerai ceux qui ont été chassés,</para>
+  <para style="q" vid="ZEP 3:19">Je ferai d’eux un sujet de louange et de gloire</para>
+  <para style="q" vid="ZEP 3:19">Dans tous les pays où ils sont en opprobre.<verse eid="ZEP 3:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="ZEP 3:20"/>En ce temps-là, je vous ramènerai;</para>
+  <para style="q" vid="ZEP 3:20">En ce temps-là, je vous rassemblerai;</para>
+  <para style="q" vid="ZEP 3:20">Car je ferai de vous un sujet de gloire et de louange</para>
+  <para style="q" vid="ZEP 3:20">Parmi tous les peuples de la terre,</para>
+  <para style="q" vid="ZEP 3:20">Quand je ramènerai vos captifs sous vos yeux,</para>
+  <para style="q" vid="ZEP 3:20">Dit l’Éternel.<verse eid="ZEP 3:20"/></para>
+  <chapter eid="ZEP 3"/>
+</usx>
