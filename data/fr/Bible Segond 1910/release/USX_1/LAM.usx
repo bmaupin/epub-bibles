@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="LAM" style="id">LAMFLS1910.PTX, Louis Segond 1910, French, 31-10-2011, Moon Sun Kim. Updated for DBL by E. Canales, September 2012.</book>
+  <para style="ide">UTF-8</para>
+  <para style="h">LAMENTATIONS</para>
+  <para style="toc3">La</para>
+  <para style="toc1">Lamentations</para>
+  <para style="toc2">Lamentations</para>
+  <para style="mt1">LES LAMENTATIONS DE JÉRÉMIE</para>
+  <para style="imt1">INTRODUCTION AU LIVRE DES LAMENTATIONS DE JÉRÉMIE</para>
+  <para style="imt3">(Jé 8:21, 22; 9:1. Ps 74; 79; 88; 137.)</para>
+  <para style="ip">Ce livre, attribué au prophète Jérémie, est un recueil de cinq lamentations conçues comme des poèmes inspirés par un seul événement: la destruction de Jérusalem par l’armée babylonienne vers 587 av. J.-C. Cette ruine marque la fin du royaume de Juda et à vues humaines, elle dément la promesse faite autrefois au roi David en ces termes: un de tes descendants régnera toujours après toi, ton trône sera pour toujours affermi (voir 2 Sam 7:16).</para>
+  <para style="ip">La première lamentation (chapitre 1:1-22) traite des malheurs qui se sont abattus sur Jérusalem la grande ville: <char style="it">«Jérusalem a multiplié ses péchés, c’est pourquoi elle est un objet d’aversion… L’Éternel est juste, car j’ai été rebelle à ses ordres»</char> (1:8, 18).</para>
+  <para style="ip">La deuxième lamentation (chapitre 2:1-22) aborde la question de Jérusalem ruinée: <char style="it">«Le Seigneur a été comme un ennemi; il a dévoré Israël, il a dévoré tous ses palais, il a détruit ses forteresses; il a rempli la fille de Juda de plaintes et de gémissements»</char> (2:5).</para>
+  <para style="ip">La troisième lamentation (chapitre 3:1-66) évoque une série de souffrances et de consolations. Souffrances dues au silence de Dieu: <char style="it">«J’ai beau crier et implorer du secours, Dieu ne laisse pas accès à ma prière»</char> (3:8). La consolation est due au fait que Dieu a vu toutes les atrocités des ennemis de son peuple et qu’il répliquera (3:59-66).</para>
+  <para style="ip">La quatrième lamentation (chapitre 4:1-22) campe l’auteur se lamentant sur le sort de tout le peuple, du plus petit au plus grand, du laïc au clergé. En fait, chacun est frappé.</para>
+  <para style="ip">La cinquième lamentation (chapitre 5:1-22) présente les maux actuels et les douloureux souvenirs conduisant aux questionnements du genre: <char style="it">«Pourquoi nous oublierais-tu pour toujours?… Nous aurais-tu entièrement rejetés, et t’irriterais-tu contre nous jusqu’à l’excès?»</char> (5:20-22).</para>
+  <para style="ip">Le livre des Lamentations de Jérémie insiste sur un fait: malgré l’évidence du désarroi de son peuple, <char style="it">«les bontés de l’Éternel ne sont pas épuisées… que ta fidélité est grande!»</char> (3:22-23). Face aux catastrophes marquant la fin du royaume de Juda, le peuple vaincu reconnaît son tort même si son Dieu, dans sa colère, se serait comporté en ennemi pour Israël.</para>
+  <para style="ip">En somme, le message du livre se découvre d’abord dans l’attitude et la démarche du poète. Sous le choc de la catastrophe qui a frappé toutes les catégories de la population et provoqué des scènes horribles (4:10), celui-ci ne se laisse pas engloutir par la souffrance; il ne reste pas prostré, anéanti de stupeur; il ne se contente pas de s’apitoyer sur soi-même. Il assume, il discerne et il prie. Il appelle ses compatriotes à faire de même. Il discerne dans la ruine la punition des crimes: la nation de Juda a failli à sa vocation de nation sainte et de peuple élu. Dieu reste cependant le Dieu de l’espérance du livre: «<char style="it">Fais-nous revenir vers toi, ô Éternel, et nous reviendrons!»</char> (5:21).</para>
+  <para style="ie"/>
+  <chapter number="1" style="c" sid="LAM 1"/>
+  <para style="s">Les malheurs de Jérusalem</para>
+  <para style="r">V. 1-22: cf. <ref loc="LAM 2">La 2</ref>; <ref loc="LAM 4">4</ref>. <ref loc="PSA 79">Ps 79</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="LAM 1:1"/>Eh quoi! Elle est assise solitaire, cette ville si peuplée!</para>
+  <para style="q" vid="LAM 1:1">Elle est semblable à une veuve!</para>
+  <para style="q" vid="LAM 1:1">Grande entre les nations, souveraine parmi les états,</para>
+  <para style="q" vid="LAM 1:1">Elle est réduite à la servitude!<verse eid="LAM 1:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="LAM 1:2"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">1:2 </char>
+      <char style="xt" closed="false">
+        <ref loc="PSA 6:7">Ps 6:7</ref>.</char>
+    </note>Elle pleure durant la nuit, et ses joues sont couvertes de larmes;</para>
+  <para style="q" vid="LAM 1:2">De tous ceux qui l’aimaient nul ne la console;</para>
+  <para style="q" vid="LAM 1:2">Tous ses amis lui sont devenus infidèles,</para>
+  <para style="q" vid="LAM 1:2">Ils sont devenus ses ennemis.<verse eid="LAM 1:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="LAM 1:3"/>Juda est en exil, victime de l’oppression et d’une grande servitude;</para>
+  <para style="q" vid="LAM 1:3">Il habite au milieu des nations,</para>
+  <para style="q" vid="LAM 1:3">Et il n’y trouve point de repos;</para>
+  <para style="q" vid="LAM 1:3">Tous ses persécuteurs l’ont surpris dans l’angoisse.<verse eid="LAM 1:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="LAM 1:4"/>Les chemins de Sion sont dans le deuil, car on ne va plus aux fêtes;</para>
+  <para style="q" vid="LAM 1:4">Toutes ses portes sont désertes,</para>
+  <para style="q" vid="LAM 1:4">Ses sacrificateurs gémissent,</para>
+  <para style="q" vid="LAM 1:4">Ses vierges sont affligées, et elle est remplie d’amertume.<verse eid="LAM 1:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="LAM 1:5"/>Ses oppresseurs triomphent, ses ennemis sont en paix;</para>
+  <para style="q" vid="LAM 1:5">Car l’Éternel l’a humiliée,</para>
+  <para style="q" vid="LAM 1:5">A cause de la multitude de ses péchés;</para>
+  <para style="q" vid="LAM 1:5">Ses enfants ont marché captifs devant l’oppresseur.<verse eid="LAM 1:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="LAM 1:6"/>La fille de Sion a perdu toute sa gloire;</para>
+  <para style="q" vid="LAM 1:6">Ses chefs sont comme des cerfs</para>
+  <para style="q" vid="LAM 1:6">Qui ne trouvent point de pâture,</para>
+  <para style="q" vid="LAM 1:6">Et qui fuient sans force devant celui qui les chasse.<verse eid="LAM 1:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="LAM 1:7"/>Aux jours de sa détresse et de sa misère, Jérusalem s’est souvenue</para>
+  <para style="q" vid="LAM 1:7">De tous les biens dès longtemps son partage,</para>
+  <para style="q" vid="LAM 1:7">Quand son peuple est tombé sans secours sous la main de l’oppresseur;</para>
+  <para style="q" vid="LAM 1:7">Ses ennemis l’ont vue, et ils ont ri de sa chute.<verse eid="LAM 1:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="LAM 1:8"/>Jérusalem a multiplié ses péchés,</para>
+  <para style="q" vid="LAM 1:8">C’est pourquoi elle est un objet d’aversion;</para>
+  <para style="q" vid="LAM 1:8">Tous ceux qui l’honoraient la méprisent, en voyant sa <note caller="b" style="x"><char style="xo" closed="false">1:8 </char><char style="xt" closed="false"><ref loc="ISA 47:3">És 47:3</ref>.</char></note>nudité;</para>
+  <para style="q" vid="LAM 1:8">Elle-même soupire, et détourne la face.<verse eid="LAM 1:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="LAM 1:9"/>La souillure était dans les pans de sa robe, et elle ne songeait pas à sa <note caller="c" style="x"><char style="xo" closed="false">1:9 </char><char style="xt" closed="false"><ref loc="DEU 32:29">De 32:29</ref>.</char></note>fin;</para>
+  <para style="q" vid="LAM 1:9">Elle est tombée d’une manière étonnante, et nul ne la console.</para>
+  <para style="q" vid="LAM 1:9">Vois ma misère, ô Éternel!</para>
+  <para style="q" vid="LAM 1:9">Quelle arrogance chez l’ennemi!<verse eid="LAM 1:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="LAM 1:10"/>L’oppresseur a étendu la main</para>
+  <para style="q" vid="LAM 1:10">Sur tout ce qu’elle avait de précieux;</para>
+  <para style="q" vid="LAM 1:10">Elle a vu pénétrer dans son sanctuaire les nations</para>
+  <para style="q" vid="LAM 1:10">Auxquelles tu avais défendu d’entrer dans ton assemblée.<verse eid="LAM 1:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="LAM 1:11"/>Tout son peuple soupire, il cherche du <note caller="d" style="x"><char style="xo" closed="false">1:11 </char><char style="xt" closed="false"><ref loc="JER 52:6">Jé 52:6</ref>.</char></note>pain;</para>
+  <para style="q" vid="LAM 1:11">Ils ont donné leurs choses précieuses pour de la nourriture,</para>
+  <para style="q" vid="LAM 1:11">Afin de ranimer leur vie.</para>
+  <para style="q" vid="LAM 1:11">Vois, Éternel, regarde comme je suis avilie!<verse eid="LAM 1:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="LAM 1:12"/>Je m’adresse à vous, à vous tous qui passez ici!</para>
+  <para style="q" vid="LAM 1:12">Regardez et voyez s’il est une douleur pareille à ma douleur,</para>
+  <para style="q" vid="LAM 1:12">A celle dont j’ai été frappée!</para>
+  <para style="q" vid="LAM 1:12">L’Éternel m’a affligée au jour de son ardente colère.<verse eid="LAM 1:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="LAM 1:13"/>D’en haut il a lancé dans mes os un feu qui les dévore;</para>
+  <para style="q" vid="LAM 1:13">Il a tendu un filet sous mes pieds,</para>
+  <para style="q" vid="LAM 1:13">Il m’a fait tomber en arrière;</para>
+  <para style="q" vid="LAM 1:13">Il m’a jetée dans la désolation, dans une langueur de tous les jours.<verse eid="LAM 1:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="LAM 1:14"/>Sa main a lié le joug de mes iniquités;</para>
+  <para style="q" vid="LAM 1:14">Elles se sont entrelacées, appliquées sur mon cou;</para>
+  <para style="q" vid="LAM 1:14">Il a brisé ma force;</para>
+  <para style="q" vid="LAM 1:14">Le Seigneur m’a livrée à des mains auxquelles je ne puis résister.<verse eid="LAM 1:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="LAM 1:15"/>Le Seigneur a terrassé tous mes guerriers au milieu de moi;</para>
+  <para style="q" vid="LAM 1:15">Il a rassemblé contre moi une armée,</para>
+  <para style="q" vid="LAM 1:15">Pour détruire mes jeunes hommes;</para>
+  <para style="q" vid="LAM 1:15">Le Seigneur a foulé au pressoir la vierge, fille de Juda.<verse eid="LAM 1:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="LAM 1:16"/>C’est pour cela que je pleure, que mes <note caller="e" style="x"><char style="xo" closed="false">1:16 </char><char style="xt" closed="false"><ref loc="JER 13:17">Jé 13:17</ref>.</char></note>yeux fondent en larmes;</para>
+  <para style="q" vid="LAM 1:16">Car il s’est éloigné de moi, celui qui me consolerait,</para>
+  <para style="q" vid="LAM 1:16">Qui ranimerait ma vie.</para>
+  <para style="q" vid="LAM 1:16">Mes fils sont dans la désolation, parce que l’ennemi a triomphé.<verse eid="LAM 1:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="LAM 1:17"/>Sion a étendu les mains,</para>
+  <para style="q" vid="LAM 1:17">Et personne ne l’a consolée;</para>
+  <para style="q" vid="LAM 1:17">L’Éternel a envoyé contre Jacob les ennemis d’alentour;</para>
+  <para style="q" vid="LAM 1:17">Jérusalem a été un objet d’horreur au milieu d’eux.<verse eid="LAM 1:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="LAM 1:18"/>L’Éternel est juste,</para>
+  <para style="q" vid="LAM 1:18">Car j’ai été rebelle à ses ordres.</para>
+  <para style="q" vid="LAM 1:18">Écoutez, vous tous, peuples, et voyez ma douleur!</para>
+  <para style="q" vid="LAM 1:18">Mes vierges et mes jeunes hommes sont allés en captivité.<verse eid="LAM 1:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="LAM 1:19"/>J’ai appelé mes amis, et ils m’ont <note caller="f" style="x"><char style="xo" closed="false">1:19 </char><char style="xt" closed="false"><ref loc="JER 30:14">Jé 30:14</ref>.</char></note>trompée.</para>
+  <para style="q" vid="LAM 1:19">Mes sacrificateurs et mes anciens ont expiré dans la ville:</para>
+  <para style="q" vid="LAM 1:19">Ils cherchaient de la nourriture,</para>
+  <para style="q" vid="LAM 1:19">Afin de ranimer leur vie.<verse eid="LAM 1:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="LAM 1:20"/>Éternel, regarde ma détresse! <note caller="g" style="x"><char style="xo" closed="false">1:20 </char><char style="xt" closed="false"><ref loc="ISA 16:11">És 16:11</ref>. <ref loc="JER 48:36">Jé 48:36</ref>.</char></note>Mes entrailles bouillonnent,</para>
+  <para style="q" vid="LAM 1:20">Mon cœur est bouleversé au-dedans de moi,</para>
+  <para style="q" vid="LAM 1:20">Car j’ai été rebelle.</para>
+  <para style="q" vid="LAM 1:20">Au-dehors l’épée a fait ses ravages, au-dedans la mort.<verse eid="LAM 1:20"/></para>
+  <para style="q">
+    <verse number="21" style="v" sid="LAM 1:21"/>On a entendu mes soupirs, et personne ne m’a consolée;</para>
+  <para style="q" vid="LAM 1:21">Tous mes ennemis ont appris mon malheur,</para>
+  <para style="q" vid="LAM 1:21">Ils se sont réjouis de ce que tu l’as causé;</para>
+  <para style="q" vid="LAM 1:21">Tu amèneras, tu publieras le jour où ils seront comme moi.<verse eid="LAM 1:21"/></para>
+  <para style="q">
+    <verse number="22" style="v" sid="LAM 1:22"/>Que toute leur méchanceté vienne devant toi,</para>
+  <para style="q" vid="LAM 1:22">Et traite-les comme tu m’as traitée,</para>
+  <para style="q" vid="LAM 1:22">A cause de toutes mes transgressions!</para>
+  <para style="q" vid="LAM 1:22">Car mes soupirs sont nombreux, et mon cœur est souffrant.<verse eid="LAM 1:22"/></para>
+  <chapter eid="LAM 1"/>
+  <chapter number="2" style="c" sid="LAM 2"/>
+  <para style="s">La ruine de Jérusalem</para>
+  <para style="r">V. 1-22: cf. (1 R 9:6-9. <ref loc="2KI 21:12-15">2 R 21:12-15</ref>. Jé 19.) La 1; <ref loc="LAM 4">4</ref>. <ref loc="REV 6:17">Ap 6:17</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="LAM 2:1"/>Eh quoi! Le Seigneur, dans sa colère, a couvert de nuages la fille de Sion!</para>
+  <para style="q" vid="LAM 2:1">Il a précipité du ciel sur la terre la magnificence d’Israël!</para>
+  <para style="q" vid="LAM 2:1">Il ne s’est pas souvenu de son marchepied,</para>
+  <para style="q" vid="LAM 2:1">Au jour de sa colère!<verse eid="LAM 2:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="LAM 2:2"/>Le Seigneur a détruit sans pitié toutes les demeures de Jacob;</para>
+  <para style="q" vid="LAM 2:2">Il a, dans sa fureur, renversé les forteresses de la fille de Juda,</para>
+  <para style="q" vid="LAM 2:2">Il les a fait rouler à terre;</para>
+  <para style="q" vid="LAM 2:2">Il a profané le royaume et ses chefs.<verse eid="LAM 2:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="LAM 2:3"/>Il a, dans son ardente colère, abattu toute la force d’Israël;</para>
+  <para style="q" vid="LAM 2:3">Il a retiré sa droite en présence de l’ennemi;</para>
+  <para style="q" vid="LAM 2:3">Il a allumé dans Jacob des flammes de feu,</para>
+  <para style="q" vid="LAM 2:3">Qui dévorent de tous côtés.<verse eid="LAM 2:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="LAM 2:4"/>Il a tendu son arc comme un ennemi;</para>
+  <para style="q" vid="LAM 2:4">Sa droite s’est dressée comme celle d’un assaillant;</para>
+  <para style="q" vid="LAM 2:4">Il a fait périr tout ce qui plaisait aux regards;</para>
+  <para style="q" vid="LAM 2:4">Il a répandu sa fureur comme un feu sur la tente de la fille de Sion.<verse eid="LAM 2:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="LAM 2:5"/>Le Seigneur a été comme un ennemi;</para>
+  <para style="q" vid="LAM 2:5">Il a dévoré Israël, il a dévoré tous ses palais,</para>
+  <para style="q" vid="LAM 2:5">Il a détruit ses forteresses;</para>
+  <para style="q" vid="LAM 2:5">Il a rempli la fille de Juda de plaintes et de gémissements.<verse eid="LAM 2:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="LAM 2:6"/>Il a dévasté sa tente comme un jardin,</para>
+  <para style="q" vid="LAM 2:6">Il a détruit le lieu de son assemblée;</para>
+  <para style="q" vid="LAM 2:6">L’Éternel a fait oublier en Sion les fêtes et le sabbat,</para>
+  <para style="q" vid="LAM 2:6">Et, dans sa violente colère, il a rejeté le roi et le sacrificateur.<verse eid="LAM 2:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="LAM 2:7"/>Le Seigneur a dédaigné son autel, repoussé son sanctuaire;</para>
+  <para style="q" vid="LAM 2:7">Il a livré entre les mains de l’ennemi les murs des palais de Sion;</para>
+  <para style="q" vid="LAM 2:7">Les cris ont retenti dans la maison de l’Éternel,</para>
+  <para style="q" vid="LAM 2:7">Comme en un jour de fête.<verse eid="LAM 2:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="LAM 2:8"/>L’Éternel avait résolu de détruire les murs de la fille de Sion;</para>
+  <para style="q" vid="LAM 2:8">Il a tendu le cordeau, il n’a pas retiré sa main sans les avoir anéantis;</para>
+  <para style="q" vid="LAM 2:8">Il a plongé dans le deuil rempart et murailles,</para>
+  <para style="q" vid="LAM 2:8">Qui n’offrent plus ensemble qu’une triste ruine.<verse eid="LAM 2:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="LAM 2:9"/>Ses portes sont enfoncées dans la terre;</para>
+  <para style="q" vid="LAM 2:9">Il en a détruit, rompu les barres.</para>
+  <para style="q" vid="LAM 2:9">Son roi et ses chefs sont parmi les nations; il n’y a plus de loi.</para>
+  <para style="q" vid="LAM 2:9">Même les prophètes ne reçoivent aucune vision de l’Éternel.<verse eid="LAM 2:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="LAM 2:10"/>Les anciens de la fille de Sion sont assis à terre, ils sont muets;</para>
+  <para style="q" vid="LAM 2:10">Ils ont couvert leur tête de poussière,</para>
+  <para style="q" vid="LAM 2:10">Ils se sont revêtus de sacs;</para>
+  <para style="q" vid="LAM 2:10">Les vierges de Jérusalem laissent retomber leur tête vers la terre.<verse eid="LAM 2:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="LAM 2:11"/>Mes yeux se consument dans les larmes, mes entrailles bouillonnent,</para>
+  <para style="q" vid="LAM 2:11">Ma bile se répand sur la terre,</para>
+  <para style="q" vid="LAM 2:11">A cause du désastre de la fille de mon peuple,</para>
+  <para style="q" vid="LAM 2:11">Des enfants et des nourrissons en défaillance dans les rues de la ville.<verse eid="LAM 2:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="LAM 2:12"/>Ils disaient à leurs mères:</para>
+  <para style="q" vid="LAM 2:12">Où y a-t-il du blé et du vin?</para>
+  <para style="q" vid="LAM 2:12">Et ils tombaient comme des blessés dans les rues de la ville,</para>
+  <para style="q" vid="LAM 2:12">Ils rendaient l’âme sur le sein de leurs mères.<verse eid="LAM 2:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="LAM 2:13"/>Que dois-je te dire? À quoi te comparer, fille de Jérusalem?</para>
+  <para style="q" vid="LAM 2:13">Qui trouver de semblable à toi, et quelle consolation te donner,</para>
+  <para style="q" vid="LAM 2:13">Vierge, fille de Sion?</para>
+  <para style="q" vid="LAM 2:13">Car ta plaie est grande comme la mer:</para>
+  <para style="q" vid="LAM 2:13">Qui pourra te guérir?<verse eid="LAM 2:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="LAM 2:14"/>Tes prophètes ont eu pour toi des visions vaines et fausses;</para>
+  <para style="q" vid="LAM 2:14">Ils n’ont pas mis à nu ton iniquité,</para>
+  <para style="q" vid="LAM 2:14">Afin de détourner de toi la captivité;</para>
+  <para style="q" vid="LAM 2:14">Ils t’ont donné des oracles mensongers et trompeurs.<verse eid="LAM 2:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="LAM 2:15"/>Tous les passants battent des mains sur toi,</para>
+  <para style="q" vid="LAM 2:15">Ils sifflent, ils secouent la tête contre la fille de Jérusalem:</para>
+  <para style="q" vid="LAM 2:15">Est-ce là cette ville qu’on appelait une beauté parfaite,</para>
+  <para style="q" vid="LAM 2:15">La joie de toute la terre?<verse eid="LAM 2:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="LAM 2:16"/>Tous tes ennemis ouvrent la bouche contre toi,</para>
+  <para style="q" vid="LAM 2:16">Ils sifflent, ils grincent des dents,</para>
+  <para style="q" vid="LAM 2:16">Ils disent: Nous l’avons engloutie!</para>
+  <para style="q" vid="LAM 2:16">C’est bien le jour que nous attendions, nous l’avons atteint, nous le voyons!<verse eid="LAM 2:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="LAM 2:17"/>L’Éternel a exécuté ce qu’il avait résolu,</para>
+  <para style="q" vid="LAM 2:17">Il a accompli la parole qu’il avait dès longtemps arrêtée,</para>
+  <para style="q" vid="LAM 2:17">Il a détruit sans pitié;</para>
+  <para style="q" vid="LAM 2:17">Il a fait de toi la joie de l’ennemi,</para>
+  <para style="q" vid="LAM 2:17">Il a relevé la force de tes oppresseurs.<verse eid="LAM 2:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="LAM 2:18"/>Leur cœur crie vers le Seigneur…</para>
+  <para style="q" vid="LAM 2:18">
+    <note caller="a" style="x">
+      <char style="xo" closed="false">2:18 </char>
+      <char style="xt" closed="false">
+        <ref loc="JER 14:17">Jé 14:17</ref>. <ref loc="LAM 1:16">La 1:16</ref>.</char>
+    </note>Mur de la fille de Sion, répands jour et nuit des torrents de larmes!</para>
+  <para style="q" vid="LAM 2:18">Ne te donne aucun relâche,</para>
+  <para style="q" vid="LAM 2:18">Et que ton œil n’ait point de repos!<verse eid="LAM 2:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="LAM 2:19"/>Lève-toi, pousse des gémissements à l’entrée des veilles de la nuit!</para>
+  <para style="q" vid="LAM 2:19">Répands ton cœur comme de l’eau, en présence du Seigneur!</para>
+  <para style="q" vid="LAM 2:19">Lève tes mains vers lui pour la vie de tes enfants</para>
+  <para style="q" vid="LAM 2:19">Qui meurent de faim aux coins de toutes les rues!<verse eid="LAM 2:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="LAM 2:20"/>Vois, Éternel, regarde qui tu as ainsi traité!</para>
+  <para style="q" vid="LAM 2:20">
+    <note caller="b" style="x">
+      <char style="xo" closed="false">2:20 </char>
+      <char style="xt" closed="false">
+        <ref loc="LAM 4:10">La 4:10</ref>.</char>
+    </note>Fallait-il que des femmes dévorassent le fruit de leurs entrailles,</para>
+  <para style="q" vid="LAM 2:20">Les petits enfants objets de leur tendresse?</para>
+  <para style="q" vid="LAM 2:20">Que sacrificateurs et prophètes fussent massacrés dans le sanctuaire du Seigneur?<verse eid="LAM 2:20"/></para>
+  <para style="q">
+    <verse number="21" style="v" sid="LAM 2:21"/>Les enfants et les vieillards sont couchés par terre dans les rues;</para>
+  <para style="q" vid="LAM 2:21">Mes vierges et mes jeunes hommes sont tombés par l’épée;</para>
+  <para style="q" vid="LAM 2:21">Tu as tué, au jour de ta colère,</para>
+  <para style="q" vid="LAM 2:21">Tu as égorgé sans pitié.<verse eid="LAM 2:21"/></para>
+  <para style="q">
+    <verse number="22" style="v" sid="LAM 2:22"/>Tu as appelé de toutes parts sur moi l’épouvante, comme à un jour de fête.</para>
+  <para style="q" vid="LAM 2:22">Au jour de la colère de l’Éternel, il n’y a eu ni réchappé ni survivant.</para>
+  <para style="q" vid="LAM 2:22">Ceux que j’avais soignés et élevés,</para>
+  <para style="q" vid="LAM 2:22">Mon ennemi les a consumés.<verse eid="LAM 2:22"/></para>
+  <chapter eid="LAM 2"/>
+  <chapter number="3" style="c" sid="LAM 3"/>
+  <para style="s">Souffrances et consolations</para>
+  <para style="r">V. 1-18: cf. (Job 16:6-16; 19:5-21.) (Ps 88; 102:1-12.)</para>
+  <para style="q">
+    <verse number="1" style="v" sid="LAM 3:1"/>Je suis l’homme qui a vu la misère</para>
+  <para style="q" vid="LAM 3:1">Sous la verge de sa fureur.<verse eid="LAM 3:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="LAM 3:2"/>Il m’a conduit, mené dans les ténèbres,</para>
+  <para style="q" vid="LAM 3:2">Et non dans la lumière.<verse eid="LAM 3:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="LAM 3:3"/>Contre moi il tourne et retourne sa main</para>
+  <para style="q" vid="LAM 3:3">Tout le jour.<verse eid="LAM 3:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="LAM 3:4"/>Il a fait dépérir ma chair et ma peau,</para>
+  <para style="q" vid="LAM 3:4">Il a brisé mes os.<verse eid="LAM 3:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="LAM 3:5"/>Il a bâti autour de moi,</para>
+  <para style="q" vid="LAM 3:5">Il m’a environné de poison et de douleur.<verse eid="LAM 3:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="LAM 3:6"/>Il me fait habiter dans les ténèbres,</para>
+  <para style="q" vid="LAM 3:6">Comme ceux qui sont morts dès longtemps.<verse eid="LAM 3:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="LAM 3:7"/>Il m’a entouré d’un mur, pour que je ne sorte pas;</para>
+  <para style="q" vid="LAM 3:7">Il m’a donné de pesantes chaînes.<verse eid="LAM 3:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="LAM 3:8"/>J’ai beau crier et implorer du secours,</para>
+  <para style="q" vid="LAM 3:8">Il ne laisse pas accès à ma prière.<verse eid="LAM 3:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="LAM 3:9"/>Il a fermé mon chemin avec des pierres de taille,</para>
+  <para style="q" vid="LAM 3:9">Il a détruit mes sentiers.<verse eid="LAM 3:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="LAM 3:10"/>Il a été pour moi un ours en embuscade,</para>
+  <para style="q" vid="LAM 3:10">Un lion dans un lieu caché.<verse eid="LAM 3:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="LAM 3:11"/>Il a détourné mes voies, il m’a déchiré,</para>
+  <para style="q" vid="LAM 3:11">Il m’a jeté dans la désolation.<verse eid="LAM 3:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="LAM 3:12"/>Il a tendu son arc, et il m’a placé</para>
+  <para style="q" vid="LAM 3:12">Comme un but pour sa flèche.<verse eid="LAM 3:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="LAM 3:13"/>Il a fait entrer dans mes reins</para>
+  <para style="q" vid="LAM 3:13">Les traits de son carquois.<verse eid="LAM 3:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="LAM 3:14"/>Je suis pour tout mon peuple un objet de raillerie,</para>
+  <para style="q" vid="LAM 3:14">Chaque jour l’objet de leurs chansons.<verse eid="LAM 3:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="LAM 3:15"/>Il m’a rassasié d’amertume,</para>
+  <para style="q" vid="LAM 3:15">Il m’a enivré d’absinthe.<verse eid="LAM 3:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="LAM 3:16"/>Il a brisé mes dents avec des cailloux,</para>
+  <para style="q" vid="LAM 3:16">Il m’a couvert de cendre.<verse eid="LAM 3:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="LAM 3:17"/>Tu m’as enlevé la paix;</para>
+  <para style="q" vid="LAM 3:17">Je ne connais plus le bonheur.<verse eid="LAM 3:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="LAM 3:18"/>Et j’ai dit: Ma force est perdue,</para>
+  <para style="q" vid="LAM 3:18">Je n’ai plus d’espérance en l’Éternel!<verse eid="LAM 3:18"/></para>
+  <para style="r">V. 19-39: cf. Mi 7:7-10. (Ps 42:7-12; 77:2-14; 130.)</para>
+  <para style="q">
+    <verse number="19" style="v" sid="LAM 3:19"/>Quand je pense à ma détresse et à ma misère,</para>
+  <para style="q" vid="LAM 3:19">A l’absinthe et au poison;<verse eid="LAM 3:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="LAM 3:20"/>Quand mon âme s’en souvient,</para>
+  <para style="q" vid="LAM 3:20">Elle est abattue au-dedans de moi.<verse eid="LAM 3:20"/></para>
+  <para style="q">
+    <verse number="21" style="v" sid="LAM 3:21"/>Voici ce que je veux repasser en mon cœur,</para>
+  <para style="q" vid="LAM 3:21">Ce qui me donnera de l’espérance.<verse eid="LAM 3:21"/></para>
+  <para style="q">
+    <verse number="22" style="v" sid="LAM 3:22"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">3:22 </char>
+      <char style="xt" closed="false">
+        <ref loc="ISA 1:9">És 1:9</ref>. <ref loc="HAB 3:13">Ha 3:13</ref>.</char>
+    </note>Les bontés de l’Éternel ne sont pas épuisées,</para>
+  <para style="q" vid="LAM 3:22">Ses compassions ne sont pas à leur terme;<verse eid="LAM 3:22"/></para>
+  <para style="q">
+    <verse number="23" style="v" sid="LAM 3:23"/>
+    <note caller="b" style="x">
+      <char style="xo" closed="false">3:23 </char>
+      <char style="xt" closed="false">
+        <ref loc="PSA 30:6">Ps 30:6</ref>.</char>
+    </note>Elles se renouvellent chaque matin.</para>
+  <para style="q" vid="LAM 3:23">Oh! Que ta fidélité est grande!<verse eid="LAM 3:23"/></para>
+  <para style="q">
+    <verse number="24" style="v" sid="LAM 3:24"/>L’Éternel est mon partage, dit mon âme;</para>
+  <para style="q" vid="LAM 3:24">
+    <note caller="c" style="x">
+      <char style="xo" closed="false">3:24 </char>
+      <char style="xt" closed="false">
+        <ref loc="HAB 2:3">Ha 2:3</ref>.</char>
+    </note>C’est pourquoi je veux espérer en lui.<verse eid="LAM 3:24"/></para>
+  <para style="q">
+    <verse number="25" style="v" sid="LAM 3:25"/>L’Éternel a de la bonté pour qui espère en lui,</para>
+  <para style="q" vid="LAM 3:25">Pour l’âme qui le cherche.<verse eid="LAM 3:25"/></para>
+  <para style="q">
+    <verse number="26" style="v" sid="LAM 3:26"/>Il est bon d’attendre en silence</para>
+  <para style="q" vid="LAM 3:26">Le secours de l’Éternel.<verse eid="LAM 3:26"/></para>
+  <para style="q">
+    <verse number="27" style="v" sid="LAM 3:27"/>Il est bon pour l’homme</para>
+  <para style="q" vid="LAM 3:27">De porter le joug dans sa jeunesse.<verse eid="LAM 3:27"/></para>
+  <para style="q">
+    <verse number="28" style="v" sid="LAM 3:28"/>Il se tiendra solitaire et silencieux,</para>
+  <para style="q" vid="LAM 3:28">Parce que l’Éternel le lui impose;<verse eid="LAM 3:28"/></para>
+  <para style="q">
+    <verse number="29" style="v" sid="LAM 3:29"/>Il mettra sa bouche dans la poussière,</para>
+  <para style="q" vid="LAM 3:29">
+    <note caller="d" style="x">
+      <char style="xo" closed="false">3:29 </char>
+      <char style="xt" closed="false">
+        <ref loc="ACT 8:22">Ac 8:22</ref>.</char>
+    </note>Sans perdre toute espérance;<verse eid="LAM 3:29"/></para>
+  <para style="q">
+    <verse number="30" style="v" sid="LAM 3:30"/>Il présentera la joue à celui qui le frappe,</para>
+  <para style="q" vid="LAM 3:30">Il se rassasiera d’opprobres.<verse eid="LAM 3:30"/></para>
+  <para style="q">
+    <verse number="31" style="v" sid="LAM 3:31"/>Car le Seigneur</para>
+  <para style="q" vid="LAM 3:31">Ne rejette pas à toujours.<verse eid="LAM 3:31"/></para>
+  <para style="q">
+    <verse number="32" style="v" sid="LAM 3:32"/>Mais, lorsqu’il afflige,</para>
+  <para style="q" vid="LAM 3:32">Il a compassion selon sa grande miséricorde;<verse eid="LAM 3:32"/></para>
+  <para style="q">
+    <verse number="33" style="v" sid="LAM 3:33"/>Car ce n’est pas volontiers qu’il humilie</para>
+  <para style="q" vid="LAM 3:33">Et qu’il afflige les enfants des hommes.<verse eid="LAM 3:33"/></para>
+  <para style="q">
+    <verse number="34" style="v" sid="LAM 3:34"/>Quand on foule aux pieds</para>
+  <para style="q" vid="LAM 3:34">Tous les captifs du pays,<verse eid="LAM 3:34"/></para>
+  <para style="q">
+    <verse number="35" style="v" sid="LAM 3:35"/>Quand on viole la justice humaine</para>
+  <para style="q" vid="LAM 3:35">A la face du Très-Haut,<verse eid="LAM 3:35"/></para>
+  <para style="q">
+    <verse number="36" style="v" sid="LAM 3:36"/>Quand on fait tort à autrui dans sa cause,</para>
+  <para style="q" vid="LAM 3:36">Le Seigneur ne le voit-il pas?<verse eid="LAM 3:36"/></para>
+  <para style="q">
+    <verse number="37" style="v" sid="LAM 3:37"/>
+    <note caller="e" style="x">
+      <char style="xo" closed="false">3:37 </char>
+      <char style="xt" closed="false">
+        <ref loc="PSA 33:9">Ps 33:9</ref>.</char>
+    </note>Qui dira qu’une chose arrive,</para>
+  <para style="q" vid="LAM 3:37">Sans que le Seigneur l’ait ordonnée?<verse eid="LAM 3:37"/></para>
+  <para style="q">
+    <verse number="38" style="v" sid="LAM 3:38"/>
+    <note caller="f" style="x">
+      <char style="xo" closed="false">3:38 </char>
+      <char style="xt" closed="false">
+        <ref loc="ISA 45:7">És 45:7</ref>. <ref loc="AMO 3:6">Am 3:6</ref>.</char>
+    </note>N’est-ce pas de la volonté du Très-Haut que viennent</para>
+  <para style="q" vid="LAM 3:38">Les maux et les biens?<verse eid="LAM 3:38"/></para>
+  <para style="q">
+    <verse number="39" style="v" sid="LAM 3:39"/>Pourquoi l’homme vivant se plaindrait-il?</para>
+  <para style="q" vid="LAM 3:39">Que chacun se plaigne de ses propres péchés.<verse eid="LAM 3:39"/></para>
+  <para style="r">V. 40-48: cf. <ref loc="1KI 8:46-51">1 R 8:46-51</ref>. <ref loc="DEU 4:29-31">De 4:29-31</ref>.</para>
+  <para style="q">
+    <verse number="40" style="v" sid="LAM 3:40"/>Recherchons nos voies et sondons,</para>
+  <para style="q" vid="LAM 3:40">Et retournons à l’Éternel;<verse eid="LAM 3:40"/></para>
+  <para style="q">
+    <verse number="41" style="v" sid="LAM 3:41"/>Élevons nos cœurs et nos mains</para>
+  <para style="q" vid="LAM 3:41">Vers Dieu qui est au ciel:<verse eid="LAM 3:41"/></para>
+  <para style="q">
+    <verse number="42" style="v" sid="LAM 3:42"/>Nous avons péché, nous avons été rebelles!</para>
+  <para style="q" vid="LAM 3:42">Tu n’as point pardonné!<verse eid="LAM 3:42"/></para>
+  <para style="q">
+    <verse number="43" style="v" sid="LAM 3:43"/>Tu t’es caché dans ta colère, et tu nous as poursuivis;</para>
+  <para style="q" vid="LAM 3:43">Tu as tué sans miséricorde;<verse eid="LAM 3:43"/></para>
+  <para style="q">
+    <verse number="44" style="v" sid="LAM 3:44"/>Tu t’es enveloppé d’un nuage,</para>
+  <para style="q" vid="LAM 3:44">Pour fermer accès à la prière.<verse eid="LAM 3:44"/></para>
+  <para style="q">
+    <verse number="45" style="v" sid="LAM 3:45"/>Tu nous as rendus un objet de mépris et de dédain</para>
+  <para style="q" vid="LAM 3:45">Au milieu des peuples.<verse eid="LAM 3:45"/></para>
+  <para style="q">
+    <verse number="46" style="v" sid="LAM 3:46"/>Ils ouvrent la bouche contre nous,</para>
+  <para style="q" vid="LAM 3:46">Tous ceux qui sont nos ennemis.<verse eid="LAM 3:46"/></para>
+  <para style="q">
+    <verse number="47" style="v" sid="LAM 3:47"/>Notre partage a été la terreur et la fosse,</para>
+  <para style="q" vid="LAM 3:47">Le ravage et la ruine.<verse eid="LAM 3:47"/></para>
+  <para style="q">
+    <verse number="48" style="v" sid="LAM 3:48"/>Des torrents d’eau coulent de mes yeux,</para>
+  <para style="q" vid="LAM 3:48">A cause de la ruine de la fille de mon peuple.<verse eid="LAM 3:48"/></para>
+  <para style="r">V. 49-66: cf. (Jé 18:18-23; 38:4-13.) (Ps 69; 142.)</para>
+  <para style="q">
+    <verse number="49" style="v" sid="LAM 3:49"/>Mon œil fond en larmes, sans repos,</para>
+  <para style="q" vid="LAM 3:49">Sans relâche,<verse eid="LAM 3:49"/></para>
+  <para style="q">
+    <verse number="50" style="v" sid="LAM 3:50"/>Jusqu’à ce que l’Éternel regarde et voie</para>
+  <para style="q" vid="LAM 3:50">Du haut des cieux;<verse eid="LAM 3:50"/></para>
+  <para style="q">
+    <verse number="51" style="v" sid="LAM 3:51"/>Mon œil me fait souffrir,</para>
+  <para style="q" vid="LAM 3:51">A cause de toutes les filles de ma ville.<verse eid="LAM 3:51"/></para>
+  <para style="q">
+    <verse number="52" style="v" sid="LAM 3:52"/>Ils m’ont donné la chasse comme à un oiseau,</para>
+  <para style="q" vid="LAM 3:52">Ceux qui sont à tort mes ennemis.<verse eid="LAM 3:52"/></para>
+  <para style="q">
+    <verse number="53" style="v" sid="LAM 3:53"/>Ils ont voulu anéantir ma vie dans une fosse,</para>
+  <para style="q" vid="LAM 3:53">Et ils ont jeté des pierres sur moi.<verse eid="LAM 3:53"/></para>
+  <para style="q">
+    <verse number="54" style="v" sid="LAM 3:54"/>Les eaux ont inondé ma tête;</para>
+  <para style="q" vid="LAM 3:54">Je disais: Je suis perdu!<verse eid="LAM 3:54"/></para>
+  <para style="q">
+    <verse number="55" style="v" sid="LAM 3:55"/>J’ai invoqué ton nom, ô Éternel,</para>
+  <para style="q" vid="LAM 3:55">Du fond de la fosse.<verse eid="LAM 3:55"/></para>
+  <para style="q">
+    <verse number="56" style="v" sid="LAM 3:56"/>Tu as entendu ma voix:</para>
+  <para style="q" vid="LAM 3:56">Ne ferme pas l’oreille à mes soupirs, à mes cris!<verse eid="LAM 3:56"/></para>
+  <para style="q">
+    <verse number="57" style="v" sid="LAM 3:57"/>Au jour où je t’ai invoqué, tu t’es approché,</para>
+  <para style="q" vid="LAM 3:57">Tu as dit: Ne crains pas!<verse eid="LAM 3:57"/></para>
+  <para style="q">
+    <verse number="58" style="v" sid="LAM 3:58"/>Seigneur, tu as défendu la cause de mon âme,</para>
+  <para style="q" vid="LAM 3:58">Tu as racheté ma vie.<verse eid="LAM 3:58"/></para>
+  <para style="q">
+    <verse number="59" style="v" sid="LAM 3:59"/>Éternel, tu as vu ce qu’on m’a fait souffrir:</para>
+  <para style="q" vid="LAM 3:59">Rends-moi justice!<verse eid="LAM 3:59"/></para>
+  <para style="q">
+    <verse number="60" style="v" sid="LAM 3:60"/>Tu as vu toutes leurs vengeances,</para>
+  <para style="q" vid="LAM 3:60">Tous leurs complots contre moi.<verse eid="LAM 3:60"/></para>
+  <para style="q">
+    <verse number="61" style="v" sid="LAM 3:61"/>Éternel, tu as entendu leurs outrages,</para>
+  <para style="q" vid="LAM 3:61">Tous leurs complots contre moi,<verse eid="LAM 3:61"/></para>
+  <para style="q">
+    <verse number="62" style="v" sid="LAM 3:62"/>Les discours de mes adversaires, et les projets</para>
+  <para style="q" vid="LAM 3:62">Qu’ils formaient chaque jour contre moi.<verse eid="LAM 3:62"/></para>
+  <para style="q">
+    <verse number="63" style="v" sid="LAM 3:63"/>Regarde quand ils sont assis et quand ils se lèvent:</para>
+  <para style="q" vid="LAM 3:63">Je suis l’objet de leurs chansons.<verse eid="LAM 3:63"/></para>
+  <para style="q">
+    <verse number="64" style="v" sid="LAM 3:64"/>Tu leur donneras un salaire, ô Éternel,</para>
+  <para style="q" vid="LAM 3:64">Selon l’œuvre de leurs mains;<verse eid="LAM 3:64"/></para>
+  <para style="q">
+    <verse number="65" style="v" sid="LAM 3:65"/>Tu les livreras à l’endurcissement de leur cœur,</para>
+  <para style="q" vid="LAM 3:65">A ta malédiction contre eux;<verse eid="LAM 3:65"/></para>
+  <para style="q">
+    <verse number="66" style="v" sid="LAM 3:66"/>Tu les poursuivras dans ta colère, et tu les extermineras</para>
+  <para style="q" vid="LAM 3:66">De dessous les cieux, ô Éternel!<verse eid="LAM 3:66"/></para>
+  <chapter eid="LAM 3"/>
+  <chapter number="4" style="c" sid="LAM 4"/>
+  <para style="s">Lamentations sur le sort du peuple</para>
+  <para style="r">V. 1-22: cf. La 1; 2. (Ro 2:1-6. Ga 6:7.)</para>
+  <para style="q">
+    <verse number="1" style="v" sid="LAM 4:1"/>Eh quoi! L’or a perdu son éclat!</para>
+  <para style="q" vid="LAM 4:1">L’or pur est altéré!</para>
+  <para style="q" vid="LAM 4:1">Les pierres du sanctuaire sont dispersées</para>
+  <para style="q" vid="LAM 4:1">Aux coins de toutes les rues!<verse eid="LAM 4:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="LAM 4:2"/>Les nobles fils de Sion,</para>
+  <para style="q" vid="LAM 4:2">Estimés à l’égal de l’or pur,</para>
+  <para style="q" vid="LAM 4:2">Sont regardés, hélas! Comme des vases de terre,</para>
+  <para style="q" vid="LAM 4:2">Ouvrage des mains du potier!<verse eid="LAM 4:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="LAM 4:3"/>Les chacals mêmes présentent la mamelle,</para>
+  <para style="q" vid="LAM 4:3">Et allaitent leurs petits;</para>
+  <para style="q" vid="LAM 4:3">Mais la fille de mon peuple est devenue cruelle</para>
+  <para style="q" vid="LAM 4:3">Comme les autruches du désert.<verse eid="LAM 4:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="LAM 4:4"/>La langue du nourrisson s’attache à son palais,</para>
+  <para style="q" vid="LAM 4:4">Desséchée par la soif;</para>
+  <para style="q" vid="LAM 4:4">Les enfants demandent du pain,</para>
+  <para style="q" vid="LAM 4:4">Et personne ne leur en donne.<verse eid="LAM 4:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="LAM 4:5"/>Ceux qui se nourrissaient de mets délicats</para>
+  <para style="q" vid="LAM 4:5">Périssent dans les rues;</para>
+  <para style="q" vid="LAM 4:5">Ceux qui étaient élevés dans la pourpre</para>
+  <para style="q" vid="LAM 4:5">Embrassent les fumiers.<verse eid="LAM 4:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="LAM 4:6"/>Le châtiment de la fille de mon peuple est plus grand</para>
+  <para style="q" vid="LAM 4:6">Que celui de Sodome,</para>
+  <para style="q" vid="LAM 4:6">Détruite en un instant,</para>
+  <para style="q" vid="LAM 4:6">Sans que personne ait porté la main sur elle.<verse eid="LAM 4:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="LAM 4:7"/>Ses princes étaient plus éclatants que la neige,</para>
+  <para style="q" vid="LAM 4:7">Plus blancs que le lait;</para>
+  <para style="q" vid="LAM 4:7">Ils avaient le teint plus vermeil que le corail;</para>
+  <para style="q" vid="LAM 4:7">Leur figure était comme le saphir.<verse eid="LAM 4:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="LAM 4:8"/>Leur aspect est plus sombre que le noir;</para>
+  <para style="q" vid="LAM 4:8">On ne les reconnaît pas dans les rues;</para>
+  <para style="q" vid="LAM 4:8">Ils ont la peau collée sur les os,</para>
+  <para style="q" vid="LAM 4:8">Sèche comme du bois.<verse eid="LAM 4:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="LAM 4:9"/>Ceux qui périssent par l’épée sont plus heureux</para>
+  <para style="q" vid="LAM 4:9">Que ceux qui périssent par la faim,</para>
+  <para style="q" vid="LAM 4:9">Qui tombent exténués,</para>
+  <para style="q" vid="LAM 4:9">Privés du fruit des champs.<verse eid="LAM 4:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="LAM 4:10"/>Les femmes, malgré leur tendresse,</para>
+  <para style="q" vid="LAM 4:10">Font cuire leurs enfants;</para>
+  <para style="q" vid="LAM 4:10">Ils leur servent de nourriture,</para>
+  <para style="q" vid="LAM 4:10">Au milieu du désastre de la fille de mon peuple.<verse eid="LAM 4:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="LAM 4:11"/>L’Éternel a épuisé sa fureur,</para>
+  <para style="q" vid="LAM 4:11">Il a répandu son ardente colère;</para>
+  <para style="q" vid="LAM 4:11">Il a allumé dans Sion un feu</para>
+  <para style="q" vid="LAM 4:11">Qui en dévore les fondements.<verse eid="LAM 4:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="LAM 4:12"/>Les rois de la terre n’auraient pas cru,</para>
+  <para style="q" vid="LAM 4:12">Aucun des habitants du monde n’aurait cru</para>
+  <para style="q" vid="LAM 4:12">Que l’adversaire, que l’ennemi entrerait</para>
+  <para style="q" vid="LAM 4:12">Dans les portes de Jérusalem.<verse eid="LAM 4:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="LAM 4:13"/>Voilà le fruit des péchés de ses prophètes,</para>
+  <para style="q" vid="LAM 4:13">Des iniquités de ses sacrificateurs,</para>
+  <para style="q" vid="LAM 4:13">Qui ont répandu dans son sein</para>
+  <para style="q" vid="LAM 4:13">Le sang des justes!<verse eid="LAM 4:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="LAM 4:14"/>Ils erraient en aveugles dans les rues,</para>
+  <para style="q" vid="LAM 4:14">Souillés de sang;</para>
+  <para style="q" vid="LAM 4:14">On ne pouvait</para>
+  <para style="q" vid="LAM 4:14">Toucher leurs vêtements.<verse eid="LAM 4:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="LAM 4:15"/>Éloignez-vous, impurs! Leur criait-on,</para>
+  <para style="q" vid="LAM 4:15">Éloignez-vous, éloignez-vous, ne nous touchez pas!</para>
+  <para style="q" vid="LAM 4:15">Ils sont en fuite, ils errent çà et là;</para>
+  <para style="q" vid="LAM 4:15">On dit parmi les nations: Ils n’auront plus leur demeure!<verse eid="LAM 4:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="LAM 4:16"/>L’Éternel les a dispersés dans sa colère,</para>
+  <para style="q" vid="LAM 4:16">Il ne tourne plus les regards vers eux;</para>
+  <para style="q" vid="LAM 4:16">On n’a eu ni respect pour les sacrificateurs,</para>
+  <para style="q" vid="LAM 4:16">Ni pitié pour les vieillards.<verse eid="LAM 4:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="LAM 4:17"/>Nos yeux se consumaient encore,</para>
+  <para style="q" vid="LAM 4:17">Et nous attendions vainement du secours;</para>
+  <para style="q" vid="LAM 4:17">
+    <note caller="a" style="x">
+      <char style="xo" closed="false">4:17 </char>
+      <char style="xt" closed="false">
+        <ref loc="EZK 29:16">Éz 29:16</ref>.</char>
+    </note>Nos regards se portaient avec espérance</para>
+  <para style="q" vid="LAM 4:17">Vers une nation qui ne nous a pas délivrés.<verse eid="LAM 4:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="LAM 4:18"/>On épiait nos pas,</para>
+  <para style="q" vid="LAM 4:18">Pour nous empêcher d’aller sur nos places;</para>
+  <para style="q" vid="LAM 4:18">Notre fin s’approchait, nos jours étaient accomplis…</para>
+  <para style="q" vid="LAM 4:18">Notre fin est arrivée!<verse eid="LAM 4:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="LAM 4:19"/>Nos persécuteurs étaient plus légers</para>
+  <para style="q" vid="LAM 4:19">Que les aigles du ciel;</para>
+  <para style="q" vid="LAM 4:19">Ils nous ont poursuivis sur les montagnes,</para>
+  <para style="q" vid="LAM 4:19">Ils nous ont dressé des embûches dans le désert.<verse eid="LAM 4:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="LAM 4:20"/>Celui qui nous faisait respirer, l’oint de l’Éternel,</para>
+  <para style="q" vid="LAM 4:20">A été pris dans leurs fosses,</para>
+  <para style="q" vid="LAM 4:20">Lui de qui nous disions:</para>
+  <para style="q" vid="LAM 4:20">Nous vivrons sous son ombre parmi les nations.<verse eid="LAM 4:20"/></para>
+  <para style="q">
+    <verse number="21" style="v" sid="LAM 4:21"/>Réjouis-toi, tressaille d’allégresse, fille d’Édom,</para>
+  <para style="q" vid="LAM 4:21">Habitante du pays d’Uts!</para>
+  <para style="q" vid="LAM 4:21">Vers toi aussi passera la coupe;</para>
+  <para style="q" vid="LAM 4:21">Tu t’enivreras, et tu seras mise à nu.<verse eid="LAM 4:21"/></para>
+  <para style="q">
+    <verse number="22" style="v" sid="LAM 4:22"/>Fille de Sion, ton iniquité est expiée;</para>
+  <para style="q" vid="LAM 4:22">Il ne t’enverra plus en captivité.</para>
+  <para style="q" vid="LAM 4:22">Fille d’Édom, il châtiera ton iniquité,</para>
+  <para style="q" vid="LAM 4:22">Il mettra tes péchés à découvert.<verse eid="LAM 4:22"/></para>
+  <chapter eid="LAM 4"/>
+  <chapter number="5" style="c" sid="LAM 5"/>
+  <para style="s">Prière du peuple opprimé</para>
+  <para style="r">V. 1-22: cf. <ref loc="PSA 79">Ps 79</ref>. <ref loc="ISA 8:17">És 8:17</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="LAM 5:1"/>Souviens-toi, Éternel, de ce qui nous est arrivé!</para>
+  <para style="q" vid="LAM 5:1">Regarde, vois notre opprobre!<verse eid="LAM 5:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="LAM 5:2"/>Notre héritage a passé à des étrangers,</para>
+  <para style="q" vid="LAM 5:2">Nos maisons à des inconnus.<verse eid="LAM 5:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="LAM 5:3"/>Nous sommes orphelins, sans père;</para>
+  <para style="q" vid="LAM 5:3">Nos mères sont comme des veuves.<verse eid="LAM 5:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="LAM 5:4"/>Nous buvons notre eau à prix d’argent,</para>
+  <para style="q" vid="LAM 5:4">Nous payons notre bois.<verse eid="LAM 5:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="LAM 5:5"/>Nous sommes poursuivis, le joug sur le cou;</para>
+  <para style="q" vid="LAM 5:5">Nous sommes épuisés, nous n’avons point de repos.<verse eid="LAM 5:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="LAM 5:6"/>Nous avons tendu la main vers l’Égypte, vers l’Assyrie,</para>
+  <para style="q" vid="LAM 5:6">Pour nous rassasier de pain.<verse eid="LAM 5:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="LAM 5:7"/>Nos pères ont péché, ils ne sont plus,</para>
+  <para style="q" vid="LAM 5:7">Et c’est nous qui portons la peine de leurs iniquités.<verse eid="LAM 5:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="LAM 5:8"/>Des esclaves dominent sur nous,</para>
+  <para style="q" vid="LAM 5:8">Et personne ne nous délivre de leurs mains.<verse eid="LAM 5:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="LAM 5:9"/>Nous cherchons notre pain au péril de notre vie,</para>
+  <para style="q" vid="LAM 5:9">Devant l’épée du désert.<verse eid="LAM 5:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="LAM 5:10"/>Notre peau est brûlante comme un four,</para>
+  <para style="q" vid="LAM 5:10">Par l’ardeur de la faim.<verse eid="LAM 5:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="LAM 5:11"/>Ils ont déshonoré les femmes dans Sion,</para>
+  <para style="q" vid="LAM 5:11">Les vierges dans les villes de Juda.<verse eid="LAM 5:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="LAM 5:12"/>Des chefs ont été pendus par leurs mains;</para>
+  <para style="q" vid="LAM 5:12">La personne des vieillards n’a pas été respectée.<verse eid="LAM 5:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="LAM 5:13"/>Les jeunes hommes ont porté la meule,</para>
+  <para style="q" vid="LAM 5:13">Les enfants chancelaient sous des fardeaux de bois.<verse eid="LAM 5:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="LAM 5:14"/>Les vieillards ne vont plus à la porte,</para>
+  <para style="q" vid="LAM 5:14">Les jeunes hommes ont cessé leurs chants.<verse eid="LAM 5:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="LAM 5:15"/>La joie a disparu de nos cœurs,</para>
+  <para style="q" vid="LAM 5:15">Le deuil a remplacé nos danses.<verse eid="LAM 5:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="LAM 5:16"/>La couronne de notre tête est tombée!</para>
+  <para style="q" vid="LAM 5:16">Malheur à nous, parce que nous avons péché!<verse eid="LAM 5:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="LAM 5:17"/>Si notre cœur est souffrant,</para>
+  <para style="q" vid="LAM 5:17">Si nos yeux sont obscurcis,<verse eid="LAM 5:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="LAM 5:18"/>C’est que la montagne de Sion est ravagée,</para>
+  <para style="q" vid="LAM 5:18">C’est que les renards s’y promènent.<verse eid="LAM 5:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="LAM 5:19"/>Toi, l’Éternel, tu règnes à jamais;</para>
+  <para style="q" vid="LAM 5:19">Ton trône subsiste de génération en génération.<verse eid="LAM 5:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="LAM 5:20"/>Pourquoi nous oublierais-tu pour toujours,</para>
+  <para style="q" vid="LAM 5:20">Nous abandonnerais-tu pour de longues années?<verse eid="LAM 5:20"/></para>
+  <para style="q">
+    <verse number="21" style="v" sid="LAM 5:21"/>Fais-nous revenir vers toi, ô Éternel, et nous reviendrons!</para>
+  <para style="q" vid="LAM 5:21">Donne-nous encore des jours comme ceux d’autrefois!<verse eid="LAM 5:21"/></para>
+  <para style="q">
+    <verse number="22" style="v" sid="LAM 5:22"/>Nous aurais-tu entièrement rejetés,</para>
+  <para style="q" vid="LAM 5:22">Et t’irriterais-tu contre nous jusqu’à l’excès?<verse eid="LAM 5:22"/></para>
+  <chapter eid="LAM 5"/>
+</usx>
