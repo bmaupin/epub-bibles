@@ -1,7 +1,7 @@
 Public domain Bibles for E-readers.
 
 <!--- TODO: update link to cover.jpg once https://github.com/kcartlidge/nodepub/issues/17 is fixed --->
-<img alt="cover sample" align="left" src="data/fr/La Bible Segond 1910/cover.jpeg" width="400"/>
+<img alt="cover sample" align="left" src="data/fr/DELETEME-La Bible Segond 1910/cover.jpeg" width="400"/>
 <img alt="page sample" src="sample-page.png" width="400"/>
 
 ## About
