@@ -1,5 +1,7 @@
 'use strict';
 
+import { strict as assert } from 'assert';
+import { JSDOM } from 'jsdom';
 import nodepub from 'nodepub';
 const fsPromises = require('fs').promises;
 
@@ -43,7 +45,7 @@ const getTableOfContentsTitle = (languageCode: string): string => {
 
 const getEpubId = (bibleName: string): string => {
   switch (bibleName) {
-    case 'La Bible Segond 1910':
+    case 'Bible Segond 1910':
       return '36fc86d0-08ed-47c8-abf7-2d30227467e0';
     default:
       throw new Error(
@@ -169,6 +171,50 @@ const insertChapterTitle = (
   return chapterData;
 };
 
+const getBookMetadata = async (languageCode: string, bibleName: string) => {
+  const bookMetadata = [];
+
+  const metadata = await fsPromises.readFile(
+    `${DATA_DIRECTORY}/${languageCode}/${bibleName}/metadata.xml`,
+    'utf8'
+  );
+
+  // https://stackoverflow.com/a/59669155/399105
+  const dom = new JSDOM('');
+  const parser = new dom.window.DOMParser();
+  const document = parser.parseFromString(metadata, 'text/xml');
+
+  const contentList = document.querySelectorAll(
+    'publications publication structure content'
+  );
+  for (const contentElement of contentList) {
+    bookMetadata.push({
+      bookCode: contentElement.getAttribute('role'),
+      id: contentElement.getAttribute('name'),
+      longName: null as null | string,
+      src: contentElement.getAttribute('src'),
+      shortName: null as null | string,
+    });
+  }
+
+  const nameList = document.querySelectorAll('names name');
+  let i = 0;
+  for (const nameElement of nameList) {
+    assert(bookMetadata[i].id === nameElement.getAttribute('id'));
+
+    for (const childElement of nameElement.children) {
+      if (childElement.tagName === 'long') {
+        bookMetadata[i].longName = childElement.textContent;
+      } else if (childElement.tagName === 'short') {
+        bookMetadata[i].shortName = childElement.textContent;
+      }
+    }
+    i += 1;
+  }
+
+  return bookMetadata;
+};
+
 const generateBible = async (languageCode: string, bibleName: string) => {
   console.log(`Generating EPUB for ${bibleName}`);
 
@@ -194,54 +240,62 @@ const generateBible = async (languageCode: string, bibleName: string) => {
   // This should always point to the index of the current book contents page
   let bookContentsPageIndex = 1;
 
-  for (const bookDirectory of await fsPromises.readdir(
-    `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
-  )) {
-    // Skip cover files
-    if (bookDirectory.startsWith('cover')) continue;
+  const bookMetadata = await getBookMetadata(languageCode, bibleName);
+  console.log(bookMetadata);
 
-    // Strip the book number off the directory to get the name
-    const bookName = bookDirectory.slice(3);
+  // for (const bookDirectory of await fsPromises.readdir(
+  //   `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
+  // )) {
+  //   // Skip cover files
+  //   if (bookDirectory.startsWith('cover')) continue;
 
-    const chapterFiles = await fsPromises.readdir(
-      `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}`
-    );
+  //   // Strip the book number off the directory to get the name
+  //   const bookName = bookDirectory.slice(3);
 
-    const bookContentsPageData = generateBookContentsPageData(
-      bookName,
-      chapterFiles,
-      bookContentsPageIndex
-    );
-    epub.addSection(bookName, bookContentsPageData);
+  //   const chapterFiles = await fsPromises.readdir(
+  //     `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}`
+  //   );
 
-    for (const chapterFile of chapterFiles) {
-      const chapterNumber = getChapterNumber(chapterFile);
-      const chapterTitle = `${bookName} ${chapterNumber}`;
+  //   const bookContentsPageData = generateBookContentsPageData(
+  //     bookName,
+  //     chapterFiles,
+  //     bookContentsPageIndex
+  //   );
+  //   epub.addSection(bookName, bookContentsPageData);
 
-      let chapterData = await fsPromises.readFile(
-        `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
-        'utf8'
-      );
-      chapterData = applyPunctuationFixes(chapterData, languageCode);
-      chapterData = insertChapterTitle(
-        chapterData,
-        bookName,
-        chapterNumber,
-        bookContentsPageIndex
-      );
+  //   for (const chapterFile of chapterFiles) {
+  //     const chapterNumber = getChapterNumber(chapterFile);
+  //     const chapterTitle = `${bookName} ${chapterNumber}`;
 
-      epub.addSection(
-        chapterTitle,
-        chapterData,
-        // Exclude the chapter from the TOC and the contents page
-        true
-      );
-    }
+  //     let chapterData = await fsPromises.readFile(
+  //       `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
+  //       'utf8'
+  //     );
+  //     chapterData = applyPunctuationFixes(chapterData, languageCode);
+  //     chapterData = insertChapterTitle(
+  //       chapterData,
+  //       bookName,
+  //       chapterNumber,
+  //       bookContentsPageIndex
+  //     );
 
-    bookContentsPageIndex += chapterFiles.length + 1;
-  }
+  //     // TODO
+  //     if (bookName === 'Psaumes' && chapterNumber === 3) {
+  //       console.log(chapterData);
+  //     }
 
-  await epub.writeEPUB('..', bibleName);
+  //     epub.addSection(
+  //       chapterTitle,
+  //       chapterData,
+  //       // Exclude the chapter from the TOC and the contents page
+  //       true
+  //     );
+  //   }
+
+  //   bookContentsPageIndex += chapterFiles.length + 1;
+  // }
+
+  // await epub.writeEPUB('..', bibleName);
 };
 
 const main = async () => {
@@ -249,7 +303,7 @@ const main = async () => {
   for (const languageCode of ['fr']) {
     // TODO: iterate over all bibles in ../data/languageCode
     // TODO: Use the USX data (Bible Segond 1910) and delete the pseudo-HTML data (La Bible Segond 1910)
-    for (const bibleName of ['DELETEME-La Bible Segond 1910']) {
+    for (const bibleName of ['Bible Segond 1910']) {
       generateBible(languageCode, bibleName);
     }
   }
