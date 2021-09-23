@@ -8,11 +8,11 @@ const fsPromises = require('fs').promises;
 const DATA_DIRECTORY = '../data';
 
 interface BookMetadata {
-  bookCode: string | null;
-  id: string | null;
-  longName?: string | null;
-  src: string | null;
-  shortName?: string | null;
+  bookCode: string;
+  id: string;
+  longName?: string;
+  src: string;
+  shortName?: string;
 }
 
 const getAuthor = (languageCode: string): string => {
@@ -200,10 +200,27 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
     'publications publication structure content'
   );
   for (const contentElement of contentList) {
+    const bookCode = contentElement.getAttribute('role');
+    if (!bookCode) {
+      throw new Error(
+        `Book metadata missing role: ${contentElement.outerHTML}`
+      );
+    }
+    const id = contentElement.getAttribute('name');
+    if (!id) {
+      throw new Error(
+        `Book metadata missing name: ${contentElement.outerHTML}`
+      );
+    }
+    const src = contentElement.getAttribute('src');
+    if (!src) {
+      throw new Error(`Book metadata missing src: ${contentElement.outerHTML}`);
+    }
+
     booksMetadata.push({
-      bookCode: contentElement.getAttribute('role'),
-      id: contentElement.getAttribute('name'),
-      src: contentElement.getAttribute('src'),
+      bookCode: bookCode,
+      id: id,
+      src: src,
     });
   }
 
@@ -214,8 +231,18 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
 
     for (const childElement of nameElement.children) {
       if (childElement.tagName === 'long') {
+        if (!childElement.textContent) {
+          throw new Error(
+            `Book metadata missing long name: ${nameElement.outerHTML}`
+          );
+        }
         booksMetadata[i].longName = childElement.textContent;
       } else if (childElement.tagName === 'short') {
+        if (!childElement.textContent) {
+          throw new Error(
+            `Book metadata missing short name: ${nameElement.outerHTML}`
+          );
+        }
         booksMetadata[i].shortName = childElement.textContent;
       }
     }
@@ -240,7 +267,7 @@ const processBook = async (
   const usxElement = document.querySelector('usx');
   if (!usxElement) {
     throw new Error(
-      `USX element not found when processing ${bibleName} ${bookMetadata.bookCode}`
+      `USX element not found when processing ${bookMetadata.bookCode}`
     );
   }
 
@@ -270,14 +297,18 @@ const processBook = async (
       if (chapterNumber === 0) {
         continue;
       } else {
-        // TODO
+        chapterData += processParaElement(
+          element,
+          bookMetadata.bookCode,
+          chapterNumber
+        );
       }
     }
 
     // everything else
     else {
       throw new Error(
-        `Unhandled element ${element.tagName} under USX element for ${bibleName} ${bookMetadata.bookCode}`
+        `Unhandled element ${element.tagName} under USX element for ${bookMetadata.bookCode}`
       );
     }
   }
