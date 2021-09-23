@@ -225,6 +225,66 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
   return booksMetadata;
 };
 
+// Documentation for USX file format: https://app.thedigitalbiblelibrary.org/static/docs/usx/index.html
+const processBook = async (
+  languageCode: string,
+  bibleName: string,
+  bookMetadata: BookMetadata
+) => {
+  const chaptersData = [];
+
+  const document = await readXmlFile(
+    `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookMetadata.src}`
+  );
+
+  const usxElement = document.querySelector('usx');
+  if (!usxElement) {
+    throw new Error(
+      `USX element not found when processing ${bibleName} ${bookMetadata.bookCode}`
+    );
+  }
+
+  let chapterNumber = 0;
+  let chapterData = '';
+  for (const element of usxElement.children) {
+    if (element.tagName === 'book') {
+      continue;
+    }
+
+    // chapter
+    else if (element.tagName === 'chapter') {
+      if (element.hasAttribute('number')) {
+        chapterNumber = Number(element.getAttribute('number'));
+        chaptersData.push(chapterData);
+        chapterData = '';
+
+        // TODO
+        console.log(chapterNumber);
+        console.log(chapterData);
+      }
+    }
+
+    // para
+    else if (element.tagName === 'para') {
+      // Ignore everything before the first chapter for now
+      if (chapterNumber === 0) {
+        continue;
+      } else {
+        // TODO
+      }
+    }
+
+    // everything else
+    else {
+      throw new Error(
+        `Unhandled element ${element.tagName} under USX element for ${bibleName} ${bookMetadata.bookCode}`
+      );
+    }
+  }
+
+  return chaptersData;
+};
+
 const generateBible = async (languageCode: string, bibleName: string) => {
   console.log(`Generating EPUB for ${bibleName}`);
 
@@ -252,6 +312,25 @@ const generateBible = async (languageCode: string, bibleName: string) => {
 
   const booksMetadata = await getBooksMetadata(languageCode, bibleName);
   console.log(booksMetadata);
+
+  for (const bookMetadata of booksMetadata) {
+    await processBook(languageCode, bibleName, bookMetadata);
+
+    break;
+
+    // TODO: next start parsing first book (GEN)
+    // {
+    //   bookCode: 'GEN',
+    //   id: 'book-gen',
+    //   longName: 'Genèse',
+    //   src: 'release/USX_1/GEN.usx',
+    //   shortName: 'Genèse'
+    // },
+    //
+    // TODO: get book contents page logic working again
+    // we could get the number of chapters from release/versification.vrs if need be;
+    //   we could match the line with bookCode, then Number(line.split(' ').pop().split(':')[0])
+  }
 
   // for (const bookDirectory of await fsPromises.readdir(
   //   `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
