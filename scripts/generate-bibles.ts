@@ -7,6 +7,14 @@ const fsPromises = require('fs').promises;
 
 const DATA_DIRECTORY = '../data';
 
+interface BookMetadata {
+  bookCode: string | null;
+  id: string | null;
+  longName?: string | null;
+  src: string | null;
+  shortName?: string | null;
+}
+
 const getAuthor = (languageCode: string): string => {
   // TODO: would this be better in a JSON file? It'd be easier to contribute to...
   switch (languageCode) {
@@ -171,48 +179,50 @@ const insertChapterTitle = (
   return chapterData;
 };
 
-const getBookMetadata = async (languageCode: string, bibleName: string) => {
-  const bookMetadata = [];
-
-  const metadata = await fsPromises.readFile(
-    `${DATA_DIRECTORY}/${languageCode}/${bibleName}/metadata.xml`,
-    'utf8'
-  );
+const readXmlFile = async (pathToXmlFile: string): Promise<Document> => {
+  const fileContent = await fsPromises.readFile(pathToXmlFile, 'utf8');
 
   // https://stackoverflow.com/a/59669155/399105
   const dom = new JSDOM('');
   const parser = new dom.window.DOMParser();
-  const document = parser.parseFromString(metadata, 'text/xml');
+  const document = parser.parseFromString(fileContent, 'text/xml');
+
+  return document;
+};
+
+const getBooksMetadata = async (languageCode: string, bibleName: string) => {
+  const booksMetadata = [] as BookMetadata[];
+  const document = await readXmlFile(
+    `${DATA_DIRECTORY}/${languageCode}/${bibleName}/metadata.xml`
+  );
 
   const contentList = document.querySelectorAll(
     'publications publication structure content'
   );
   for (const contentElement of contentList) {
-    bookMetadata.push({
+    booksMetadata.push({
       bookCode: contentElement.getAttribute('role'),
       id: contentElement.getAttribute('name'),
-      longName: null as null | string,
       src: contentElement.getAttribute('src'),
-      shortName: null as null | string,
     });
   }
 
   const nameList = document.querySelectorAll('names name');
   let i = 0;
   for (const nameElement of nameList) {
-    assert(bookMetadata[i].id === nameElement.getAttribute('id'));
+    assert(booksMetadata[i].id === nameElement.getAttribute('id'));
 
     for (const childElement of nameElement.children) {
       if (childElement.tagName === 'long') {
-        bookMetadata[i].longName = childElement.textContent;
+        booksMetadata[i].longName = childElement.textContent;
       } else if (childElement.tagName === 'short') {
-        bookMetadata[i].shortName = childElement.textContent;
+        booksMetadata[i].shortName = childElement.textContent;
       }
     }
     i += 1;
   }
 
-  return bookMetadata;
+  return booksMetadata;
 };
 
 const generateBible = async (languageCode: string, bibleName: string) => {
@@ -240,8 +250,8 @@ const generateBible = async (languageCode: string, bibleName: string) => {
   // This should always point to the index of the current book contents page
   let bookContentsPageIndex = 1;
 
-  const bookMetadata = await getBookMetadata(languageCode, bibleName);
-  console.log(bookMetadata);
+  const booksMetadata = await getBooksMetadata(languageCode, bibleName);
+  console.log(booksMetadata);
 
   // for (const bookDirectory of await fsPromises.readdir(
   //   `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
