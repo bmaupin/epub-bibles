@@ -299,6 +299,16 @@ const processElement = (
     return '';
   }
 
+  // it
+  else if (style === 'it') {
+    processedElement = `<em>${element.textContent}</em>`;
+    if (element.children.length !== 0) {
+      throw new Error(
+        `"it" style with unhandled child elements in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
+      );
+    }
+  }
+
   // m (Margin paragraph), p (Normal paragraph)
   else if (style === 'm' || style === 'p') {
     processedElement = '<p>';
@@ -418,7 +428,8 @@ const processBook = async (
           (bibleName === 'Bible Segond 1910' &&
             bookMetadata.bookCode === 'GEN' &&
             (chapterNumber === 1 || chapterNumber === 4)) ||
-          (bookMetadata.bookCode === 'NUM' && chapterNumber === 24)
+          (bookMetadata.bookCode === 'NUM' && chapterNumber === 24) ||
+          (bookMetadata.bookCode === 'EZR' && chapterNumber === 4)
         ) {
           assert(
             chapterData ===
