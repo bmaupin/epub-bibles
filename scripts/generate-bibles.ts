@@ -299,8 +299,8 @@ const processElement = (
     return '';
   }
 
-  // p (Normal paragraph)
-  else if (style === 'p') {
+  // m (Margin paragraph), p (Normal paragraph)
+  else if (style === 'm' || style === 'p') {
     processedElement = '<p>';
   }
 
@@ -321,11 +321,13 @@ const processElement = (
 
   // v (Verse)
   else if (style === 'v') {
-    // Get the verse number
+    // Get the verse number. It would probably be more "correct" to use something like <span class="verse-number"> but
+    // as long as we're not using <sup> anywhere else this keeps the EPUB slightly smaller while technically being less
+    // correct
     processedElement = `<sup>${element.getAttribute('number')}</sup>`;
   }
 
-  // unmatched styles except ones to skip
+  // Unmatched styles except ones to skip
   else {
     throw new Error(
       `Unhandled style: ${style} in ${bookCode} ${chapterNumber}`
@@ -353,7 +355,7 @@ const processElement = (
     }
   }
 
-  if (style === 'p') {
+  if (style === 'm' || style === 'p') {
     processedElement += '</p>\n';
   } else if (style === 'q') {
     processedElement += '</blockquote>\n';
@@ -362,6 +364,7 @@ const processElement = (
   return processedElement;
 };
 
+// TODO: merge this with applyPunctuationFixes?
 const postProcessChapterData = (chapterData: string): string => {
   // Replace back-to-back block quotes with line breaks
   chapterData = replaceAll(
@@ -414,8 +417,8 @@ const processBook = async (
         if (
           (bibleName === 'Bible Segond 1910' &&
             bookMetadata.bookCode === 'GEN' &&
-            chapterNumber === 1) ||
-          chapterNumber === 4
+            (chapterNumber === 1 || chapterNumber === 4)) ||
+          (bookMetadata.bookCode === 'NUM' && chapterNumber === 24)
         ) {
           assert(
             chapterData ===
@@ -498,7 +501,8 @@ const generateBible = async (languageCode: string, bibleName: string) => {
   for (const bookMetadata of booksMetadata) {
     await processBook(languageCode, bibleName, bookMetadata);
 
-    break;
+    // TODO
+    // break;
 
     // TODO: next start parsing first book (GEN)
     // {
