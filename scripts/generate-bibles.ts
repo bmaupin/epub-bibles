@@ -5,6 +5,9 @@ import { JSDOM } from 'jsdom';
 import nodepub from 'nodepub';
 const fsPromises = require('fs').promises;
 
+// https://stackoverflow.com/a/69318795/399105
+const Node = new JSDOM('').window.Node;
+
 const DATA_DIRECTORY = '../data';
 
 interface BookMetadata {
@@ -252,6 +255,108 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
   return booksMetadata;
 };
 
+/*
+ * We could just do some minimal conversion of the USX file (e.g. convert the XML tags to divs/spans and convert the
+ * style attributes to class, similarly to what bible.com has done) but that would result in an unnecessarily large EPUB
+ * file in the end. So instead we're doing a more aggressive conversion to native HTML elements (<p>, <blockquote>, etc)
+ * as best as possible.
+ */
+const processElement = (
+  element: Element,
+  bookCode: string,
+  chapterNumber: number
+): string => {
+  const stylesToSkip = [
+    'mr', // Major section reference range
+    'ms1', // Major section heading, line 1
+    'ms2', // Major section heading, line 2
+    'r', // Parallel passage reference
+    'x', // Cross reference (https://app.thedigitalbiblelibrary.org/static/docs/usx/notes.html#note-crossreference)
+    'xo', // Cross reference origin reference (https://app.thedigitalbiblelibrary.org/static/docs/usx/notes.html#usx-note-crossreference-charstyle-xo)
+    'xt', // Cross reference target reference (https://app.thedigitalbiblelibrary.org/static/docs/usx/notes.html#usx-note-crossreference-charstyle-xt)
+  ];
+
+  // Skip references
+  if (element.tagName === 'ref') {
+    return '';
+  }
+  // Skip verse end elements
+  else if (element.tagName === 'verse' && element.hasAttribute('eid')) {
+    return '';
+  }
+
+  const style = element.getAttribute('style');
+  if (!style) {
+    throw new Error(
+      `Style missing in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
+    );
+  }
+
+  let processedElement = '';
+
+  if (stylesToSkip.includes(style)) {
+    // Return immediately to avoid processing child elements
+    return '';
+  }
+
+  // p (Normal paragraph)
+  else if (style === 'p') {
+    processedElement = '<p>';
+  }
+
+  // q (Poetic line https://app.thedigitalbiblelibrary.org/static/docs/usx/parastyles.html#usx-parastyle-q)
+  else if (style === 'q') {
+    processedElement = '<blockquote>';
+  }
+
+  // s (Section heading)
+  else if (style === 's') {
+    // TODO
+  }
+
+  // v (Verse)
+  else if (style === 'v') {
+    // Get the verse number
+    processedElement = `<sup>${element.getAttribute('number')}</sup>`;
+  }
+
+  // unmatched styles except ones to skip
+  else {
+    throw new Error(
+      `Unhandled style: ${style} in ${bookCode} ${chapterNumber}`
+    );
+  }
+
+  if (element.children.length !== 0) {
+    for (const childElement of element.childNodes) {
+      if (childElement.nodeType === Node.ELEMENT_NODE) {
+        processedElement += processElement(
+          childElement as Element,
+          bookCode,
+          chapterNumber
+        );
+      } else if (childElement.nodeType === Node.TEXT_NODE) {
+        // Only include text element contents if it's more than just whitespace; should slightly reduce EPUB file size
+        if (childElement.textContent?.trim() !== '') {
+          processedElement += childElement.textContent;
+        }
+      } else {
+        throw new Error(
+          `Unhandled node type in ${bookCode} ${chapterNumber}: ${childElement.nodeName} ${childElement.nodeType}`
+        );
+      }
+    }
+  }
+
+  if (style === 'p') {
+    processedElement += '</p>\n';
+  } else if (style === 'q') {
+    processedElement += '</blockquote>\n';
+  }
+
+  return processedElement;
+};
+
 // Documentation for USX file format: https://app.thedigitalbiblelibrary.org/static/docs/usx/index.html
 const processBook = async (
   languageCode: string,
@@ -283,11 +388,13 @@ const processBook = async (
       if (element.hasAttribute('number')) {
         chapterNumber = Number(element.getAttribute('number'));
         chaptersData.push(chapterData);
-        chapterData = '';
 
         // TODO
-        console.log(chapterNumber);
+        // console.log(chapterNumber);
         console.log(chapterData);
+        if (chapterNumber === 2) break;
+
+        chapterData = '';
       }
     }
 
@@ -297,7 +404,7 @@ const processBook = async (
       if (chapterNumber === 0) {
         continue;
       } else {
-        chapterData += processParaElement(
+        chapterData += processElement(
           element,
           bookMetadata.bookCode,
           chapterNumber
@@ -336,13 +443,17 @@ const generateBible = async (languageCode: string, bibleName: string) => {
 
   const epub = nodepub.document(metadata);
 
+  /*
+   * We could just take the styles.xml file and convert it more or less to CSS (similarly to what bible.com has done),
+   * however this would result in a heavily-styled EPUB file that would not be optimized for E-readers. As most
+   * E-readers already have very good default styling (margins, font sizes, line spacing)
+   */
   epub.addCSS(await fsPromises.readFile('style.css', 'utf8'));
 
   // This should always point to the index of the current book contents page
   let bookContentsPageIndex = 1;
 
   const booksMetadata = await getBooksMetadata(languageCode, bibleName);
-  console.log(booksMetadata);
 
   for (const bookMetadata of booksMetadata) {
     await processBook(languageCode, bibleName, bookMetadata);
