@@ -307,6 +307,11 @@ const processElement = (
   // q (Poetic line https://app.thedigitalbiblelibrary.org/static/docs/usx/parastyles.html#usx-parastyle-q)
   else if (style === 'q') {
     processedElement = '<blockquote>';
+    // Sometimes the text is directly inside the q node, other times the q node has a verse node inside of it and the
+    // text is in its own text node (because verse nodes are weird)
+    if (element.children.length === 0) {
+      processedElement += element.textContent;
+    }
   }
 
   // s (Section heading)
@@ -357,6 +362,17 @@ const processElement = (
   return processedElement;
 };
 
+const postProcessChapterData = (chapterData: string): string => {
+  // Replace back-to-back block quotes with line breaks
+  chapterData = replaceAll(
+    chapterData,
+    '</blockquote>\n<blockquote>',
+    '<br />\n'
+  );
+
+  return chapterData;
+};
+
 // Documentation for USX file format: https://app.thedigitalbiblelibrary.org/static/docs/usx/index.html
 const processBook = async (
   languageCode: string,
@@ -392,27 +408,31 @@ const processBook = async (
 
       // End chapter tag
       else if (element.hasAttribute('eid')) {
+        chapterData = postProcessChapterData(chapterData);
+
         // TODO: Move this into a proper test?
         if (
-          bibleName === 'Bible Segond 1910' &&
-          bookMetadata.bookCode === 'GEN' &&
-          chapterNumber === 1
+          (bibleName === 'Bible Segond 1910' &&
+            bookMetadata.bookCode === 'GEN' &&
+            chapterNumber === 1) ||
+          chapterNumber === 4
         ) {
           assert(
             chapterData ===
               (await fsPromises.readFile(
                 `testdata/${bookMetadata.bookCode}${chapterNumber}.html`,
                 'utf8'
-              ))
+              )),
+            chapterData
           );
         }
 
         chaptersData.push(chapterData);
 
         // TODO
-        // console.log(chapterNumber);
+        console.log(chapterNumber);
         console.log(chapterData);
-        if (chapterNumber === 1) break;
+        // if (chapterNumber === 1) break;
 
         chapterData = '';
       }
