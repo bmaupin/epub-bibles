@@ -385,19 +385,23 @@ const processBook = async (
 
     // chapter
     else if (element.tagName === 'chapter') {
+      // Beginning chapter tag
       if (element.hasAttribute('number')) {
         chapterNumber = Number(element.getAttribute('number'));
+      }
 
+      // End chapter tag
+      else if (element.hasAttribute('eid')) {
         // TODO: Move this into a proper test?
         if (
           bibleName === 'Bible Segond 1910' &&
           bookMetadata.bookCode === 'GEN' &&
-          chapterNumber - 1 === 1
+          chapterNumber === 1
         ) {
           assert(
             chapterData ===
               (await fsPromises.readFile(
-                `testdata/${bookMetadata.bookCode}${chapterNumber - 1}.html`,
+                `testdata/${bookMetadata.bookCode}${chapterNumber}.html`,
                 'utf8'
               ))
           );
@@ -408,7 +412,7 @@ const processBook = async (
         // TODO
         // console.log(chapterNumber);
         console.log(chapterData);
-        if (chapterNumber === 2) break;
+        if (chapterNumber === 1) break;
 
         chapterData = '';
       }
