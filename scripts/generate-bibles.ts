@@ -387,6 +387,22 @@ const processBook = async (
     else if (element.tagName === 'chapter') {
       if (element.hasAttribute('number')) {
         chapterNumber = Number(element.getAttribute('number'));
+
+        // TODO: Move this into a proper test?
+        if (
+          bibleName === 'Bible Segond 1910' &&
+          bookMetadata.bookCode === 'GEN' &&
+          chapterNumber - 1 === 1
+        ) {
+          assert(
+            chapterData ===
+              (await fsPromises.readFile(
+                `testdata/${bookMetadata.bookCode}${chapterNumber - 1}.html`,
+                'utf8'
+              ))
+          );
+        }
+
         chaptersData.push(chapterData);
 
         // TODO
