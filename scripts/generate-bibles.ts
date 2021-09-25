@@ -323,8 +323,9 @@ const processElement = (
     processedElement = '<p>';
   }
 
+  // pi (Indented paragraph https://app.thedigitalbiblelibrary.org/static/docs/usx/parastyles.html#usx-parastyle-pi),
   // q (Poetic line https://app.thedigitalbiblelibrary.org/static/docs/usx/parastyles.html#usx-parastyle-q)
-  else if (style === 'q') {
+  else if (style === 'pi' || style === 'q') {
     processedElement = '<blockquote>';
     // Sometimes the text is directly inside the q node, other times the q node has a verse node inside of it and the
     // text is in its own text node (because verse nodes are weird)
@@ -396,7 +397,7 @@ const processElement = (
 
   if (style === 'm' || style === 'p') {
     processedElement += '</p>\n';
-  } else if (style === 'q') {
+  } else if (style === 'pi' || style === 'q') {
     processedElement += '</blockquote>\n';
   }
 
@@ -463,7 +464,9 @@ const processBook = async (
           // b, qs
           (bookMetadata.bookCode === 'PSA' && chapterNumber === 3) ||
           // wj, word spacing problems
-          (bookMetadata.bookCode === 'MAT' && chapterNumber === 5)
+          (bookMetadata.bookCode === 'MAT' && chapterNumber === 5) ||
+          // pi
+          (bookMetadata.bookCode === 'JHN' && chapterNumber === 2)
         ) {
           assert(
             chapterData ===
