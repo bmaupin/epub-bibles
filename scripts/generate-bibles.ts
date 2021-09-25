@@ -427,15 +427,11 @@ const processBook = async (
     );
   }
 
-  let chapterNumber = 0;
   let chapterData = '';
+  let chapterNumber = 0;
   for (const element of usxElement.children) {
-    if (element.tagName === 'book') {
-      continue;
-    }
-
     // chapter
-    else if (element.tagName === 'chapter') {
+    if (element.tagName === 'chapter') {
       // Beginning chapter tag
       if (element.hasAttribute('number')) {
         chapterNumber = Number(element.getAttribute('number'));
@@ -490,7 +486,7 @@ const processBook = async (
     }
 
     // everything else
-    else {
+    else if (chapterNumber > 0) {
       throw new Error(
         `Unhandled element ${element.tagName} under USX element for ${bookMetadata.bookCode}`
       );
