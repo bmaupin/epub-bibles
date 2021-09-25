@@ -299,6 +299,15 @@ const processElement = (
     return '';
   }
 
+  // b (Blank line in poetry https://app.thedigitalbiblelibrary.org/static/docs/usx/parastyles.html#usx-parastyle-b)
+  else if (style === 'b') {
+    // This is a bit of a hack; just add an empty span element that we'll remove later
+    // it basically only serves to prevent the back-to-back blockquote replacement from running
+    // so the end result is separate blockquote elements with a gap between them. This seems to
+    // look nicer than a <br />
+    processedElement += '<span></span>';
+  }
+
   // it
   else if (style === 'it') {
     processedElement = `<em>${element.textContent}</em>`;
@@ -321,6 +330,16 @@ const processElement = (
     // text is in its own text node (because verse nodes are weird)
     if (element.children.length === 0) {
       processedElement += element.textContent;
+    }
+  }
+
+  // qs (Selah https://app.thedigitalbiblelibrary.org/static/docs/usx/charstyles.html#usx-charstyle-qs)
+  else if (style === 'qs') {
+    processedElement = `<span class="selah">${element.textContent}</span>`;
+    if (element.children.length !== 0) {
+      throw new Error(
+        `"qs" style with unhandled child elements in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
+      );
     }
   }
 
@@ -383,6 +402,9 @@ const postProcessChapterData = (chapterData: string): string => {
     '<br />\n'
   );
 
+  // Remove empty span elements
+  chapterData = replaceAll(chapterData, '<span></span>', '');
+
   return chapterData;
 };
 
@@ -429,7 +451,8 @@ const processBook = async (
             bookMetadata.bookCode === 'GEN' &&
             (chapterNumber === 1 || chapterNumber === 4)) ||
           (bookMetadata.bookCode === 'NUM' && chapterNumber === 24) ||
-          (bookMetadata.bookCode === 'EZR' && chapterNumber === 4)
+          (bookMetadata.bookCode === 'EZR' && chapterNumber === 4) ||
+          (bookMetadata.bookCode === 'PSA' && chapterNumber === 3)
         ) {
           assert(
             chapterData ===
