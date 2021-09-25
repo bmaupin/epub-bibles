@@ -203,27 +203,10 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
     'publications publication structure content'
   );
   for (const contentElement of contentList) {
-    const bookCode = contentElement.getAttribute('role');
-    if (!bookCode) {
-      throw new Error(
-        `Book metadata missing role: ${contentElement.outerHTML}`
-      );
-    }
-    const id = contentElement.getAttribute('name');
-    if (!id) {
-      throw new Error(
-        `Book metadata missing name: ${contentElement.outerHTML}`
-      );
-    }
-    const src = contentElement.getAttribute('src');
-    if (!src) {
-      throw new Error(`Book metadata missing src: ${contentElement.outerHTML}`);
-    }
-
     booksMetadata.push({
-      bookCode: bookCode,
-      id: id,
-      src: src,
+      bookCode: contentElement.getAttribute('role')!,
+      id: contentElement.getAttribute('name')!,
+      src: contentElement.getAttribute('src')!,
     });
   }
 
@@ -234,19 +217,9 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
 
     for (const childElement of nameElement.children) {
       if (childElement.tagName === 'long') {
-        if (!childElement.textContent) {
-          throw new Error(
-            `Book metadata missing long name: ${nameElement.outerHTML}`
-          );
-        }
-        booksMetadata[i].longName = childElement.textContent;
+        booksMetadata[i].longName = childElement.textContent!;
       } else if (childElement.tagName === 'short') {
-        if (!childElement.textContent) {
-          throw new Error(
-            `Book metadata missing short name: ${nameElement.outerHTML}`
-          );
-        }
-        booksMetadata[i].shortName = childElement.textContent;
+        booksMetadata[i].shortName = childElement.textContent!;
       }
     }
     i += 1;
@@ -431,12 +404,7 @@ const processBook = async (
     `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookMetadata.src}`
   );
 
-  const usxElement = document.querySelector('usx');
-  if (!usxElement) {
-    throw new Error(
-      `USX element not found when processing ${bookMetadata.bookCode}`
-    );
-  }
+  const usxElement = document.querySelector('usx')!;
 
   let chapterData = '';
   let chapterNumber = 0;
