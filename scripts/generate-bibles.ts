@@ -356,6 +356,16 @@ const processElement = (
     processedElement = `<sup>${element.getAttribute('number')}</sup>`;
   }
 
+  // wj (Words of Jesus; some translations make these red, which wouldn't really work well on an E-reader)
+  else if (style === 'wj') {
+    processedElement = element.textContent || '';
+    if (element.children.length !== 0) {
+      throw new Error(
+        `"wj" style with unhandled child elements in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
+      );
+    }
+  }
+
   // Unmatched styles except ones to skip
   else {
     throw new Error(
@@ -446,9 +456,14 @@ const processBook = async (
           (bibleName === 'Bible Segond 1910' &&
             bookMetadata.bookCode === 'GEN' &&
             (chapterNumber === 1 || chapterNumber === 4)) ||
+          // m
           (bookMetadata.bookCode === 'NUM' && chapterNumber === 24) ||
+          // it
           (bookMetadata.bookCode === 'EZR' && chapterNumber === 4) ||
-          (bookMetadata.bookCode === 'PSA' && chapterNumber === 3)
+          // b, qs
+          (bookMetadata.bookCode === 'PSA' && chapterNumber === 3) ||
+          // wj, word spacing problems
+          (bookMetadata.bookCode === 'MAT' && chapterNumber === 5)
         ) {
           assert(
             chapterData ===
