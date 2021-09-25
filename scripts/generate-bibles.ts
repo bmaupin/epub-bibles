@@ -283,12 +283,7 @@ const processElement = (
 
   // it
   else if (style === 'it') {
-    processedElement = `<em>${element.textContent}</em>`;
-    if (element.children.length !== 0) {
-      throw new Error(
-        `"it" style with unhandled child elements in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
-      );
-    }
+    processedElement = '<em>';
   }
 
   // m (Margin paragraph), p (Normal paragraph)
@@ -300,26 +295,17 @@ const processElement = (
   // q (Poetic line https://app.thedigitalbiblelibrary.org/static/docs/usx/parastyles.html#usx-parastyle-q)
   else if (style === 'pi' || style === 'q') {
     processedElement = '<blockquote>';
-    // Sometimes the text is directly inside the q node, other times the q node has a verse node inside of it and the
-    // text is in its own text node (because verse nodes are weird)
-    if (element.children.length === 0) {
-      processedElement += element.textContent;
-    }
   }
 
   // qs (Selah https://app.thedigitalbiblelibrary.org/static/docs/usx/charstyles.html#usx-charstyle-qs)
   else if (style === 'qs') {
-    processedElement = `<span class="selah">${element.textContent}</span>`;
-    if (element.children.length !== 0) {
-      throw new Error(
-        `"qs" style with unhandled child elements in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
-      );
-    }
+    processedElement = '<span class="selah">';
   }
 
   // s (Section heading)
   else if (style === 's') {
     // TODO
+    return '';
   }
 
   // v (Verse)
@@ -330,14 +316,9 @@ const processElement = (
     processedElement = `<sup>${element.getAttribute('number')}</sup>`;
   }
 
-  // wj (Words of Jesus; some translations make these red, which wouldn't really work well on an E-reader)
+  // wj (Words of Jesus)
   else if (style === 'wj') {
-    processedElement = element.textContent || '';
-    if (element.children.length !== 0) {
-      throw new Error(
-        `"wj" style with unhandled child elements in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
-      );
-    }
+    // Do nothing; some translations make these red, which wouldn't really work well on an E-reader
   }
 
   // Unmatched styles except ones to skip
@@ -347,7 +328,12 @@ const processElement = (
     );
   }
 
-  if (element.children.length !== 0) {
+  // Lots of elements may have the text directly inside (it, q, qs, wj)
+  if (element.children.length === 0) {
+    if (element.textContent?.trim() !== '') {
+      processedElement += element.textContent;
+    }
+  } else {
     for (const childElement of element.childNodes) {
       if (childElement.nodeType === Node.ELEMENT_NODE) {
         processedElement += processElement(
@@ -368,10 +354,14 @@ const processElement = (
     }
   }
 
-  if (style === 'm' || style === 'p') {
+  if (style === 'it') {
+    processedElement += '</em>';
+  } else if (style === 'm' || style === 'p') {
     processedElement += '</p>\n';
   } else if (style === 'pi' || style === 'q') {
     processedElement += '</blockquote>\n';
+  } else if (style === 'qs') {
+    processedElement += '</span>';
   }
 
   return processedElement;
@@ -422,19 +412,20 @@ const processBook = async (
 
         // TODO: Move this into a proper test?
         if (
-          (bibleName === 'Bible Segond 1910' &&
-            bookMetadata.bookCode === 'GEN' &&
-            (chapterNumber === 1 || chapterNumber === 4)) ||
-          // m
-          (bookMetadata.bookCode === 'NUM' && chapterNumber === 24) ||
-          // it
-          (bookMetadata.bookCode === 'EZR' && chapterNumber === 4) ||
-          // b, qs
-          (bookMetadata.bookCode === 'PSA' && chapterNumber === 3) ||
-          // wj, word spacing problems
-          (bookMetadata.bookCode === 'MAT' && chapterNumber === 5) ||
-          // pi
-          (bookMetadata.bookCode === 'JHN' && chapterNumber === 2)
+          bibleName === 'Bible Segond 1910' &&
+          ((bookMetadata.bookCode === 'GEN' && chapterNumber === 1) ||
+            // q
+            (bookMetadata.bookCode === 'GEN' && chapterNumber === 4) ||
+            // m
+            (bookMetadata.bookCode === 'NUM' && chapterNumber === 24) ||
+            // it
+            (bookMetadata.bookCode === 'EZR' && chapterNumber === 4) ||
+            // b, qs
+            (bookMetadata.bookCode === 'PSA' && chapterNumber === 3) ||
+            // wj, word spacing problems
+            (bookMetadata.bookCode === 'MAT' && chapterNumber === 5) ||
+            // pi
+            (bookMetadata.bookCode === 'JHN' && chapterNumber === 2))
         ) {
           assert(
             chapterData ===
