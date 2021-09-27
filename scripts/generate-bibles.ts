@@ -427,14 +427,20 @@ const processBook = async (
             // pi
             (bookMetadata.bookCode === 'JHN' && chapterNumber === 2))
         ) {
-          assert(
-            chapterData ===
-              (await fsPromises.readFile(
-                `testdata/${bookMetadata.bookCode}${chapterNumber}.html`,
-                'utf8'
-              )),
-            chapterData
-          );
+          try {
+            assert(
+              chapterData ===
+                (await fsPromises.readFile(
+                  `testdata/${bookMetadata.bookCode}${chapterNumber}.html`,
+                  'utf8'
+                ))
+            );
+          } catch (error) {
+            console.log(chapterData);
+            throw new Error(
+              `Processed data doesn't match test data for ${bookMetadata.bookCode} ${chapterNumber}`
+            );
+          }
         }
 
         chaptersData.push(chapterData);
