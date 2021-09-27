@@ -332,6 +332,13 @@ const processElement = (
   if (element.children.length === 0) {
     if (element.textContent?.trim() !== '') {
       processedElement += element.textContent;
+
+      // Make sure each text content element ends with a space (LSB 1910 Matthew 3, 4, 5:15, 5:28, 5:39, etc.)
+      // This feels hacky, but seems to be the simplest solution due to the way the USX data is structured where
+      // sometimes text is inside elements and sometimes between them, with whitespace a bit all over the place
+      if (!processedElement.slice(-1).match(/\s/)) {
+        processedElement += ' ';
+      }
     }
   } else {
     for (const childElement of element.childNodes) {
@@ -369,6 +376,9 @@ const processElement = (
 
 // TODO: merge this with applyPunctuationFixes?
 const postProcessChapterData = (chapterData: string): string => {
+  // Remove all whitespace before closing tags
+  chapterData = replaceAll(chapterData, /\s+(<\/\w+>)/g, '$1');
+
   // Replace back-to-back block quotes with line breaks
   chapterData = replaceAll(
     chapterData,
