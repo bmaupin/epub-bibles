@@ -572,7 +572,6 @@ const main = async () => {
   // TODO: iterate over all languages in ../data
   for (const languageCode of ['fr']) {
     // TODO: iterate over all bibles in ../data/languageCode
-    // TODO: Use the USX data (Bible Segond 1910) and delete the pseudo-HTML data (La Bible Segond 1910)
     for (const bibleName of ['Bible Segond 1910']) {
       generateBible(languageCode, bibleName);
     }
