@@ -13,9 +13,9 @@ const DATA_DIRECTORY = '../data';
 interface BookMetadata {
   bookCode: string;
   id: string;
-  longName?: string;
+  longName: string;
   src: string;
-  shortName?: string;
+  shortName: string;
 }
 
 const getAuthor = (languageCode: string): string => {
@@ -206,6 +206,8 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
     booksMetadata.push({
       bookCode: contentElement.getAttribute('role')!,
       id: contentElement.getAttribute('name')!,
+      longName: '',
+      shortName: '',
       src: contentElement.getAttribute('src')!,
     });
   }
