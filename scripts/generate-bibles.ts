@@ -85,17 +85,15 @@ const generateBookContentsPageData = (
 ): string => {
   // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
   let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookMetadata.longName.toUpperCase()}</a></h2>\n<p>`;
-  // Keep separate track of the section index per book
-  let sectionIndex = bookContentsPageIndex;
-
-  // Increment once to factor the index of this contents page
-  sectionIndex += 1;
 
   for (
     let chapterNumber = 1;
     chapterNumber < chapterCount + 1;
     chapterNumber++
   ) {
+    // Track the incremental index of each section in the EPUB since that's what the internal filename is based on
+    const sectionIndex = bookContentsPageIndex + chapterNumber;
+
     // Use non-breaking spaces here and elsewhere to prevent line breaks in the middle of the chapter entry
     const chapterTitle = replaceAll(
       `${bookMetadata.shortName} ${chapterNumber}`,
@@ -111,8 +109,6 @@ const generateBookContentsPageData = (
       // The normal space at the end allows a line break if needed
       bookContentsPageData += '&nbsp;• ';
     }
-
-    sectionIndex += 1;
   }
 
   bookContentsPageData += '</p>';
@@ -458,11 +454,6 @@ const processBook = async (
         }
 
         chaptersData.push(chapterData);
-
-        // TODO
-        console.log(chapterNumber);
-        console.log(chapterData);
-        // if (chapterNumber === 1) break;
 
         chapterData = '';
       }
