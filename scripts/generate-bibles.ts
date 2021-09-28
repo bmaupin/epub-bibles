@@ -65,118 +65,6 @@ const getEpubId = (bibleName: string): string => {
   }
 };
 
-const replaceAll = (
-  str: string,
-  find: string | RegExp,
-  replace: string
-): string => {
-  // Use a RegExp object as-is if we get one as it may contain flags, otherwise the second RegExp constructor parameter will override them
-  if (typeof find === 'string') {
-    return str.replace(new RegExp(find, 'g'), replace);
-  } else {
-    return str.replace(find, replace);
-  }
-};
-
-const generateBookContentsPageData = (
-  bookMetadata: BookMetadata,
-  chapterCount: number,
-  bookContentsPageIndex: number
-): string => {
-  // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
-  let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookMetadata.longName.toUpperCase()}</a></h2>\n<p>`;
-
-  for (
-    let chapterNumber = 1;
-    chapterNumber < chapterCount + 1;
-    chapterNumber++
-  ) {
-    // Track the incremental index of each section in the EPUB since that's what the internal filename is based on
-    const sectionIndex = bookContentsPageIndex + chapterNumber;
-
-    // Use non-breaking spaces here and elsewhere to prevent line breaks in the middle of the chapter entry
-    const chapterTitle = replaceAll(
-      `${bookMetadata.shortName} ${chapterNumber}`,
-      ' ',
-      '&nbsp;'
-    );
-    const chapterEpubFilename = `s${sectionIndex}.xhtml`;
-
-    bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
-
-    // Add separator after every chapter except the last one
-    if (sectionIndex !== bookContentsPageIndex + chapterCount) {
-      // The normal space at the end allows a line break if needed
-      bookContentsPageData += '&nbsp;• ';
-    }
-  }
-
-  bookContentsPageData += '</p>';
-
-  return bookContentsPageData;
-};
-
-const applyPunctuationFixes = (
-  chapterData: string,
-  languageCode: string
-): string => {
-  if (['ar', 'es', 'fr'].includes(languageCode)) {
-    // Replace quotes with guillemets
-    chapterData = replaceAll(chapterData, '“', '«');
-    chapterData = replaceAll(chapterData, '”', '»');
-  }
-
-  if (languageCode === 'fr') {
-    // Insert a non-breaking space before certain punctuation marks if they follow a word character
-    chapterData = replaceAll(
-      chapterData,
-      // https://stackoverflow.com/a/65052998/399105
-      /([\w\p{L}\p{M}])([;:!?])/gu,
-      '$1&nbsp;$2'
-    );
-
-    // TODO: should we also do this for other languages, e.g. en, es?
-    // TODO: should we also do something similar for " ?
-    // Make sure « is preceded by a normal space
-    chapterData = replaceAll(chapterData, /([^\s])(«)/, '$1 $2');
-
-    // Make sure « is followed by a non-breaking space
-    chapterData = replaceAll(chapterData, /(«)([^\s])/, '$1&nbsp;$2');
-
-    // Make sure » is preceded by a non-breaking space
-    chapterData = replaceAll(chapterData, /([^\s])(»)/, '$1&nbsp;$2');
-
-    // Make sure » is followed by a normal space
-    chapterData = replaceAll(chapterData, /(»)([^\s])/, '$1 $2');
-  }
-
-  return chapterData;
-};
-
-// Add a chapter title heading to each chapter with a link back to the contents page
-const insertChapterTitle = (
-  chapterData: string,
-  bookName: string,
-  chapterNumber: number,
-  bookContentsPageIndex: number
-): string => {
-  // Replace the first verse number with the chapter title
-  const openingSup = chapterData.indexOf('<sup>');
-  const closingSup = chapterData.indexOf('</sup>');
-
-  const chapterTitle =
-    // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
-    `<span class="chapter-title-book"><a href="s${bookContentsPageIndex}.xhtml">${bookName.toUpperCase()}</a> </span>` +
-    `<span class="chapter-title-number">${chapterNumber}</span> `;
-
-  chapterData =
-    chapterData.slice(0, openingSup) +
-    chapterTitle +
-    chapterData.slice(closingSup + '</sup>'.length);
-
-  return chapterData;
-};
-
 const readXmlFile = async (pathToXmlFile: string): Promise<Document> => {
   const fileContent = await fsPromises.readFile(pathToXmlFile, 'utf8');
 
@@ -371,7 +259,19 @@ const processElement = (
   return processedElement;
 };
 
-// TODO: merge this with applyPunctuationFixes?
+const replaceAll = (
+  str: string,
+  find: string | RegExp,
+  replace: string
+): string => {
+  // Use a RegExp object as-is if we get one as it may contain flags, otherwise the second RegExp constructor parameter will override them
+  if (typeof find === 'string') {
+    return str.replace(new RegExp(find, 'g'), replace);
+  } else {
+    return str.replace(find, replace);
+  }
+};
+
 const postProcessChapterData = (chapterData: string): string => {
   // Remove all whitespace before closing tags
   chapterData = replaceAll(chapterData, /\s+(<\/\w+>)/g, '$1');
@@ -420,7 +320,9 @@ const processBook = async (
       else if (element.hasAttribute('eid')) {
         chapterData = postProcessChapterData(chapterData);
 
-        // TODO: Move this into a proper test?
+        // We could move these into proper tests, but since this is more of a script than an app it might be best if
+        // they run every time so we'll know right away if something breaks. At most we could move them into a separate
+        // file if need be.
         if (
           bibleName === 'Bible Segond 1910' &&
           ((bookMetadata.bookCode === 'GEN' && chapterNumber === 1) ||
@@ -484,13 +386,111 @@ const processBook = async (
   return chaptersData;
 };
 
+const generateBookContentsPageData = (
+  bookMetadata: BookMetadata,
+  chapterCount: number,
+  bookContentsPageIndex: number
+): string => {
+  // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
+  let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookMetadata.longName.toUpperCase()}</a></h2>\n<p>`;
+
+  for (
+    let chapterNumber = 1;
+    chapterNumber < chapterCount + 1;
+    chapterNumber++
+  ) {
+    // Track the incremental index of each section in the EPUB since that's what the internal filename is based on
+    const sectionIndex = bookContentsPageIndex + chapterNumber;
+
+    // Use non-breaking spaces here and elsewhere to prevent line breaks in the middle of the chapter entry
+    const chapterTitle = replaceAll(
+      `${bookMetadata.shortName} ${chapterNumber}`,
+      ' ',
+      '&nbsp;'
+    );
+    const chapterEpubFilename = `s${sectionIndex}.xhtml`;
+
+    bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
+
+    // Add separator after every chapter except the last one
+    if (sectionIndex !== bookContentsPageIndex + chapterCount) {
+      // The normal space at the end allows a line break if needed
+      bookContentsPageData += '&nbsp;• ';
+    }
+  }
+
+  bookContentsPageData += '</p>';
+
+  return bookContentsPageData;
+};
+
+const applyPunctuationFixes = (
+  chapterData: string,
+  languageCode: string
+): string => {
+  if (['ar', 'es', 'fr'].includes(languageCode)) {
+    // Replace quotes with guillemets
+    chapterData = replaceAll(chapterData, '“', '«');
+    chapterData = replaceAll(chapterData, '”', '»');
+  }
+
+  if (languageCode === 'fr') {
+    // Insert a non-breaking space before certain punctuation marks if they follow a word character
+    chapterData = replaceAll(
+      chapterData,
+      // https://stackoverflow.com/a/65052998/399105
+      /([\w\p{L}\p{M}])([;:!?])/gu,
+      '$1&nbsp;$2'
+    );
+
+    // TODO: should we also do this for other languages, e.g. en, es?
+    // TODO: should we also do something similar for " ?
+    // Make sure « is preceded by a normal space
+    chapterData = replaceAll(chapterData, /([^\s])(«)/, '$1 $2');
+
+    // Make sure « is followed by a non-breaking space
+    chapterData = replaceAll(chapterData, /(«)([^\s])/, '$1&nbsp;$2');
+
+    // Make sure » is preceded by a non-breaking space
+    chapterData = replaceAll(chapterData, /([^\s])(»)/, '$1&nbsp;$2');
+
+    // Make sure » is followed by a normal space
+    chapterData = replaceAll(chapterData, /(»)([^\s])/, '$1 $2');
+  }
+
+  return chapterData;
+};
+
+// Add a chapter title heading to each chapter with a link back to the contents page
+const insertChapterTitle = (
+  chapterData: string,
+  bookName: string,
+  chapterNumber: number,
+  bookContentsPageIndex: number
+): string => {
+  // Replace the first verse number with the chapter title
+  const openingSup = chapterData.indexOf('<sup>');
+  const closingSup = chapterData.indexOf('</sup>');
+
+  const chapterTitle =
+    // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
+    `<span class="chapter-title-book"><a href="s${bookContentsPageIndex}.xhtml">${bookName.toUpperCase()}</a> </span>` +
+    `<span class="chapter-title-number">${chapterNumber}</span> `;
+
+  chapterData =
+    chapterData.slice(0, openingSup) +
+    chapterTitle +
+    chapterData.slice(closingSup + '</sup>'.length);
+
+  return chapterData;
+};
+
 const generateBible = async (languageCode: string, bibleName: string) => {
   console.log(`Generating EPUB for ${bibleName}`);
 
   const metadata = {
     author: getAuthor(languageCode),
     contents: getTableOfContentsTitle(languageCode),
-    // TODO: write a function to get the cover image (cover.*?)
     // TODO: work around https://github.com/kcartlidge/nodepub/issues/17
     cover: `${DATA_DIRECTORY}/${languageCode}/${bibleName}/cover.jpeg`,
     // TODO: remove this (https://github.com/kcartlidge/nodepub/issues/15)
@@ -550,7 +550,7 @@ const generateBible = async (languageCode: string, bibleName: string) => {
       );
 
       // TODO
-      // if (bookMetadata.shortName === 'Psaumes' && chapterNumber === 3) {
+      // if (bookMetadata.bookCode === 'PSA' && chapterNumber === 3) {
       //   console.log(chapterData);
       // }
 
