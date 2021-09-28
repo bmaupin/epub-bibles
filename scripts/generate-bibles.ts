@@ -388,6 +388,9 @@ const postProcessChapterData = (chapterData: string): string => {
     '<br />\n'
   );
 
+  // Compress multiple spaces into one (LSB 1910 Matthew 3.15, 8.3, etc.)
+  chapterData = replaceAll(chapterData, / +/g, ' ');
+
   // Remove empty span elements
   chapterData = replaceAll(chapterData, '<span></span>', '');
 
