@@ -65,10 +65,6 @@ const getEpubId = (bibleName: string): string => {
   }
 };
 
-const getChapterNumber = (chapterFile: string): number => {
-  return Number(chapterFile.slice(0, 3));
-};
-
 const replaceAll = (
   str: string,
   find: string | RegExp,
@@ -83,23 +79,26 @@ const replaceAll = (
 };
 
 const generateBookContentsPageData = (
-  bookName: string,
-  chapterFiles: string[],
+  bookMetadata: BookMetadata,
+  chapterCount: number,
   bookContentsPageIndex: number
 ): string => {
   // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
-  let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookName.toUpperCase()}</a></h2>\n<p>`;
+  let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookMetadata.longName.toUpperCase()}</a></h2>\n<p>`;
   // Keep separate track of the section index per book
   let sectionIndex = bookContentsPageIndex;
 
   // Increment once to factor the index of this contents page
   sectionIndex += 1;
 
-  for (const chapterFile of chapterFiles) {
-    const chapterNumber = getChapterNumber(chapterFile);
+  for (
+    let chapterNumber = 1;
+    chapterNumber < chapterCount + 1;
+    chapterNumber++
+  ) {
     // Use non-breaking spaces here and elsewhere to prevent line breaks in the middle of the chapter entry
     const chapterTitle = replaceAll(
-      `${bookName} ${chapterNumber}`,
+      `${bookMetadata.shortName} ${chapterNumber}`,
       ' ',
       '&nbsp;'
     );
@@ -108,7 +107,7 @@ const generateBookContentsPageData = (
     bookContentsPageData += `<a href="${chapterEpubFilename}">${chapterTitle}</a>`;
 
     // Add separator after every chapter except the last one
-    if (sectionIndex !== bookContentsPageIndex + chapterFiles.length) {
+    if (sectionIndex !== bookContentsPageIndex + chapterCount) {
       // The normal space at the end allows a line break if needed
       bookContentsPageData += '&nbsp;• ';
     }
@@ -527,78 +526,55 @@ const generateBible = async (languageCode: string, bibleName: string) => {
   const booksMetadata = await getBooksMetadata(languageCode, bibleName);
 
   for (const bookMetadata of booksMetadata) {
-    await processBook(languageCode, bibleName, bookMetadata);
-
     // TODO
-    // break;
+    // if (bookMetadata.bookCode !== 'GEN') break;
 
-    // TODO: next start parsing first book (GEN)
-    // {
-    //   bookCode: 'GEN',
-    //   id: 'book-gen',
-    //   longName: 'Genèse',
-    //   src: 'release/USX_1/GEN.usx',
-    //   shortName: 'Genèse'
-    // },
-    //
-    // TODO: get book contents page logic working again
-    // we could get the number of chapters from release/versification.vrs if need be;
-    //   we could match the line with bookCode, then Number(line.split(' ').pop().split(':')[0])
+    const chaptersData = await processBook(
+      languageCode,
+      bibleName,
+      bookMetadata
+    );
+
+    const bookContentsPageData = generateBookContentsPageData(
+      bookMetadata,
+      chaptersData.length,
+      bookContentsPageIndex
+    );
+    epub.addSection(bookMetadata.shortName, bookContentsPageData);
+
+    for (
+      let chapterNumber = 1;
+      chapterNumber < chaptersData.length + 1;
+      chapterNumber++
+    ) {
+      const chapterTitle = `${bookMetadata.shortName} ${chapterNumber}`;
+
+      let chapterData = chaptersData[chapterNumber - 1];
+      chapterData = applyPunctuationFixes(chapterData, languageCode);
+      chapterData = insertChapterTitle(
+        chapterData,
+        bookMetadata.shortName,
+        chapterNumber,
+        bookContentsPageIndex
+      );
+
+      // TODO
+      // if (bookMetadata.shortName === 'Psaumes' && chapterNumber === 3) {
+      //   console.log(chapterData);
+      // }
+
+      epub.addSection(
+        chapterTitle,
+        chapterData,
+        // Exclude the chapter from the TOC and the contents page
+        true
+      );
+    }
+
+    bookContentsPageIndex += chaptersData.length + 1;
   }
 
-  // for (const bookDirectory of await fsPromises.readdir(
-  //   `${DATA_DIRECTORY}/${languageCode}/${bibleName}`
-  // )) {
-  //   // Skip cover files
-  //   if (bookDirectory.startsWith('cover')) continue;
-
-  //   // Strip the book number off the directory to get the name
-  //   const bookName = bookDirectory.slice(3);
-
-  //   const chapterFiles = await fsPromises.readdir(
-  //     `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}`
-  //   );
-
-  //   const bookContentsPageData = generateBookContentsPageData(
-  //     bookName,
-  //     chapterFiles,
-  //     bookContentsPageIndex
-  //   );
-  //   epub.addSection(bookName, bookContentsPageData);
-
-  //   for (const chapterFile of chapterFiles) {
-  //     const chapterNumber = getChapterNumber(chapterFile);
-  //     const chapterTitle = `${bookName} ${chapterNumber}`;
-
-  //     let chapterData = await fsPromises.readFile(
-  //       `${DATA_DIRECTORY}/${languageCode}/${bibleName}/${bookDirectory}/${chapterFile}`,
-  //       'utf8'
-  //     );
-  //     chapterData = applyPunctuationFixes(chapterData, languageCode);
-  //     chapterData = insertChapterTitle(
-  //       chapterData,
-  //       bookName,
-  //       chapterNumber,
-  //       bookContentsPageIndex
-  //     );
-
-  //     // TODO
-  //     if (bookName === 'Psaumes' && chapterNumber === 3) {
-  //       console.log(chapterData);
-  //     }
-
-  //     epub.addSection(
-  //       chapterTitle,
-  //       chapterData,
-  //       // Exclude the chapter from the TOC and the contents page
-  //       true
-  //     );
-  //   }
-
-  //   bookContentsPageIndex += chapterFiles.length + 1;
-  // }
-
-  // await epub.writeEPUB('..', bibleName);
+  await epub.writeEPUB('..', bibleName);
 };
 
 const main = async () => {
