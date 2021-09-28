@@ -1,11 +1,7 @@
-Public domain Bibles packaged as EPUB files.
-
-<!--- TODO
-See the [Releases](../../releases) page for the files.
---->
+Public domain Bibles for E-readers.
 
 <!--- TODO: update link to cover.jpg once https://github.com/kcartlidge/nodepub/issues/17 is fixed --->
-<img alt="cover sample" align="left" src="data/fr/La Bible Segond 1910/cover.jpeg" width="400"/>
+<img alt="cover sample" align="left" src="data/fr/Bible Segond 1910/cover.jpeg" width="400"/>
 <img alt="page sample" src="sample-page.png" width="400"/>
 
 ## About
@@ -169,3 +165,16 @@ npm start
 1. Offset: X: -10, Y: -130
 1. Erase the top and bottom content manually with eraser
 1. Export image
+
+### Adding source for a new Bible
+
+1. First check [The Digital Bible Library](https://app.thedigitalbiblelibrary.org/entries/open_access_entries?type=text) to see if it has USX files available for download
+1. If it's not there, go to [ebible.org](https://ebible.org/download.php) and download USFM or USFX files
+1. [Paratext](https://paratext.org/) can be used to convert from USFM to USX
+   - [BibleMultiConverter](https://github.com/schierlm/BibleMultiConverter) can be also be used to convert from USFM or USFX to USX
+
+TODO: Compare a few different conversions to see which yield the better output:
+
+- Use Paratext to convert from USFM to USX
+- Use BibleMultiConverter to convert from USFM to USX
+- Use BibleMultiConverter to convert from USFX to USX
