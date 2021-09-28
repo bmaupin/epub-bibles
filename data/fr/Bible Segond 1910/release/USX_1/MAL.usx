@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="MAL" style="id">MALFLS1910.PTX, Louis Segond 1910, French, 31-10-2011, Moon Sun Kim. Updated for DBL by E. Canales, September 2012.</book>
+  <para style="ide">UTF-8</para>
+  <para style="h">MALACHIE</para>
+  <para style="toc3">Mal</para>
+  <para style="toc1">Malachie</para>
+  <para style="toc2">Malachie</para>
+  <para style="mt1">MALACHIE</para>
+  <para style="imt1">INTRODUCTION AU LIVRE DE MALACHIE</para>
+  <para style="imt3">(Mi 6:2. És 40:10. Ro 10:21.)</para>
+  <para style="ip">Ce livre est intitulé «Malachie» (envoyé ou messager de Dieu), du nom du prophète qui porta son message à un peuple de retour d’exil, en proie au découragement et à l’indifférence. Le livre nous situe dans un contexte de crise généralisée chez les Israélites. Le croyant y pose certaines questions capitales auxquelles le prophète répond.</para>
+  <para style="ip">Le chapitre 1:1-14 aborde les questions de l’élection et de l’indignité. À la question: «En quoi nous as- tu aimés?», la prophétie répond en évoquant l’exemple troublant de la préférence de Dieu pour Jacob (= Israël) au détriment d’Ésaü (= Édom). En effet le Seigneur déclara qu’il aimait Jacob plus que son frère jumeau Ésaü (1:1–5).</para>
+  <para style="ip">Mais le culte était négligé par ces descendants de Jacob (1:6-14): Dieu était trompé, ses sacrifices avilis et parfois volés, bref la table de l’Éternel était méprisable, disaient certains fidèles. À la question: <char style="it">«C’est en vain que l’on sert Dieu; qu’avons-nous gagné à observer ses préceptes?», </char>la prophétie répondait par l’énumération des tricheries du peuple et de ses sacrificateurs dans l’exercice du culte.</para>
+  <para style="ip">Le chapitre 2:1-16 dépeint un clergé indigne et deux manières de trahir l’alliance. Avec des offrandes défectueuses et des sacrificateurs infidèles, Lévi renia l’alliance de paix que Dieu avait conclue avec lui pour le sacerdoce (2:4-8). À la question de savoir pourquoi l’Éternel <char style="it">«n’a plus égard aux offrandes?»,</char> la prophétie répondit en plaçant le débat sur le plan de la conduite individuelle en matière matrimoniale. Exogamies et répudiations caractérisaient le laxisme spirituel des déçus de la restauration.</para>
+  <para style="ip">L’Éternel avertit sévèrement les prêtres. En effet, s’ils continuaient à déshonorer l’Éternel, il les maudirait, ainsi que leurs descendants. Il maudirait aussi leurs bénédictions. Dieu rappela le portrait d’un vrai serviteur (2:4-8). Avec la complicité des prêtres, le peuple trahit l’alliance divine: d’abord certains rompirent l’alliance avec Dieu en bafouant sa parole, ensuite d’autres rompirent l’alliance conjugale en divorçant puis en épousant des femmes étrangères idolâtres.</para>
+  <para style="ip">Dans les chapitres 2:17 à 4:6, le plan d’action de l’Éternel est exposé. À la question: <char style="it">«Où est le Dieu de la justice?»</char> (2:17), la prophétie répondit que le jour du jugement viendra, terrible et soudain (3:1s). Le Seigneur allait envoyer son messager (2:17–3:1-5) qui inviterait le peuple à revenir à Dieu (3:6-12). À la question: <char style="it">«En quoi devons-nous revenir à Dieu?» </char>(3:7), la prophétie répondit en évoquant une sécheresse et une invasion de sauterelles comme conséquences des fraudes commises à l’égard de l’impôt du temple (3:10). En effet, aucune action ou parole ne pouvait rester secrète devant l’Éternel qui allait révéler sa justice en son temps (3:13-18; 4:1-3). Le peuple devait être dans l’attente. Élie reviendrait (4:4-6): <char style="it">«Il ramènera le cœur des pères à leurs enfants et le cœur des enfants à leurs pères»</char> (4:6). À la question: <char style="it">«Qu’avons-nous gagné à observer ses préceptes et à marcher avec tristesse?» </char>(3:14), la prophétie répondit que ceux qui honorent le nom du Seigneur ne seront pas oubliés: un livre conservera leur souvenir (3:6).</para>
+  <para style="ip">Malachie s’élève avec force contre la dégradation de la vie religieuse et morale de son temps. Il prépare une communauté croyante et fidèle à l’alliance à rencontrer l’Éternel. Cette mission de Malachie est aussi la nôtre aujourd’hui et demain, jusqu’à ce que celui qui doit venir vienne. La conclusion générale du livre (3:22-24) exhorte à observer la loi de Moïse et désigne Élie, le prophète, comme héraut de la justice à venir et agent d’une conversion massive du peuple.</para>
+  <para style="ie"/>
+  <chapter number="1" style="c" sid="MAL 1"/>
+  <para style="s">Ingratitude du peuple, et censures contre les sacrificateurs</para>
+  <para style="r">V. 1-5: cf. Ro 9:10-13. (Éz 35. Ab 1.)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MAL 1:1"/>Oracle, parole de l’Éternel à Israël par Malachie.<verse eid="MAL 1:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MAL 1:2"/>Je vous ai aimés, dit l’Éternel.</para>
+  <para style="q" vid="MAL 1:2">Et vous dites: En quoi nous as-tu aimés?</para>
+  <para style="q" vid="MAL 1:2">Ésaü n’est-il pas frère de Jacob? Dit l’Éternel.</para>
+  <para style="q" vid="MAL 1:2">
+    <note caller="a" style="x">
+      <char style="xo" closed="false">1:2 </char>
+      <char style="xt" closed="false">
+        <ref loc="ROM 9:13">Ro 9:13</ref>.</char>
+    </note>Cependant j’ai aimé Jacob,<verse eid="MAL 1:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MAL 1:3"/>Et j’ai eu de la haine pour Ésaü,</para>
+  <para style="q" vid="MAL 1:3">J’ai fait de ses montagnes une solitude,</para>
+  <para style="q" vid="MAL 1:3">J’ai livré son héritage aux chacals du désert.<verse eid="MAL 1:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MAL 1:4"/>Si Édom dit: Nous sommes détruits,</para>
+  <para style="q" vid="MAL 1:4">Nous relèverons les ruines!</para>
+  <para style="q" vid="MAL 1:4">Ainsi parle l’Éternel des armées:</para>
+  <para style="q" vid="MAL 1:4">Qu’ils bâtissent, je renverserai,</para>
+  <para style="q" vid="MAL 1:4">Et on les appellera pays de la méchanceté,</para>
+  <para style="q" vid="MAL 1:4">Peuple contre lequel l’Éternel est irrité pour toujours.<verse eid="MAL 1:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MAL 1:5"/>Vos yeux le verront,</para>
+  <para style="q" vid="MAL 1:5">Et vous direz: Grand est l’Éternel</para>
+  <para style="q" vid="MAL 1:5">Par delà les frontières d’Israël!<verse eid="MAL 1:5"/></para>
+  <para style="r">V. 6-14: cf. <ref loc="MAL 2:1-9">Mal 2:1-9</ref>. <ref loc="LEV 22:18-25">Lé 22:18-25</ref>. <ref loc="PRO 15:8">Pr 15:8</ref>. <ref loc="PSA 66:18">Ps 66:18</ref>.</para>
+  <para style="q">
+    <verse number="6" style="v" sid="MAL 1:6"/>Un fils honore son père, et un serviteur son maître.</para>
+  <para style="q" vid="MAL 1:6">Si je suis père, où est l’honneur qui m’est dû?</para>
+  <para style="q" vid="MAL 1:6">Si je suis maître, où est la crainte qu’on a de moi?</para>
+  <para style="q" vid="MAL 1:6">Dit l’Éternel des armées à vous, sacrificateurs,</para>
+  <para style="q" vid="MAL 1:6">Qui méprisez mon nom,</para>
+  <para style="q" vid="MAL 1:6">Et qui dites: En quoi avons-nous méprisé ton nom?<verse eid="MAL 1:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MAL 1:7"/>Vous offrez sur mon autel des aliments impurs,</para>
+  <para style="q" vid="MAL 1:7">Et vous dites: En quoi t’avons-nous profané?</para>
+  <para style="q" vid="MAL 1:7">C’est en disant: La table de l’Éternel est méprisable!<verse eid="MAL 1:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MAL 1:8"/>Quand vous offrez en sacrifice une bête aveugle, n’est-ce pas mal?</para>
+  <para style="q" vid="MAL 1:8">Quand vous en offrez une boiteuse ou infirme, n’est-ce pas mal?</para>
+  <para style="q" vid="MAL 1:8">Offre-la donc à ton gouverneur!</para>
+  <para style="q" vid="MAL 1:8">Te recevra-t-il bien, te fera-t-il bon accueil?</para>
+  <para style="q" vid="MAL 1:8">Dit l’Éternel des armées.<verse eid="MAL 1:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="MAL 1:9"/>Priez Dieu maintenant, pour qu’il ait pitié de nous!</para>
+  <para style="q" vid="MAL 1:9">C’est de vous que cela vient:</para>
+  <para style="q" vid="MAL 1:9">Vous recevra-t-il favorablement?</para>
+  <para style="q" vid="MAL 1:9">Dit l’Éternel des armées.<verse eid="MAL 1:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MAL 1:10"/>Lequel de vous fermera les portes,</para>
+  <para style="q" vid="MAL 1:10">Pour que vous n’allumiez pas en vain le feu sur mon autel?</para>
+  <para style="q" vid="MAL 1:10">Je ne prends aucun plaisir en vous, dit l’Éternel des armées,</para>
+  <para style="q" vid="MAL 1:10">
+    <note caller="b" style="x">
+      <char style="xo" closed="false">1:10 </char>
+      <char style="xt" closed="false">
+        <ref loc="ISA 1:11">És 1:11</ref>. <ref loc="JER 6:20">Jé 6:20</ref>. <ref loc="AMO 5:21">Am 5:21</ref>, <ref loc="AMO 5:22">22</ref>.</char>
+    </note>Et les offrandes de votre main</para>
+  <para style="q" vid="MAL 1:10">ne me sont point agréables.<verse eid="MAL 1:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MAL 1:11"/>Car depuis le lever du soleil jusqu’à son couchant,</para>
+  <para style="q" vid="MAL 1:11">Mon nom est grand parmi les nations,</para>
+  <para style="q" vid="MAL 1:11">Et en tout lieu on brûle de l’encens en l’honneur de mon nom</para>
+  <para style="q" vid="MAL 1:11">Et l’on présente des offrandes pures;</para>
+  <para style="q" vid="MAL 1:11">Car grand est mon nom parmi les nations,</para>
+  <para style="q" vid="MAL 1:11">Dit l’Éternel des armées.<verse eid="MAL 1:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MAL 1:12"/>Mais vous, vous le profanez,</para>
+  <para style="q" vid="MAL 1:12">En disant: La table de l’Éternel est souillée,</para>
+  <para style="q" vid="MAL 1:12">Et ce qu’elle rapporte est un aliment méprisable.<verse eid="MAL 1:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MAL 1:13"/>Vous dites: Quelle fatigue! Et vous le dédaignez,</para>
+  <para style="q" vid="MAL 1:13">Dit l’Éternel des armées;</para>
+  <para style="q" vid="MAL 1:13">Et cependant vous amenez ce qui est dérobé, boiteux ou infirme,</para>
+  <para style="q" vid="MAL 1:13">Et ce sont les offrandes que vous faites!</para>
+  <para style="q" vid="MAL 1:13">Puis-je les agréer de vos mains? Dit l’Éternel.<verse eid="MAL 1:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MAL 1:14"/>Maudit soit le trompeur qui a dans son troupeau un mâle,</para>
+  <para style="q" vid="MAL 1:14">Et qui voue et sacrifie au Seigneur une bête chétive!</para>
+  <para style="q" vid="MAL 1:14">Car je suis un grand roi, dit l’Éternel des armées,</para>
+  <para style="q" vid="MAL 1:14">Et mon nom est redoutable parmi les nations.<verse eid="MAL 1:14"/></para>
+  <chapter eid="MAL 1"/>
+  <chapter number="2" style="c" sid="MAL 2"/>
+  <para style="r">V. 1-9: cf. (De 33:8-11. No 25:11-13.) (Né 13:4-10, 28, 29. 1 S 2:12-17, 27, etc.)</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MAL 2:1"/>Maintenant, à vous cet ordre, sacrificateurs!<verse eid="MAL 2:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MAL 2:2"/>Si vous n’écoutez pas, si vous ne prenez pas à cœur</para>
+  <para style="q" vid="MAL 2:2">De donner gloire à mon nom, dit l’Éternel des armées,</para>
+  <para style="q" vid="MAL 2:2">J’enverrai parmi vous la <note caller="a" style="x"><char style="xo" closed="false">2:2 </char><char style="xt" closed="false"><ref loc="LEV 26:14">Lé 26:14</ref>. <ref loc="DEU 28:15">De 28:15</ref>.</char></note>malédiction, et je maudirai vos bénédictions;</para>
+  <para style="q" vid="MAL 2:2">Oui, je les maudirai, parce que vous ne l’avez pas à cœur.<verse eid="MAL 2:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MAL 2:3"/>Voici, je détruirai vos semences,</para>
+  <para style="q" vid="MAL 2:3">Et je vous jetterai des excréments au visage,</para>
+  <para style="q" vid="MAL 2:3">Les excréments des victimes que vous sacrifiez,</para>
+  <para style="q" vid="MAL 2:3">Et on vous emportera avec eux.<verse eid="MAL 2:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MAL 2:4"/>Vous saurez alors que je vous ai adressé cet ordre,</para>
+  <para style="q" vid="MAL 2:4">Afin que mon alliance avec Lévi subsiste,</para>
+  <para style="q" vid="MAL 2:4">Dit l’Éternel des armées.<verse eid="MAL 2:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MAL 2:5"/>Mon alliance avec lui était une alliance de vie et de paix,</para>
+  <para style="q" vid="MAL 2:5">Ce que je lui accordai pour qu’il me craignît;</para>
+  <para style="q" vid="MAL 2:5">Et il a eu pour moi de la crainte,</para>
+  <para style="q" vid="MAL 2:5">Il a tremblé devant mon nom.<verse eid="MAL 2:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="MAL 2:6"/>La loi de la vérité était dans sa bouche,</para>
+  <para style="q" vid="MAL 2:6">Et l’iniquité ne s’est point trouvée sur ses lèvres;</para>
+  <para style="q" vid="MAL 2:6">Il a marché avec moi dans la paix et dans la droiture,</para>
+  <para style="q" vid="MAL 2:6">Et il a détourné du mal beaucoup d’hommes.<verse eid="MAL 2:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MAL 2:7"/>Car les lèvres du sacrificateur doivent garder la science,</para>
+  <para style="q" vid="MAL 2:7">Et c’est à sa bouche qu’on demande la loi,</para>
+  <para style="q" vid="MAL 2:7">Parce qu’il est un envoyé de l’Éternel des armées.<verse eid="MAL 2:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MAL 2:8"/>Mais vous, vous vous êtes écartés de la voie,</para>
+  <para style="q" vid="MAL 2:8">Vous avez fait de la loi une occasion de chute pour plusieurs,</para>
+  <para style="q" vid="MAL 2:8">Vous avez violé l’alliance de Lévi,</para>
+  <para style="q" vid="MAL 2:8">Dit l’Éternel des armées.<verse eid="MAL 2:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="MAL 2:9"/>Et moi, je vous rendrai méprisables et vils</para>
+  <para style="q" vid="MAL 2:9">Aux yeux de tout le peuple,</para>
+  <para style="q" vid="MAL 2:9">Parce que vous n’avez pas gardé mes voies,</para>
+  <para style="q" vid="MAL 2:9">Et que vous avez égard à l’apparence des personnes</para>
+  <para style="q" vid="MAL 2:9">Quand vous interprétez la loi.<verse eid="MAL 2:9"/></para>
+  <para style="s">Contre les mariages avec des femmes étrangères</para>
+  <para style="r">V. 10-16: cf. (Esd 9:1-3, 10, 14. Né 13:23-29.) Mt 19:3-9.</para>
+  <para style="q">
+    <verse number="10" style="v" sid="MAL 2:10"/>N’avons-nous pas tous un seul père?</para>
+  <para style="q" vid="MAL 2:10">N’est-ce pas un seul Dieu qui nous a créés?</para>
+  <para style="q" vid="MAL 2:10">Pourquoi donc sommes-nous infidèles l’un envers l’autre,</para>
+  <para style="q" vid="MAL 2:10">En profanant l’alliance de nos pères?<verse eid="MAL 2:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MAL 2:11"/>Juda s’est montré infidèle,</para>
+  <para style="q" vid="MAL 2:11">Et une abomination a été commise en Israël et à Jérusalem;</para>
+  <para style="q" vid="MAL 2:11">Car Juda a profané ce qui est consacré à l’Éternel, ce qu’aime l’Éternel,</para>
+  <para style="q" vid="MAL 2:11">Il s’est uni à la fille d’un dieu étranger.<verse eid="MAL 2:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MAL 2:12"/>L’Éternel retranchera l’homme qui fait cela, celui qui veille et qui répond,</para>
+  <para style="q" vid="MAL 2:12">Il le retranchera des tentes de Jacob,</para>
+  <para style="q" vid="MAL 2:12">Et il retranchera celui qui présente une offrande</para>
+  <para style="q" vid="MAL 2:12">A l’Éternel des armées.<verse eid="MAL 2:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MAL 2:13"/>Voici encore ce que vous faites:</para>
+  <para style="q" vid="MAL 2:13">Vous couvrez de larmes l’autel de l’Éternel,</para>
+  <para style="q" vid="MAL 2:13">De pleurs et de gémissements,</para>
+  <para style="q" vid="MAL 2:13">En sorte qu’il n’a plus égard aux offrandes</para>
+  <para style="q" vid="MAL 2:13">Et qu’il ne peut rien agréer de vos mains.<verse eid="MAL 2:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MAL 2:14"/>Et vous dites: Pourquoi?…</para>
+  <para style="q" vid="MAL 2:14">Parce que l’Éternel a été témoin entre toi et la femme de ta jeunesse,</para>
+  <para style="q" vid="MAL 2:14">A laquelle tu es infidèle,</para>
+  <para style="q" vid="MAL 2:14">Bien qu’elle soit ta compagne et la femme de ton alliance.<verse eid="MAL 2:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="MAL 2:15"/>Nul n’a fait cela, avec un reste de bon sens.</para>
+  <para style="q" vid="MAL 2:15">Un seul l’a fait, et pourquoi?</para>
+  <para style="q" vid="MAL 2:15">Parce qu’il cherchait la postérité que Dieu lui avait promise.</para>
+  <para style="q" vid="MAL 2:15">Prenez donc garde en votre esprit,</para>
+  <para style="q" vid="MAL 2:15">Et qu’aucun ne soit infidèle à la femme de sa jeunesse!<verse eid="MAL 2:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="MAL 2:16"/>Car je hais la répudiation,</para>
+  <para style="q" vid="MAL 2:16">Dit l’Éternel, le Dieu d’Israël,</para>
+  <para style="q" vid="MAL 2:16">Et celui qui couvre de violence son vêtement,</para>
+  <para style="q" vid="MAL 2:16">Dit l’Éternel des armées.</para>
+  <para style="q" vid="MAL 2:16">Prenez donc garde en votre esprit,</para>
+  <para style="q" vid="MAL 2:16">Et ne soyez pas infidèles!<verse eid="MAL 2:16"/></para>
+  <para style="s">La rétribution divine</para>
+  <para style="r">2 v. 17 à 3 v. 6: cf. Jé 12:1. Mt 11:7-12; 21:25, 37-44. (Za 13:9. 1 Pi 4:17, 18.)</para>
+  <para style="q">
+    <verse number="17" style="v" sid="MAL 2:17"/>Vous fatiguez l’Éternel par vos paroles,</para>
+  <para style="q" vid="MAL 2:17">Et vous dites: En quoi l’avons-nous fatigué?</para>
+  <para style="q" vid="MAL 2:17">C’est en disant: Quiconque fait le mal est bon aux yeux de l’Éternel,</para>
+  <para style="q" vid="MAL 2:17">Et c’est en lui qu’il prend plaisir!</para>
+  <para style="q" vid="MAL 2:17">Ou bien: Où est le Dieu de la justice?<verse eid="MAL 2:17"/></para>
+  <chapter eid="MAL 2"/>
+  <chapter number="3" style="c" sid="MAL 3"/>
+  <para style="q">
+    <verse number="1" style="v" sid="MAL 3:1"/>Voici, <note caller="a" style="x"><char style="xo" closed="false">3:1 </char><char style="xt" closed="false"><ref loc="MAT 11:10">Mt 11:10</ref>. <ref loc="MRK 1:2">Mc 1:2</ref>. <ref loc="LUK 1:76">Lu 1:76</ref>; <ref loc="LUK 7:27">7:27</ref>.</char></note>j’enverrai mon messager;</para>
+  <para style="q" vid="MAL 3:1">Il préparera le chemin devant moi.</para>
+  <para style="q" vid="MAL 3:1">Et soudain entrera dans son temple le Seigneur que vous cherchez;</para>
+  <para style="q" vid="MAL 3:1">Et le messager de l’alliance que vous désirez, voici, il vient,</para>
+  <para style="q" vid="MAL 3:1">Dit l’Éternel des armées.<verse eid="MAL 3:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MAL 3:2"/>Qui pourra soutenir le jour de sa venue?</para>
+  <para style="q" vid="MAL 3:2">Qui restera debout quand il paraîtra?</para>
+  <para style="q" vid="MAL 3:2">Car il sera comme le feu du fondeur,</para>
+  <para style="q" vid="MAL 3:2">Comme la potasse des foulons.<verse eid="MAL 3:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MAL 3:3"/>Il s’assiéra, fondra et purifiera l’argent;</para>
+  <para style="q" vid="MAL 3:3">Il purifiera les fils de Lévi,</para>
+  <para style="q" vid="MAL 3:3">Il les épurera comme on épure l’or et l’argent,</para>
+  <para style="q" vid="MAL 3:3">Et ils présenteront à l’Éternel des offrandes avec justice.<verse eid="MAL 3:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MAL 3:4"/>Alors l’offrande de Juda et de Jérusalem sera agréable à l’Éternel,</para>
+  <para style="q" vid="MAL 3:4">Comme aux anciens jours, comme aux années d’autrefois.<verse eid="MAL 3:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MAL 3:5"/>Je m’approcherai de vous pour le jugement,</para>
+  <para style="q" vid="MAL 3:5">Et je me hâterai de témoigner contre les enchanteurs et les adultères,</para>
+  <para style="q" vid="MAL 3:5">Contre ceux <note caller="b" style="x"><char style="xo" closed="false">3:5 </char><char style="xt" closed="false"><ref loc="EXO 20:7">Ex 20:7</ref>.</char></note>qui jurent faussement,</para>
+  <para style="q" vid="MAL 3:5">Contre ceux qui retiennent le salaire du mercenaire,</para>
+  <para style="q" vid="MAL 3:5">
+    <note caller="c" style="x">
+      <char style="xo" closed="false">3:5 </char>
+      <char style="xt" closed="false">
+        <ref loc="EXO 22:22">Ex 22:22</ref>. <ref loc="DEU 24:17">De 24:17</ref>. <ref loc="AMO 2:7">Am 2:7</ref>.</char>
+    </note>Qui oppriment la veuve et l’orphelin,</para>
+  <para style="q" vid="MAL 3:5">Qui font tort à l’étranger, et ne me craignent pas,</para>
+  <para style="q" vid="MAL 3:5">Dit l’Éternel des armées.<verse eid="MAL 3:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="MAL 3:6"/>Car je suis l’Éternel, <note caller="d" style="x"><char style="xo" closed="false">3:6 </char><char style="xt" closed="false"><ref loc="PSA 33:11">Ps 33:11</ref>. <ref loc="PRO 19:21">Pr 19:21</ref>. És 15:26, 27; <ref loc="ISA 25:9">25:9</ref>; <ref loc="ISA 46:10">46:10</ref>.</char></note>je ne change pas;</para>
+  <para style="q" vid="MAL 3:6">Et vous, enfants de Jacob, vous n’avez pas été consumés.<verse eid="MAL 3:6"/></para>
+  <para style="r">V. 7-12: cf. (Mal 1:12-14. Né 13:10-12.) (2 Ch 31:10. Pr 3:9, 10.)</para>
+  <para style="q">
+    <verse number="7" style="v" sid="MAL 3:7"/>Depuis le temps de vos pères, vous vous êtes écartés de mes ordonnances,</para>
+  <para style="q" vid="MAL 3:7">Vous ne les avez point observées.</para>
+  <para style="q" vid="MAL 3:7">
+    <note caller="e" style="x">
+      <char style="xo" closed="false">3:7 </char>
+      <char style="xt" closed="false">
+        <ref loc="ZEC 1:3">Za 1:3</ref>.</char>
+    </note>Revenez à moi, et je reviendrai à vous,</para>
+  <para style="q" vid="MAL 3:7">Dit l’Éternel des armées.</para>
+  <para style="q" vid="MAL 3:7">Et vous dites: En quoi devons-nous revenir?<verse eid="MAL 3:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MAL 3:8"/>Un homme trompe-t-il Dieu? Car vous me trompez,</para>
+  <para style="q" vid="MAL 3:8">Et vous dites: En quoi t’avons-nous trompé?</para>
+  <para style="q" vid="MAL 3:8">Dans les dîmes et les offrandes.<verse eid="MAL 3:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="MAL 3:9"/>Vous êtes frappés par la malédiction,</para>
+  <para style="q" vid="MAL 3:9">Et vous me trompez,</para>
+  <para style="q" vid="MAL 3:9">La nation tout entière!<verse eid="MAL 3:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MAL 3:10"/>Apportez à la maison du trésor toutes les dîmes,</para>
+  <para style="q" vid="MAL 3:10">Afin qu’il y ait de la nourriture dans ma maison;</para>
+  <para style="q" vid="MAL 3:10">Mettez-moi de la sorte à l’épreuve,</para>
+  <para style="q" vid="MAL 3:10">Dit l’Éternel des armées.</para>
+  <para style="q" vid="MAL 3:10">Et vous verrez si je n’ouvre pas pour vous les écluses des cieux,</para>
+  <para style="q" vid="MAL 3:10">Si je ne répands pas sur vous la bénédiction en abondance.<verse eid="MAL 3:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MAL 3:11"/>Pour vous je menacerai celui qui dévore,</para>
+  <para style="q" vid="MAL 3:11">Et il ne vous détruira pas les fruits de la terre,</para>
+  <para style="q" vid="MAL 3:11">Et la vigne ne sera pas stérile dans vos campagnes,</para>
+  <para style="q" vid="MAL 3:11">Dit l’Éternel des armées.<verse eid="MAL 3:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MAL 3:12"/>Toutes les nations vous diront heureux,</para>
+  <para style="q" vid="MAL 3:12">Car vous serez un pays de délices,</para>
+  <para style="q" vid="MAL 3:12">Dit l’Éternel des armées.<verse eid="MAL 3:12"/></para>
+  <para style="r">V. 13-18: cf. <ref loc="JOB 34:7-9">Job 34:7-9</ref>. <ref loc="MAL 2:17">Mal 2:17</ref>; <ref loc="MAL 4:1-3">4:1-3</ref>. <ref loc="ISA 3:10">És 3:10</ref>, <ref loc="ISA 3:11">11</ref>.</para>
+  <para style="q">
+    <verse number="13" style="v" sid="MAL 3:13"/>
+    <note caller="f" style="x">
+      <char style="xo" closed="false">3:13 </char>
+      <char style="xt" closed="false">
+        <ref loc="JOB 21:14">Job 21:14</ref>, <ref loc="JOB 21:15">15</ref>.</char>
+    </note>Vos paroles sont rudes contre moi, dit l’Éternel.</para>
+  <para style="q" vid="MAL 3:13">Et vous dites: Qu’avons-nous dit contre toi?<verse eid="MAL 3:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MAL 3:14"/>Vous avez dit: C’est en vain que l’on sert Dieu;</para>
+  <para style="q" vid="MAL 3:14">Qu’avons-nous gagné à observer ses préceptes,</para>
+  <para style="q" vid="MAL 3:14">Et à marcher avec tristesse</para>
+  <para style="q" vid="MAL 3:14">A cause de l’Éternel des armées?<verse eid="MAL 3:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="MAL 3:15"/>Maintenant nous estimons heureux les hautains;</para>
+  <para style="q" vid="MAL 3:15">Oui, les méchants prospèrent;</para>
+  <para style="q" vid="MAL 3:15">Oui, ils tentent Dieu, et ils échappent!<verse eid="MAL 3:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="MAL 3:16"/>Alors ceux qui craignent l’Éternel se parlèrent l’un à l’autre;</para>
+  <para style="q" vid="MAL 3:16">L’Éternel fut attentif, et il écouta;</para>
+  <para style="q" vid="MAL 3:16">Et un livre de souvenir fut écrit devant lui</para>
+  <para style="q" vid="MAL 3:16">Pour ceux qui craignent l’Éternel</para>
+  <para style="q" vid="MAL 3:16">Et qui honorent son nom.<verse eid="MAL 3:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="MAL 3:17"/>Ils seront à moi, dit l’Éternel des armées,</para>
+  <para style="q" vid="MAL 3:17">Ils m’appartiendront, au jour que je prépare;</para>
+  <para style="q" vid="MAL 3:17">J’aurai compassion d’eux,</para>
+  <para style="q" vid="MAL 3:17">Comme un homme a compassion de son fils qui le sert.<verse eid="MAL 3:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="MAL 3:18"/>Et vous verrez de nouveau la différence</para>
+  <para style="q" vid="MAL 3:18">Entre le juste et le méchant,</para>
+  <para style="q" vid="MAL 3:18">Entre celui qui sert Dieu</para>
+  <para style="q" vid="MAL 3:18">Et celui qui ne le sert pas.<verse eid="MAL 3:18"/></para>
+  <chapter eid="MAL 3"/>
+  <chapter number="4" style="c" sid="MAL 4"/>
+  <para style="r">V. 1-3: cf. Mt 24. (2 Th 1:6-10. 2 Pi 3:7, 10-14.)</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MAL 4:1"/>Car voici, le jour vient,</para>
+  <para style="q" vid="MAL 4:1">Ardent comme une fournaise.</para>
+  <para style="q" vid="MAL 4:1">Tous les hautains et tous les méchants seront comme du <note caller="a" style="x"><char style="xo" closed="false">4:1 </char><char style="xt" closed="false">Ab v. 18.</char></note>chaume;</para>
+  <para style="q" vid="MAL 4:1">Le jour qui vient les embrasera,</para>
+  <para style="q" vid="MAL 4:1">Dit l’Éternel des armées,</para>
+  <para style="q" vid="MAL 4:1">Il ne leur laissera ni racine ni rameau.<verse eid="MAL 4:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MAL 4:2"/>Mais pour vous qui craignez mon nom, se lèvera</para>
+  <para style="q" vid="MAL 4:2">Le soleil de la justice,</para>
+  <para style="q" vid="MAL 4:2">Et la guérison sera sous ses ailes;</para>
+  <para style="q" vid="MAL 4:2">Vous sortirez, et vous sauterez comme les veaux d’une étable,<verse eid="MAL 4:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MAL 4:3"/>Et vous foulerez les méchants,</para>
+  <para style="q" vid="MAL 4:3">Car ils seront comme de la cendre</para>
+  <para style="q" vid="MAL 4:3">Sous la plante de vos pieds,</para>
+  <para style="q" vid="MAL 4:3">Au jour que je prépare,</para>
+  <para style="q" vid="MAL 4:3">Dit l’Éternel des armées.<verse eid="MAL 4:3"/></para>
+  <para style="r">V. 4-6: cf. <ref loc="LUK 1:13-17">Lu 1:13-17</ref>. <ref loc="MAT 17:10-13">Mt 17:10-13</ref>.</para>
+  <para style="q">
+    <verse number="4" style="v" sid="MAL 4:4"/>
+    <note caller="b" style="x">
+      <char style="xo" closed="false">4:4 </char>
+      <char style="xt" closed="false">
+        <ref loc="DEU 6:3">De 6:3</ref>.</char>
+    </note>Souvenez-vous de la loi de Moïse, mon serviteur,</para>
+  <para style="q" vid="MAL 4:4">Auquel j’ai prescrit en Horeb, pour tout Israël,</para>
+  <para style="q" vid="MAL 4:4">Des préceptes et des ordonnances.<verse eid="MAL 4:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MAL 4:5"/>Voici, je vous enverrai <note caller="c" style="x"><char style="xo" closed="false">4:5 </char><char style="xt" closed="false"><ref loc="MAT 11:14">Mt 11:14</ref>; <ref loc="MAT 17:11">17:11</ref>, <ref loc="MAT 17:12">12</ref>, <ref loc="MAT 17:13">13</ref>. <ref loc="MRK 9:11">Mc 9:11</ref>, <ref loc="MRK 9:12">12</ref>, <ref loc="MRK 9:13">13</ref>. <ref loc="LUK 1:17">Lu 1:17</ref>.</char></note>Élie, le prophète,</para>
+  <para style="q" vid="MAL 4:5">Avant que le jour de l’Éternel arrive,</para>
+  <para style="q" vid="MAL 4:5">Ce jour grand et redoutable.<verse eid="MAL 4:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="MAL 4:6"/>Il ramènera le cœur des pères à leurs enfants,</para>
+  <para style="q" vid="MAL 4:6">Et le cœur des enfants à leurs pères,</para>
+  <para style="q" vid="MAL 4:6">De peur que je ne vienne frapper le pays d’interdit.<verse eid="MAL 4:6"/></para>
+  <chapter eid="MAL 4"/>
+</usx>

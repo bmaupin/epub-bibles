@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="MIC" style="id">MICFLS1910.PTX, Louis Segond 1910, French, 31-10-2011, Moon Sun Kim. Updated for DBL by E. Canales, September 2012.</book>
+  <para style="ide">UTF-8</para>
+  <para style="h">MICHÉE</para>
+  <para style="toc3">Mi</para>
+  <para style="toc1">Michée</para>
+  <para style="toc2">Michée</para>
+  <para style="mt1">MICHÉE</para>
+  <para style="imt1">INTRODUCTION AU LIVRE DE MICHÉE</para>
+  <para style="imt3">Ps 85:11. Pr 21:3. És 32:17, 18.</para>
+  <para style="ip">Ce livre a pour titre «Michée» (Qui est comme l’Éternel?), du nom du prophète qui s’adressa aux habitants du royaume de Juda vivant sous la menace de l’armée assyrienne. Le prophète est de Moré­scheth, une bourgade de Juda. Il s’en prend aux désordres sociaux. Le règne de l’injustice ne peut bénéficier de la bienveillance de Dieu. C’est pourquoi Michée s’en prend aux riches qui accaparent les terres (2:1-5), recourent à la fraude et à la violence (6:9-12). Leur voracité est sans limites (3:1-4; 7:2-6) et d’ailleurs les pauvres en font la douloureuse expérience. Il s’en prend aussi à la vénalité des sacrificateurs et des prophètes attitrés du temple (3:5-11).</para>
+  <para style="ip">Ce livre a deux séries de messages qui s’entrecroisent. Dieu fait dire par Michée qu’il va juger et corriger son peuple (chapitres 1–3; 6:1-7), mais il lui promet aussi le salut par l’entremise d’un chef descendant du roi David (5:1-4).</para>
+  <para style="ip">Les chapitres 1 à 3 relatent les menaces de l’Éternel contre Israël et Juda. En raison des péchés de la maison d’Israël et des hauts lieux de Juda, le châtiment divin était inévitable. Bref, l’idolâtrie est la cause de ces menaces.</para>
+  <para style="ip">Les chapitres 4 à 5 comportent des promesses de libération. Dieu promit une sorte de restauration sociale et religieuse aux enfants d’Israël. Et la ville de Bethléem devait recevoir le descendant qui allait être glorifié jusqu’aux extrémités de la terre (5:3).</para>
+  <para style="ip">Les chapitres 6 à 7:7 constituent un autre procès de l’Éternel avec son peuple, qu’il entendait rendre conscient de la situation par des questions comme les suivantes: <char style="it">«Mon peuple, que t’ai-je fait? En quoi t’ai-je fatigué? Réponds-moi»</char> (6:3). <char style="it">«Est-on pur avec des balances fausses, et avec de faux poids dans le sac?»</char> (6:11).</para>
+  <para style="ip">Le chapitre 7:8-20 présente des paroles manifestant la miséricorde de Dieu. <char style="it">«Il ne garde pas sa colère à toujours, car il prend plaisir à la miséricorde»</char> (v. 18). Cependant, cette miséricorde est conditionnelle. Qu’en est-il du croyant? Qu’il marche humblement avec son Dieu et pratique la justice!</para>
+  <para style="ip">En somme, Michée de Moréscheth exerça son ministère prophétique au temps de Jotham, d’Achaz, d’Ézéchias, rois de Juda. Son message s’adressait à Samarie et à Jérusalem, aux deux royaumes.</para>
+  <para style="ip">Selon Michée, l’Éternel allait juger et corriger son peuple, puis le sauver, le rétablir et le placer sous l’autorité d’un conducteur fidèle. Le châtiment divin alterne ainsi avec son pardon et sa grâce. Tout dépend de l’attitude de chaque fidèle et de chaque nation.</para>
+  <para style="ie"/>
+  <chapter number="1" style="c" sid="MIC 1"/>
+  <para style="s">Menaces de l’Éternel contre Israël et Juda</para>
+  <para style="r">V. 1-7: cf. Ps 50:1-4. (Os 8:1-6; 13:16. 2 R 18:9-12.)</para>
+  <para style="p">
+    <verse number="1" style="v" sid="MIC 1:1"/>La parole de l’Éternel fut adressée à Michée, de Moréscheth, au temps de Jotham, d’Achaz, d’Ézéchias, rois de Juda, prophétie sur Samarie et Jérusalem.<verse eid="MIC 1:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MIC 1:2"/>Écoutez, <note caller="a" style="x"><char style="xo" closed="false">1:2 </char><char style="xt" closed="false"><ref loc="DEU 32:1">De 32:1</ref>. <ref loc="ISA 1:2">És 1:2</ref>.</char></note>vous tous, peuples!</para>
+  <para style="q" vid="MIC 1:2">Sois attentive, terre, et ce qui est en toi!</para>
+  <para style="q" vid="MIC 1:2">Que le Seigneur, l’Éternel, soit témoin contre vous,</para>
+  <para style="q" vid="MIC 1:2">Le Seigneur qui est dans le palais de sa sainteté!<verse eid="MIC 1:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MIC 1:3"/>Car voici, <note caller="b" style="x"><char style="xo" closed="false">1:3 </char><char style="xt" closed="false"><ref loc="ISA 26:21">És 26:21</ref>.</char></note>l’Éternel sort de sa demeure,</para>
+  <para style="q" vid="MIC 1:3">Il <note caller="c" style="x"><char style="xo" closed="false">1:3 </char><char style="xt" closed="false"><ref loc="PSA 115:3">Ps 115:3</ref>.</char></note>descend, il marche sur les <note caller="d" style="x"><char style="xo" closed="false">1:3 </char><char style="xt" closed="false"><ref loc="DEU 32:13">De 32:13</ref>; <ref loc="DEU 33:29">33:29</ref>.</char></note>hauteurs de la terre.<verse eid="MIC 1:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MIC 1:4"/>
+    <note caller="e" style="x">
+      <char style="xo" closed="false">1:4 </char>
+      <char style="xt" closed="false">
+        <ref loc="PSA 97:5">Ps 97:5</ref>. <ref loc="AMO 9:5">Am 9:5</ref>.</char>
+    </note>Sous lui les montagnes se fondent,</para>
+  <para style="q" vid="MIC 1:4">Les vallées s’entr’ouvrent,</para>
+  <para style="q" vid="MIC 1:4">Comme la cire devant le feu,</para>
+  <para style="q" vid="MIC 1:4">Comme l’eau qui coule sur une pente.<verse eid="MIC 1:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MIC 1:5"/>Et tout cela à cause du crime de Jacob,</para>
+  <para style="q" vid="MIC 1:5">A cause des péchés de la maison d’Israël!</para>
+  <para style="q" vid="MIC 1:5">Quel est le crime de Jacob? N’est-ce pas Samarie?</para>
+  <para style="q" vid="MIC 1:5">Quels sont les hauts lieux de Juda? N’est-ce pas Jérusalem?…<verse eid="MIC 1:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="MIC 1:6"/>Je ferai de Samarie un monceau de pierres dans les champs,</para>
+  <para style="q" vid="MIC 1:6">Un lieu pour planter de la vigne;</para>
+  <para style="q" vid="MIC 1:6">Je précipiterai ses pierres dans la vallée,</para>
+  <para style="q" vid="MIC 1:6">Je mettrai à nu ses fondements.<verse eid="MIC 1:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MIC 1:7"/>Toutes ses images taillées seront brisées,</para>
+  <para style="q" vid="MIC 1:7">Tous ses salaires impurs seront brûlés au feu,</para>
+  <para style="q" vid="MIC 1:7">Et je ravagerai toutes ses idoles:</para>
+  <para style="q" vid="MIC 1:7">Recueillies avec le salaire de la prostitution,</para>
+  <para style="q" vid="MIC 1:7">Elles deviendront un salaire de prostitution…<verse eid="MIC 1:7"/></para>
+  <para style="r">V. 8-16: cf. <ref loc="ISA 36:1">És 36:1</ref>, <ref loc="ISA 36:2">2</ref>; 10:28, etc.</para>
+  <para style="q">
+    <verse number="8" style="v" sid="MIC 1:8"/>C’est pourquoi je pleurerai, je me lamenterai,</para>
+  <para style="q" vid="MIC 1:8">Je marcherai déchaussé et nu,</para>
+  <para style="q" vid="MIC 1:8">Je pousserai des cris comme le <note caller="f" style="x"><char style="xo" closed="false">1:8 </char><char style="xt" closed="false"><ref loc="JOB 30:29">Job 30:29</ref>.</char></note>chacal,</para>
+  <para style="q" vid="MIC 1:8">Et des gémissements comme l’autruche.<verse eid="MIC 1:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="MIC 1:9"/>Car sa plaie est douloureuse;</para>
+  <para style="q" vid="MIC 1:9">Elle s’étend jusqu’à Juda,</para>
+  <para style="q" vid="MIC 1:9">Elle pénètre jusqu’à la porte de mon peuple,</para>
+  <para style="q" vid="MIC 1:9">Jusqu’à Jérusalem.<verse eid="MIC 1:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MIC 1:10"/>
+    <note caller="g" style="x">
+      <char style="xo" closed="false">1:10 </char>
+      <char style="xt" closed="false">
+        <ref loc="2SA 1:20">2 S 1:20</ref>.</char>
+    </note>Ne l’annoncez point dans Gath,</para>
+  <para style="q" vid="MIC 1:10">Ne pleurez point dans Acco!</para>
+  <para style="q" vid="MIC 1:10">
+    <note caller="h" style="x">
+      <char style="xo" closed="false">1:10 </char>
+      <char style="xt" closed="false">
+        <ref loc="JER 6:26">Jé 6:26</ref>.</char>
+    </note>Je me roule dans la poussière à Beth-Leaphra.<verse eid="MIC 1:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MIC 1:11"/>Passe, habitante de Schaphir, dans la <note caller="i" style="x"><char style="xo" closed="false">1:11 </char><char style="xt" closed="false"><ref loc="ISA 47:3">És 47:3</ref>.</char></note>nudité et la honte!</para>
+  <para style="q" vid="MIC 1:11">L’habitante de Tsaanan n’ose sortir,</para>
+  <para style="q" vid="MIC 1:11">Le deuil de Beth-Haëtsel vous prive de son abri.<verse eid="MIC 1:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MIC 1:12"/>L’habitante de Maroth tremble pour son salut,</para>
+  <para style="q" vid="MIC 1:12">
+    <note caller="j" style="x">
+      <char style="xo" closed="false">1:12 </char>
+      <char style="xt" closed="false">
+        <ref loc="AMO 3:6">Am 3:6</ref>.</char>
+    </note>Car le malheur est descendu de la part de l’Éternel</para>
+  <para style="q" vid="MIC 1:12">Jusqu’à la porte de Jérusalem.<verse eid="MIC 1:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MIC 1:13"/>Attelle les coursiers à ton char,</para>
+  <para style="q" vid="MIC 1:13">Habitante de Lakisch!</para>
+  <para style="q" vid="MIC 1:13">Tu as été pour la fille de Sion une première cause de péché,</para>
+  <para style="q" vid="MIC 1:13">Car en toi se sont trouvés les crimes d’Israël.<verse eid="MIC 1:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MIC 1:14"/>C’est pourquoi tu renonceras à Moréschet-Gath;</para>
+  <para style="q" vid="MIC 1:14">Les maisons d’Aczib seront une source trompeuse</para>
+  <para style="q" vid="MIC 1:14">Pour les rois d’Israël.<verse eid="MIC 1:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="MIC 1:15"/>Je t’amènerai un nouveau maître, habitante de Maréscha;</para>
+  <para style="q" vid="MIC 1:15">La gloire d’Israël s’en ira jusqu’à Adullam.<verse eid="MIC 1:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="MIC 1:16"/>Rase-toi, coupe ta chevelure,</para>
+  <para style="q" vid="MIC 1:16">A cause de tes enfants chéris!</para>
+  <para style="q" vid="MIC 1:16">Rends-toi chauve comme l’aigle,</para>
+  <para style="q" vid="MIC 1:16">Car ils s’en vont en captivité loin de toi!<verse eid="MIC 1:16"/></para>
+  <chapter eid="MIC 1"/>
+  <chapter number="2" style="c" sid="MIC 2"/>
+  <para style="r">V. 1-5: cf. <ref loc="ISA 3:14">És 3:14</ref>, <ref loc="ISA 3:15">15</ref>; 5:8, etc. <ref loc="AMO 4:1-3">Am 4:1-3</ref>; <ref loc="AMO 5:11-13">5:11-13</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MIC 2:1"/>Malheur à ceux qui méditent l’iniquité et qui forgent le mal</para>
+  <para style="q" vid="MIC 2:1">Sur leur couche!</para>
+  <para style="q" vid="MIC 2:1">Au point du jour ils l’exécutent,</para>
+  <para style="q" vid="MIC 2:1">Quand ils ont le pouvoir en main.<verse eid="MIC 2:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MIC 2:2"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">2:2 </char>
+      <char style="xt" closed="false">
+        <ref loc="ISA 5:8">És 5:8</ref>.</char>
+    </note>Ils convoitent des champs, et ils s’en emparent,</para>
+  <para style="q" vid="MIC 2:2">Des maisons, et ils les enlèvent;</para>
+  <para style="q" vid="MIC 2:2">Ils portent leur violence sur l’homme et sur sa maison,</para>
+  <para style="q" vid="MIC 2:2">Sur l’homme et sur son héritage.<verse eid="MIC 2:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MIC 2:3"/>C’est pourquoi ainsi parle l’Éternel:</para>
+  <para style="q" vid="MIC 2:3">Voici, je médite contre cette race un malheur;</para>
+  <para style="q" vid="MIC 2:3">Vous n’en préserverez pas vos cous,</para>
+  <para style="q" vid="MIC 2:3">Et vous ne marcherez pas la tête levée,</para>
+  <para style="q" vid="MIC 2:3">Car ces temps seront <note caller="b" style="x"><char style="xo" closed="false">2:3 </char><char style="xt" closed="false"><ref loc="AMO 5:13">Am 5:13</ref>.</char></note>mauvais.<verse eid="MIC 2:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MIC 2:4"/>En ce jour-là, on fera de vous un sujet de sarcasme,</para>
+  <para style="q" vid="MIC 2:4">On poussera des cris lamentables,</para>
+  <para style="q" vid="MIC 2:4">On dira: Nous sommes entièrement dévastés!</para>
+  <para style="q" vid="MIC 2:4">Il donne à d’autres la part de mon peuple!</para>
+  <para style="q" vid="MIC 2:4">Eh quoi! Il me l’enlève!</para>
+  <para style="q" vid="MIC 2:4">Il distribue nos champs à l’ennemi!…<verse eid="MIC 2:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MIC 2:5"/>C’est pourquoi tu n’auras personne</para>
+  <para style="q" vid="MIC 2:5">Qui <note caller="c" style="x"><char style="xo" closed="false">2:5 </char><char style="xt" closed="false"><ref loc="DEU 32:8">De 32:8</ref>, <ref loc="DEU 32:9">9</ref>.</char></note>étende le cordeau sur un lot,</para>
+  <para style="q" vid="MIC 2:5">Dans l’assemblée de l’Éternel.<verse eid="MIC 2:5"/></para>
+  <para style="r">V. 6-11: cf. És 30:9-14. (Lé 18:24-28. És 36:17-19.)</para>
+  <para style="q">
+    <verse number="6" style="v" sid="MIC 2:6"/>Ne prophétisez pas! <note caller="d" style="x"><char style="xo" closed="false">2:6 </char><char style="xt" closed="false"><ref loc="ISA 30:10">És 30:10</ref>. <ref loc="AMO 7:16">Am 7:16</ref>.</char></note>disent-ils.</para>
+  <para style="q" vid="MIC 2:6">Qu’on ne prophétise pas de telles choses!</para>
+  <para style="q" vid="MIC 2:6">Les invectives n’ont point de fin!<verse eid="MIC 2:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MIC 2:7"/>Oses-tu parler ainsi, maison de Jacob?</para>
+  <para style="q" vid="MIC 2:7">L’Éternel est-il prompt à s’irriter?</para>
+  <para style="q" vid="MIC 2:7">Est-ce là sa manière d’agir?</para>
+  <para style="q" vid="MIC 2:7">Mes paroles ne sont-elles pas favorables</para>
+  <para style="q" vid="MIC 2:7">A celui qui marche avec droiture?<verse eid="MIC 2:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MIC 2:8"/>Depuis longtemps on traite mon peuple en ennemi;</para>
+  <para style="q" vid="MIC 2:8">Vous enlevez le manteau de dessus les vêtements</para>
+  <para style="q" vid="MIC 2:8">De ceux qui passent avec sécurité</para>
+  <para style="q" vid="MIC 2:8">En revenant de la guerre.<verse eid="MIC 2:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="MIC 2:9"/>Vous chassez de leurs maisons chéries les femmes de mon peuple,</para>
+  <para style="q" vid="MIC 2:9">Vous ôtez pour toujours ma parure à leurs enfants.<verse eid="MIC 2:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MIC 2:10"/>Levez-vous, marchez! Car ce n’est point ici un lieu de repos;</para>
+  <para style="q" vid="MIC 2:10">A cause de la souillure, il y aura des douleurs, des douleurs violentes.<verse eid="MIC 2:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MIC 2:11"/>Si un homme court après le vent et débite des mensonges:</para>
+  <para style="q" vid="MIC 2:11">Je vais te prophétiser sur le vin, sur les boissons fortes!</para>
+  <para style="q" vid="MIC 2:11">Ce sera pour ce peuple un prophète.<verse eid="MIC 2:11"/></para>
+  <para style="r">V. 12-13: cf. <ref loc="JER 23:3">Jé 23:3</ref>, <ref loc="JER 23:7">7</ref>, <ref loc="JER 23:8">8</ref>. <ref loc="ZEC 10:8-12">Za 10:8-12</ref>.</para>
+  <para style="q">
+    <verse number="12" style="v" sid="MIC 2:12"/>Je te rassemblerai tout entier, ô Jacob!</para>
+  <para style="q" vid="MIC 2:12">Je rassemblerai les restes d’Israël,</para>
+  <para style="q" vid="MIC 2:12">Je les réunirai comme les brebis d’une bergerie,</para>
+  <para style="q" vid="MIC 2:12">Comme le troupeau dans son pâturage;</para>
+  <para style="q" vid="MIC 2:12">Il y aura un grand bruit d’hommes.<verse eid="MIC 2:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MIC 2:13"/>Celui qui fera la brèche montera devant eux;</para>
+  <para style="q" vid="MIC 2:13">Ils feront la brèche, franchiront la porte et en sortiront;</para>
+  <para style="q" vid="MIC 2:13">Leur roi marchera devant eux,</para>
+  <para style="q" vid="MIC 2:13">Et l’Éternel sera à leur tête.<verse eid="MIC 2:13"/></para>
+  <chapter eid="MIC 2"/>
+  <chapter number="3" style="c" sid="MIC 3"/>
+  <para style="s">Culpabilité des chefs d’Israël</para>
+  <para style="r">V. 1-4: cf. <ref loc="ISA 10:1-4">És 10:1-4</ref>. <ref loc="PSA 82">Ps 82</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MIC 3:1"/>Je dis: Écoutez, chefs de Jacob,</para>
+  <para style="q" vid="MIC 3:1">Et princes de la maison d’Israël!</para>
+  <para style="q" vid="MIC 3:1">N’est-ce pas à vous à connaître la justice?<verse eid="MIC 3:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MIC 3:2"/>Vous haïssez le bien et vous aimez le mal;</para>
+  <para style="q" vid="MIC 3:2">Vous leur arrachez la peau et la chair de dessus les os.<verse eid="MIC 3:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MIC 3:3"/>Ils dévorent la chair de mon peuple,</para>
+  <para style="q" vid="MIC 3:3">Lui arrachent la peau,</para>
+  <para style="q" vid="MIC 3:3">Et lui brisent les os;</para>
+  <para style="q" vid="MIC 3:3">Ils le mettent en pièces comme ce qu’on cuit dans un pot,</para>
+  <para style="q" vid="MIC 3:3">Comme de la viande dans une chaudière.<verse eid="MIC 3:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MIC 3:4"/>Alors ils crieront vers l’Éternel,</para>
+  <para style="q" vid="MIC 3:4">Mais il ne leur répondra pas;</para>
+  <para style="q" vid="MIC 3:4">Il leur cachera sa face en ce temps-là,</para>
+  <para style="q" vid="MIC 3:4">Parce qu’ils ont fait de mauvaises actions.<verse eid="MIC 3:4"/></para>
+  <para style="r">V. 5-8: cf. <ref loc="ISA 56:10-12">És 56:10-12</ref>. Jé 23:9, etc.</para>
+  <para style="q">
+    <verse number="5" style="v" sid="MIC 3:5"/>Ainsi parle l’Éternel sur les prophètes qui égarent mon peuple,</para>
+  <para style="q" vid="MIC 3:5">Qui annoncent la paix si leurs dents <note caller="a" style="x"><char style="xo" closed="false">3:5 </char><char style="xt" closed="false"><ref loc="MIC 2:11">Mi 2:11</ref>.</char></note>ont quelque chose à mordre,</para>
+  <para style="q" vid="MIC 3:5">Et qui publient la guerre si on ne leur met rien dans la bouche:<verse eid="MIC 3:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="MIC 3:6"/>A cause de cela, vous aurez la nuit…, et plus de visions!</para>
+  <para style="q" vid="MIC 3:6">Vous aurez les ténèbres…, et plus d’oracles!</para>
+  <para style="q" vid="MIC 3:6">
+    <note caller="b" style="x">
+      <char style="xo" closed="false">3:6 </char>
+      <char style="xt" closed="false">
+        <ref loc="JER 15:9">Jé 15:9</ref>. <ref loc="AMO 8:9">Am 8:9</ref>.</char>
+    </note>Le soleil se couchera sur ces prophètes,</para>
+  <para style="q" vid="MIC 3:6">Le jour <note caller="c" style="x"><char style="xo" closed="false">3:6 </char><char style="xt" closed="false"><ref loc="JOL 2:10">Joë 2:10</ref>.</char></note>s’obscurcira sur eux.<verse eid="MIC 3:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MIC 3:7"/>Les voyants seront confus, les devins rougiront,</para>
+  <para style="q" vid="MIC 3:7">Tous se couvriront la barbe;</para>
+  <para style="q" vid="MIC 3:7">Car Dieu ne répondra pas.<verse eid="MIC 3:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MIC 3:8"/>Mais moi, je suis rempli de force, de l’esprit de l’Éternel,</para>
+  <para style="q" vid="MIC 3:8">Je suis rempli de justice et de vigueur,</para>
+  <para style="q" vid="MIC 3:8">Pour faire connaître à Jacob son crime,</para>
+  <para style="q" vid="MIC 3:8">Et à Israël son péché.<verse eid="MIC 3:8"/></para>
+  <para style="r">V. 9-12: cf. (És 1:21-24. So 3:1-4.) Jé 26:17-19.</para>
+  <para style="q">
+    <verse number="9" style="v" sid="MIC 3:9"/>Écoutez donc ceci, chefs de la maison de Jacob,</para>
+  <para style="q" vid="MIC 3:9">Et princes de la maison d’Israël,</para>
+  <para style="q" vid="MIC 3:9">Vous qui avez en horreur la justice,</para>
+  <para style="q" vid="MIC 3:9">Et qui <note caller="d" style="x"><char style="xo" closed="false">3:9 </char><char style="xt" closed="false"><ref loc="AMO 5:7">Am 5:7</ref>; <ref loc="AMO 6:12">6:12</ref>.</char></note>pervertissez tout ce qui est droit,<verse eid="MIC 3:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MIC 3:10"/>Vous qui bâtissez Sion avec le <note caller="e" style="x"><char style="xo" closed="false">3:10 </char><char style="xt" closed="false"><ref loc="EZK 22:27">Éz 22:27</ref>. <ref loc="ZEP 3:3">So 3:3</ref>.</char></note>sang,</para>
+  <para style="q" vid="MIC 3:10">Et Jérusalem avec l’iniquité!<verse eid="MIC 3:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MIC 3:11"/>Ses chefs jugent pour des présents,</para>
+  <para style="q" vid="MIC 3:11">Ses sacrificateurs enseignent pour un salaire,</para>
+  <para style="q" vid="MIC 3:11">Et ses prophètes prédisent pour de l’argent;</para>
+  <para style="q" vid="MIC 3:11">Et ils osent s’appuyer sur l’Éternel, ils disent:</para>
+  <para style="q" vid="MIC 3:11">L’Éternel n’est-il pas au milieu de nous?</para>
+  <para style="q" vid="MIC 3:11">Le malheur ne nous atteindra pas.<verse eid="MIC 3:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MIC 3:12"/>C’est pourquoi, à cause de vous,</para>
+  <para style="q" vid="MIC 3:12">Sion sera labourée comme un champ,</para>
+  <para style="q" vid="MIC 3:12">Jérusalem deviendra un monceau de pierres,</para>
+  <para style="q" vid="MIC 3:12">Et la montagne du temple une sommité couverte de bois.<verse eid="MIC 3:12"/></para>
+  <chapter eid="MIC 3"/>
+  <chapter number="4" style="c" sid="MIC 4"/>
+  <para style="s">Promesses de restauration</para>
+  <para style="r">V. 1-5: cf. <ref loc="ISA 2:2-5">És 2:2-5</ref>; 60:1, etc.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MIC 4:1"/>Il arrivera, <note caller="a" style="x"><char style="xo" closed="false">4:1 </char><char style="xt" closed="false">És 2:2, etc.</char></note>dans la suite des temps,</para>
+  <para style="q" vid="MIC 4:1">Que la montagne de la maison de l’Éternel</para>
+  <para style="q" vid="MIC 4:1">Sera fondée sur le sommet des montagnes,</para>
+  <para style="q" vid="MIC 4:1">Qu’elle s’élèvera par-dessus les collines,</para>
+  <para style="q" vid="MIC 4:1">Et que les peuples y afflueront.<verse eid="MIC 4:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MIC 4:2"/>Des nations s’y rendront en foule, et diront:</para>
+  <para style="q" vid="MIC 4:2">Venez, et montons à la montagne de l’Éternel,</para>
+  <para style="q" vid="MIC 4:2">A la maison du Dieu de Jacob,</para>
+  <para style="q" vid="MIC 4:2">Afin qu’il nous enseigne ses voies,</para>
+  <para style="q" vid="MIC 4:2">Et que nous marchions dans ses sentiers.</para>
+  <para style="q" vid="MIC 4:2">Car de Sion sortira la loi,</para>
+  <para style="q" vid="MIC 4:2">Et de Jérusalem la parole de l’Éternel.<verse eid="MIC 4:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MIC 4:3"/>Il sera le juge d’un grand nombre de peuples,</para>
+  <para style="q" vid="MIC 4:3">L’arbitre de nations puissantes, lointaines.</para>
+  <para style="q" vid="MIC 4:3">De leurs glaives ils forgeront des hoyaux,</para>
+  <para style="q" vid="MIC 4:3">Et de leurs lances des serpes;</para>
+  <para style="q" vid="MIC 4:3">Une nation ne tirera plus l’épée contre une autre,</para>
+  <para style="q" vid="MIC 4:3">Et l’on n’apprendra plus la guerre.<verse eid="MIC 4:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MIC 4:4"/>Ils habiteront chacun sous sa <note caller="b" style="x"><char style="xo" closed="false">4:4 </char><char style="xt" closed="false"><ref loc="1KI 4:25">1 R 4:25</ref>.</char></note>vigne et sous son figuier,</para>
+  <para style="q" vid="MIC 4:4">Et il n’y aura personne pour les troubler;</para>
+  <para style="q" vid="MIC 4:4">Car la bouche de l’Éternel des armées a parlé.<verse eid="MIC 4:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MIC 4:5"/>Tandis que tous les peuples marchent, chacun au nom de son dieu,</para>
+  <para style="q" vid="MIC 4:5">Nous marcherons, nous, au nom de l’Éternel, notre Dieu,</para>
+  <para style="q" vid="MIC 4:5">A toujours et à perpétuité.<verse eid="MIC 4:5"/></para>
+  <para style="r">V. 6-8: cf. (Jé 30:18-22. Éz 34:12-16.) Za 9:9, 10.</para>
+  <para style="q">
+    <verse number="6" style="v" sid="MIC 4:6"/>En ce jour-là, dit l’Éternel, je <note caller="c" style="x"><char style="xo" closed="false">4:6 </char><char style="xt" closed="false"><ref loc="DEU 30:3">De 30:3</ref>, <ref loc="DEU 30:4">4</ref>, <ref loc="DEU 30:5">5</ref>.</char></note>recueillerai les boiteux,</para>
+  <para style="q" vid="MIC 4:6">Je rassemblerai ceux qui étaient chassés,</para>
+  <para style="q" vid="MIC 4:6">Ceux que j’avais maltraités.<verse eid="MIC 4:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MIC 4:7"/>
+    <note caller="d" style="x">
+      <char style="xo" closed="false">4:7 </char>
+      <char style="xt" closed="false">
+        <ref loc="ZEP 3:19">So 3:19</ref>.</char>
+    </note>Des boiteux je ferai un reste,</para>
+  <para style="q" vid="MIC 4:7">De ceux qui étaient chassés une nation puissante;</para>
+  <para style="q" vid="MIC 4:7">Et l’Éternel <note caller="e" style="x"><char style="xo" closed="false">4:7 </char><char style="xt" closed="false"><ref loc="DAN 7:14">Da 7:14</ref>. <ref loc="LUK 1:33">Lu 1:33</ref>.</char></note>régnera sur eux, à la montagne de Sion,</para>
+  <para style="q" vid="MIC 4:7">Dès lors et pour toujours.<verse eid="MIC 4:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MIC 4:8"/>Et toi, tour du troupeau, colline de la fille de Sion,</para>
+  <para style="q" vid="MIC 4:8">A toi viendra, à toi arrivera l’ancienne domination,</para>
+  <para style="q" vid="MIC 4:8">Le royaume de la fille de Jérusalem.<verse eid="MIC 4:8"/></para>
+  <para style="s">Captivité et délivrance</para>
+  <para style="r">V. 9-14: cf. <ref loc="JER 29:10-14">Jé 29:10-14</ref>. <ref loc="ZEC 12:2-6">Za 12:2-6</ref>.</para>
+  <para style="q">
+    <verse number="9" style="v" sid="MIC 4:9"/>Pourquoi maintenant pousses-tu des cris?</para>
+  <para style="q" vid="MIC 4:9">N’as-tu point de <note caller="f" style="x"><char style="xo" closed="false">4:9 </char><char style="xt" closed="false"><ref loc="JER 8:19">Jé 8:19</ref>.</char></note>roi, plus de conseiller,</para>
+  <para style="q" vid="MIC 4:9">Pour que la douleur te saisisse comme une femme qui accouche?<verse eid="MIC 4:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MIC 4:10"/>Fille de Sion, souffre et gémis comme une femme qui accouche!</para>
+  <para style="q" vid="MIC 4:10">Car maintenant tu sortiras de la ville et tu habiteras dans les champs,</para>
+  <para style="q" vid="MIC 4:10">Et tu iras jusqu’à Babylone;</para>
+  <para style="q" vid="MIC 4:10">Là tu seras délivrée,</para>
+  <para style="q" vid="MIC 4:10">C’est là que l’Éternel te rachètera de la main de tes ennemis.<verse eid="MIC 4:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MIC 4:11"/>Maintenant plusieurs nations se sont rassemblées contre toi:</para>
+  <para style="q" vid="MIC 4:11">Qu’elle soit profanée, disent-elles,</para>
+  <para style="q" vid="MIC 4:11">Et que nos yeux se rassasient dans Sion!<verse eid="MIC 4:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MIC 4:12"/>Mais elles ne connaissent pas les pensées de l’Éternel,</para>
+  <para style="q" vid="MIC 4:12">Elles ne comprennent pas ses desseins,</para>
+  <para style="q" vid="MIC 4:12">Elles ignorent qu’il les a rassemblées comme des gerbes dans <note caller="g" style="x"><char style="xo" closed="false">4:12 </char><char style="xt" closed="false"><ref loc="JER 51:33">Jé 51:33</ref>.</char></note>l’aire.<verse eid="MIC 4:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MIC 4:13"/>Fille de Sion, lève-toi et foule!</para>
+  <para style="q" vid="MIC 4:13">Je te ferai une corne de fer et des ongles d’airain,</para>
+  <para style="q" vid="MIC 4:13">Et tu broieras des peuples nombreux;</para>
+  <para style="q" vid="MIC 4:13">Tu consacreras leurs biens à l’Éternel,</para>
+  <para style="q" vid="MIC 4:13">Leurs richesses au <note caller="h" style="x"><char style="xo" closed="false">4:13 </char><char style="xt" closed="false"><ref loc="ZEC 4:14">Za 4:14</ref>; <ref loc="ZEC 6:5">6:5</ref>.</char></note>Seigneur de toute la terre.<verse eid="MIC 4:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MIC 4:14"/>Maintenant, fille de troupes, rassemble tes troupes!</para>
+  <para style="q" vid="MIC 4:14">On nous assiège;</para>
+  <para style="q" vid="MIC 4:14">Avec la verge on frappe sur la joue le juge d’Israël.<verse eid="MIC 4:14"/></para>
+  <chapter eid="MIC 4"/>
+  <chapter number="5" style="c" sid="MIC 5"/>
+  <para style="s">Naissance et règne du Messie</para>
+  <para style="r">V. 1-5: cf. <ref loc="ISA 9:5">És 9:5</ref>, <ref loc="ISA 9:6">6</ref>. (Mt 2:1-11. <ref loc="LUK 2:1-14">Lu 2:1-14</ref>; 1:30-33.) Ps 72.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MIC 5:1"/>Et toi, <note caller="a" style="x"><char style="xo" closed="false">5:1 </char><char style="xt" closed="false"><ref loc="MAT 2:6">Mt 2:6</ref>. <ref loc="JHN 7:42">Jn 7:42</ref>.</char></note>Bethléhem Éphrata,</para>
+  <para style="q" vid="MIC 5:1">Petite entre les milliers de Juda,</para>
+  <para style="q" vid="MIC 5:1">De toi sortira pour moi</para>
+  <para style="q" vid="MIC 5:1">Celui qui dominera sur Israël,</para>
+  <para style="q" vid="MIC 5:1">Et dont l’origine remonte aux temps anciens,</para>
+  <para style="q" vid="MIC 5:1">Aux jours de l’éternité.<verse eid="MIC 5:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MIC 5:2"/>C’est pourquoi il les livrera</para>
+  <para style="q" vid="MIC 5:2">Jusqu’au temps où enfantera celle qui doit enfanter,</para>
+  <para style="q" vid="MIC 5:2">Et le reste de ses frères</para>
+  <para style="q" vid="MIC 5:2">Reviendra auprès des enfants d’Israël.<verse eid="MIC 5:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MIC 5:3"/>Il se présentera, et il gouvernera avec la force de l’Éternel,</para>
+  <para style="q" vid="MIC 5:3">Avec la majesté du nom de l’Éternel, son Dieu:</para>
+  <para style="q" vid="MIC 5:3">Et ils auront une demeure assurée,</para>
+  <para style="q" vid="MIC 5:3">Car il sera glorifié jusqu’aux extrémités de la terre.<verse eid="MIC 5:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MIC 5:4"/>C’est lui qui ramènera la paix.</para>
+  <para style="q" vid="MIC 5:4">Lorsque l’Assyrien viendra dans notre pays,</para>
+  <para style="q" vid="MIC 5:4">Et qu’il pénétrera dans nos palais,</para>
+  <para style="q" vid="MIC 5:4">Nous ferons lever contre lui sept pasteurs</para>
+  <para style="q" vid="MIC 5:4">Et huit princes du peuple.<verse eid="MIC 5:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MIC 5:5"/>Ils feront avec l’épée leur pâture du pays d’Assyrie</para>
+  <para style="q" vid="MIC 5:5">Et du pays de Nimrod au-dedans de ses portes.</para>
+  <para style="q" vid="MIC 5:5">Il nous délivrera ainsi de l’Assyrien,</para>
+  <para style="q" vid="MIC 5:5">Lorsqu’il viendra dans notre pays,</para>
+  <para style="q" vid="MIC 5:5">Et qu’il pénétrera sur notre territoire.<verse eid="MIC 5:5"/></para>
+  <para style="r">V. 6-8: cf. <ref loc="ROM 11:11">Ro 11:11</ref>, <ref loc="ROM 11:12">12</ref>, <ref loc="ROM 11:15">15</ref>. <ref loc="ISA 54:15-17">És 54:15-17</ref>. <ref loc="2CO 2:15">2 Co 2:15</ref>, <ref loc="2CO 2:16">16</ref>.</para>
+  <para style="q">
+    <verse number="6" style="v" sid="MIC 5:6"/>Le reste de Jacob sera au milieu des peuples nombreux</para>
+  <para style="q" vid="MIC 5:6">Comme une rosée qui vient de l’Éternel,</para>
+  <para style="q" vid="MIC 5:6">Comme des gouttes d’eau sur l’herbe:</para>
+  <para style="q" vid="MIC 5:6">Elles ne comptent pas sur l’homme,</para>
+  <para style="q" vid="MIC 5:6">Elles ne dépendent pas des enfants des hommes.<verse eid="MIC 5:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MIC 5:7"/>Le reste de Jacob sera parmi les nations,</para>
+  <para style="q" vid="MIC 5:7">Au milieu des peuples nombreux,</para>
+  <para style="q" vid="MIC 5:7">Comme un lion parmi les bêtes de la forêt,</para>
+  <para style="q" vid="MIC 5:7">Comme un lionceau parmi les troupeaux de brebis:</para>
+  <para style="q" vid="MIC 5:7">Lorsqu’il passe, il foule et déchire,</para>
+  <para style="q" vid="MIC 5:7">Et personne ne délivre.<verse eid="MIC 5:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MIC 5:8"/>Que ta main se lève sur tes adversaires,</para>
+  <para style="q" vid="MIC 5:8">Et que tous tes ennemis soient exterminés!<verse eid="MIC 5:8"/></para>
+  <para style="r">V. 9-14: cf. <ref loc="ZEC 9:10">Za 9:10</ref>; <ref loc="ZEC 13:2">13:2</ref>.</para>
+  <para style="q">
+    <verse number="9" style="v" sid="MIC 5:9"/>En ce jour-là, dit l’Éternel,</para>
+  <para style="q" vid="MIC 5:9">J’exterminerai du milieu de toi tes <note caller="b" style="x"><char style="xo" closed="false">5:9 </char><char style="xt" closed="false"><ref loc="HOS 14:4">Os 14:4</ref>.</char></note>chevaux,</para>
+  <para style="q" vid="MIC 5:9">Et je détruirai tes chars;<verse eid="MIC 5:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MIC 5:10"/>J’exterminerai les villes de ton pays,</para>
+  <para style="q" vid="MIC 5:10">Et je renverserai toutes tes forteresses;<verse eid="MIC 5:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MIC 5:11"/>J’exterminerai de ta main les enchantements,</para>
+  <para style="q" vid="MIC 5:11">Et tu n’auras plus de magiciens;<verse eid="MIC 5:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MIC 5:12"/>J’exterminerai du milieu de toi tes idoles et tes statues,</para>
+  <para style="q" vid="MIC 5:12">Et tu ne te prosterneras plus devant l’ouvrage de tes mains;<verse eid="MIC 5:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MIC 5:13"/>J’exterminerai du milieu de toi tes idoles d’Astarté,</para>
+  <para style="q" vid="MIC 5:13">Et je détruirai tes villes.<verse eid="MIC 5:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MIC 5:14"/>J’exercerai ma vengeance avec colère, avec fureur, sur les nations</para>
+  <para style="q" vid="MIC 5:14">Qui n’ont pas écouté.<verse eid="MIC 5:14"/></para>
+  <chapter eid="MIC 5"/>
+  <chapter number="6" style="c" sid="MIC 6"/>
+  <para style="s">Procès de l’Éternel avec son peuple. La miséricorde de l’Éternel</para>
+  <para style="r">V. 1-5: cf. <ref loc="JER 2:4-7">Jé 2:4-7</ref>. <ref loc="1SA 12:7-12">1 S 12:7-12</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MIC 6:1"/>Écoutez donc ce que dit l’Éternel:</para>
+  <para style="q" vid="MIC 6:1">Lève-toi, plaide devant les montagnes,</para>
+  <para style="q" vid="MIC 6:1">Et que les collines entendent ta voix!…<verse eid="MIC 6:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MIC 6:2"/>Écoutez, montagnes, le procès de l’Éternel,</para>
+  <para style="q" vid="MIC 6:2">Et vous, solides fondements de la terre!</para>
+  <para style="q" vid="MIC 6:2">Car <note caller="a" style="x"><char style="xo" closed="false">6:2 </char><char style="xt" closed="false"><ref loc="HOS 4:1">Os 4:1</ref>.</char></note>l’Éternel a un procès avec son peuple,</para>
+  <para style="q" vid="MIC 6:2">Il veut plaider avec Israël.<verse eid="MIC 6:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MIC 6:3"/>Mon peuple, que t’ai-je fait?</para>
+  <para style="q" vid="MIC 6:3">En quoi t’ai-je fatigué?</para>
+  <para style="q" vid="MIC 6:3">Réponds-moi!<verse eid="MIC 6:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MIC 6:4"/>Car je t’ai fait monter du pays <note caller="b" style="x"><char style="xo" closed="false">6:4 </char><char style="xt" closed="false"><ref loc="EXO 12:51">Ex 12:51</ref>; <ref loc="EXO 14:30">14:30</ref>.</char></note>d’Égypte,</para>
+  <para style="q" vid="MIC 6:4">Je t’ai délivré de la maison de servitude,</para>
+  <para style="q" vid="MIC 6:4">Et j’ai envoyé devant toi Moïse, Aaron et Marie.<verse eid="MIC 6:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MIC 6:5"/>Mon peuple, rappelle-toi ce que projetait <note caller="c" style="x"><char style="xo" closed="false">6:5 </char><char style="xt" closed="false"><ref loc="NUM 22:5">No 22:5</ref>; <ref loc="NUM 23:7">23:7</ref>.</char></note>Balak, roi de Moab,</para>
+  <para style="q" vid="MIC 6:5">Et ce que lui répondit Balaam, fils de Beor,</para>
+  <para style="q" vid="MIC 6:5">De <note caller="d" style="x"><char style="xo" closed="false">6:5 </char><char style="xt" closed="false"><ref loc="NUM 25">No 25</ref>.</char></note>Sittim à <note caller="e" style="x"><char style="xo" closed="false">6:5 </char><char style="xt" closed="false"><ref loc="JOS 5">Jos 5</ref>.</char></note>Guilgal,</para>
+  <para style="q" vid="MIC 6:5">Afin que tu reconnaisses les bienfaits de l’Éternel.<verse eid="MIC 6:5"/></para>
+  <para style="r">V. 6-8: cf. Ps 50:7, etc.; <ref loc="PSA 51:18">51:18</ref>, <ref loc="PSA 51:19">19</ref>. <ref loc="ISA 1:11-19">És 1:11-19</ref>. <ref loc="HOS 6:6">Os 6:6</ref>.</para>
+  <para style="q">
+    <verse number="6" style="v" sid="MIC 6:6"/>Avec quoi me présenterai-je devant l’Éternel,</para>
+  <para style="q" vid="MIC 6:6">Pour m’humilier devant le Dieu Très-Haut?</para>
+  <para style="q" vid="MIC 6:6">Me présenterai-je avec des holocaustes,</para>
+  <para style="q" vid="MIC 6:6">Avec des veaux d’un an?<verse eid="MIC 6:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="MIC 6:7"/>L’Éternel agréera-t-il des milliers de béliers,</para>
+  <para style="q" vid="MIC 6:7">Des myriades de torrents d’huile?</para>
+  <para style="q" vid="MIC 6:7">Donnerai-je pour mes transgressions mon premier-né,</para>
+  <para style="q" vid="MIC 6:7">Pour le péché de mon âme le fruit de mes entrailles?<verse eid="MIC 6:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MIC 6:8"/>On t’a fait connaître, ô homme, ce qui est bien;</para>
+  <para style="q" vid="MIC 6:8">
+    <note caller="f" style="x">
+      <char style="xo" closed="false">6:8 </char>
+      <char style="xt" closed="false">
+        <ref loc="DEU 10:12">De 10:12</ref>.</char>
+    </note>Et ce que l’Éternel demande de toi,</para>
+  <para style="q" vid="MIC 6:8">C’est que tu pratiques la justice,</para>
+  <para style="q" vid="MIC 6:8">Que tu aimes la miséricorde,</para>
+  <para style="q" vid="MIC 6:8">Et que tu marches humblement avec ton Dieu.<verse eid="MIC 6:8"/></para>
+  <para style="r">V. 9-16: cf. (Am 8:4-8; 5:11-13.) 1 R 9:6-9.</para>
+  <para style="q">
+    <verse number="9" style="v" sid="MIC 6:9"/>La voix de l’Éternel crie à la ville,</para>
+  <para style="q" vid="MIC 6:9">Et celui qui est sage craindra ton nom.</para>
+  <para style="q" vid="MIC 6:9">Entendez la verge et celui qui l’envoie!<verse eid="MIC 6:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MIC 6:10"/>Y a-t-il encore dans la maison du méchant</para>
+  <para style="q" vid="MIC 6:10">Des trésors iniques,</para>
+  <para style="q" vid="MIC 6:10">Et un épha trop petit, objet de malédiction?<verse eid="MIC 6:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="MIC 6:11"/>Est-on pur avec des <note caller="g" style="x"><char style="xo" closed="false">6:11 </char><char style="xt" closed="false"><ref loc="HOS 12:8">Os 12:8</ref>.</char></note>balances fausses,</para>
+  <para style="q" vid="MIC 6:11">Et avec de faux poids dans le sac?<verse eid="MIC 6:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MIC 6:12"/>Ses riches sont pleins de violence,</para>
+  <para style="q" vid="MIC 6:12">Ses habitants profèrent le mensonge,</para>
+  <para style="q" vid="MIC 6:12">Et leur langue n’est que <note caller="h" style="x"><char style="xo" closed="false">6:12 </char><char style="xt" closed="false"><ref loc="JER 9:8">Jé 9:8</ref>.</char></note>tromperie dans leur bouche.<verse eid="MIC 6:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MIC 6:13"/>C’est pourquoi je te frapperai par la souffrance,</para>
+  <para style="q" vid="MIC 6:13">Je te ravagerai à cause de tes péchés.<verse eid="MIC 6:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MIC 6:14"/>Tu <note caller="i" style="x"><char style="xo" closed="false">6:14 </char><char style="xt" closed="false"><ref loc="HOS 4:10">Os 4:10</ref>.</char></note>mangeras sans te rassasier,</para>
+  <para style="q" vid="MIC 6:14">Et la faim sera au-dedans de toi;</para>
+  <para style="q" vid="MIC 6:14">Tu mettras en réserve et tu ne sauveras pas,</para>
+  <para style="q" vid="MIC 6:14">Et ce que tu sauveras, je le livrerai à l’épée.<verse eid="MIC 6:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="MIC 6:15"/>Tu <note caller="j" style="x"><char style="xo" closed="false">6:15 </char><char style="xt" closed="false"><ref loc="DEU 28:38">De 28:38</ref>. <ref loc="HAG 1:6">Ag 1:6</ref>.</char></note>sèmeras, et tu ne moissonneras pas,</para>
+  <para style="q" vid="MIC 6:15">Tu presseras l’olive, et tu ne feras pas d’onctions avec l’huile,</para>
+  <para style="q" vid="MIC 6:15">Tu presseras le moût, et tu ne boiras pas le vin.<verse eid="MIC 6:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="MIC 6:16"/>On observe les coutumes <note caller="k" style="x"><char style="xo" closed="false">6:16 </char><char style="xt" closed="false"><ref loc="1KI 16:25">1 R 16:25</ref>, <ref loc="1KI 16:26">26</ref>.</char></note>d’Omri</para>
+  <para style="q" vid="MIC 6:16">Et toute la manière d’agir de la maison <note caller="l" style="x"><char style="xo" closed="false">6:16 </char><char style="xt" closed="false">1 R 16:30, etc.</char></note>d’Achab,</para>
+  <para style="q" vid="MIC 6:16">Et vous marchez d’après leurs conseils;</para>
+  <para style="q" vid="MIC 6:16">C’est pourquoi je te livrerai à la destruction,</para>
+  <para style="q" vid="MIC 6:16">Je ferai de tes habitants un sujet de raillerie,</para>
+  <para style="q" vid="MIC 6:16">Et vous porterez l’opprobre de mon peuple.<verse eid="MIC 6:16"/></para>
+  <chapter eid="MIC 6"/>
+  <chapter number="7" style="c" sid="MIC 7"/>
+  <para style="r">V. 1-6: cf. (Ps 12:2-6. <ref loc="JER 5:1">Jé 5:1</ref>, <ref loc="JER 5:25-31">25-31</ref>; 9:2-11.) Mt 10:21, 35, 36.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="MIC 7:1"/>Malheur à moi! Car je suis comme à la récolte des fruits,</para>
+  <para style="q" vid="MIC 7:1">Comme au grappillage après la vendange:</para>
+  <para style="q" vid="MIC 7:1">Il n’y a point de grappes à manger,</para>
+  <para style="q" vid="MIC 7:1">Point de ces primeurs que mon âme désire.<verse eid="MIC 7:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="MIC 7:2"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">7:2 </char>
+      <char style="xt" closed="false">
+        <ref loc="PSA 12:2">Ps 12:2</ref>. <ref loc="HOS 4:5">Os 4:5</ref>.</char>
+    </note>L’homme de bien a disparu du pays,</para>
+  <para style="q" vid="MIC 7:2">Et il n’y a plus de juste parmi les hommes;</para>
+  <para style="q" vid="MIC 7:2">Ils sont tous en embuscade pour verser le sang,</para>
+  <para style="q" vid="MIC 7:2">Chacun tend un piège à son frère.<verse eid="MIC 7:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="MIC 7:3"/>Leurs mains sont habiles à faire le mal:</para>
+  <para style="q" vid="MIC 7:3">Le prince a des exigences,</para>
+  <para style="q" vid="MIC 7:3">Le juge réclame <note caller="b" style="x"><char style="xo" closed="false">7:3 </char><char style="xt" closed="false"><ref loc="MIC 3:11">Mi 3:11</ref>.</char></note>un salaire,</para>
+  <para style="q" vid="MIC 7:3">Le grand manifeste son <note caller="c" style="x"><char style="xo" closed="false">7:3 </char><char style="xt" closed="false"><ref loc="MIC 2:1">Mi 2:1</ref>.</char></note>avidité,</para>
+  <para style="q" vid="MIC 7:3">Et ils font ainsi cause commune.<verse eid="MIC 7:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="MIC 7:4"/>Le meilleur d’entre eux est comme une ronce,</para>
+  <para style="q" vid="MIC 7:4">Le plus droit pire qu’un buisson d’épines.</para>
+  <para style="q" vid="MIC 7:4">Le jour annoncé par tes prophètes, ton châtiment approche.</para>
+  <para style="q" vid="MIC 7:4">C’est alors qu’ils seront dans la confusion.<verse eid="MIC 7:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="MIC 7:5"/>Ne crois pas à un ami,</para>
+  <para style="q" vid="MIC 7:5">Ne te fie pas à un intime;</para>
+  <para style="q" vid="MIC 7:5">Devant celle qui repose sur ton sein</para>
+  <para style="q" vid="MIC 7:5">Garde les portes de ta bouche.<verse eid="MIC 7:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="MIC 7:6"/>
+    <note caller="d" style="x">
+      <char style="xo" closed="false">7:6 </char>
+      <char style="xt" closed="false">
+        <ref loc="EZK 22:7">Éz 22:7</ref>. <ref loc="MAT 10:21">Mt 10:21</ref>, <ref loc="MAT 10:35">35</ref>, <ref loc="MAT 10:36">36</ref>. <ref loc="LUK 12:53">Lu 12:53</ref>.</char>
+    </note>Car le fils outrage le père,</para>
+  <para style="q" vid="MIC 7:6">La fille se soulève contre sa mère,</para>
+  <para style="q" vid="MIC 7:6">La belle-fille contre sa belle-mère;</para>
+  <para style="q" vid="MIC 7:6">Chacun a pour ennemis les gens de sa maison.<verse eid="MIC 7:6"/></para>
+  <para style="r">V. 7-10: cf. La 3:21, etc.</para>
+  <para style="q">
+    <verse number="7" style="v" sid="MIC 7:7"/>Pour moi, je regarderai vers l’Éternel,</para>
+  <para style="q" vid="MIC 7:7">Je mettrai mon espérance dans le Dieu de mon salut;</para>
+  <para style="q" vid="MIC 7:7">Mon Dieu m’exaucera.<verse eid="MIC 7:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="MIC 7:8"/>Ne te réjouis pas à mon sujet, mon ennemie!</para>
+  <para style="q" vid="MIC 7:8">Car si je suis tombée, je me relèverai;</para>
+  <para style="q" vid="MIC 7:8">Si je suis assise dans les ténèbres,</para>
+  <para style="q" vid="MIC 7:8">L’Éternel sera ma lumière.<verse eid="MIC 7:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="MIC 7:9"/>Je supporterai la colère de l’Éternel,</para>
+  <para style="q" vid="MIC 7:9">Puisque j’ai péché contre lui,</para>
+  <para style="q" vid="MIC 7:9">Jusqu’à ce qu’il <note caller="e" style="x"><char style="xo" closed="false">7:9 </char><char style="xt" closed="false"><ref loc="JER 50:34">Jé 50:34</ref>.</char></note>défende ma cause et me fasse droit;</para>
+  <para style="q" vid="MIC 7:9">Il me conduira à la lumière,</para>
+  <para style="q" vid="MIC 7:9">Et je contemplerai sa justice.<verse eid="MIC 7:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="MIC 7:10"/>Mon ennemie le verra et sera couverte de honte,</para>
+  <para style="q" vid="MIC 7:10">Elle qui me <note caller="f" style="x"><char style="xo" closed="false">7:10 </char><char style="xt" closed="false"><ref loc="PSA 79:10">Ps 79:10</ref>; <ref loc="PSA 115:2">115:2</ref>. <ref loc="JOL 2:7">Joë 2:7</ref>.</char></note>disait: Où est l’Éternel, ton Dieu?</para>
+  <para style="q" vid="MIC 7:10">Mes yeux se réjouiront à sa vue;</para>
+  <para style="q" vid="MIC 7:10">Alors elle sera foulée aux pieds comme la boue des rues.<verse eid="MIC 7:10"/></para>
+  <para style="r">V. 11-17: cf. És 19:18-25. (Jé 50:19. Éz 34:11-15.)</para>
+  <para style="q">
+    <verse number="11" style="v" sid="MIC 7:11"/>Le jour où l’on <note caller="g" style="x"><char style="xo" closed="false">7:11 </char><char style="xt" closed="false">Am 9:11, etc.</char></note>rebâtira tes murs,</para>
+  <para style="q" vid="MIC 7:11">Ce jour-là tes limites seront reculées.<verse eid="MIC 7:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="MIC 7:12"/>En ce jour, on viendra vers toi</para>
+  <para style="q" vid="MIC 7:12">De l’Assyrie et des villes d’Égypte,</para>
+  <para style="q" vid="MIC 7:12">De l’Égypte jusqu’au fleuve,</para>
+  <para style="q" vid="MIC 7:12">D’une mer à l’autre, et d’une montagne à l’autre.<verse eid="MIC 7:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="MIC 7:13"/>Le pays sera dévasté à cause de ses habitants,</para>
+  <para style="q" vid="MIC 7:13">A cause du <note caller="h" style="x"><char style="xo" closed="false">7:13 </char><char style="xt" closed="false"><ref loc="JER 21:14">Jé 21:14</ref>.</char></note>fruit de leurs œuvres.<verse eid="MIC 7:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="MIC 7:14"/>
+    <note caller="i" style="x">
+      <char style="xo" closed="false">7:14 </char>
+      <char style="xt" closed="false">
+        <ref loc="MIC 5:3">Mi 5:3</ref>.</char>
+    </note>Pais ton peuple avec ta houlette, le troupeau de ton héritage,</para>
+  <para style="q" vid="MIC 7:14">Qui habite solitaire dans la forêt au milieu du Carmel!</para>
+  <para style="q" vid="MIC 7:14">Qu’ils paissent sur le Basan et en Galaad,</para>
+  <para style="q" vid="MIC 7:14">Comme au jour d’autrefois.<verse eid="MIC 7:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="MIC 7:15"/>Comme au jour où tu sortis du pays d’Égypte,</para>
+  <para style="q" vid="MIC 7:15">Je te ferai voir des <note caller="j" style="x"><char style="xo" closed="false">7:15 </char><char style="xt" closed="false"><ref loc="JOL 2:26">Joë 2:26</ref>, <ref loc="JOL 2:30">30</ref>.</char></note>prodiges.<verse eid="MIC 7:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="MIC 7:16"/>Les nations le verront, et seront confuses,</para>
+  <para style="q" vid="MIC 7:16">Avec toute leur puissance;</para>
+  <para style="q" vid="MIC 7:16">Elles mettront la main sur la bouche,</para>
+  <para style="q" vid="MIC 7:16">Leurs oreilles seront assourdies.<verse eid="MIC 7:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="MIC 7:17"/>Elles lécheront la <note caller="k" style="x"><char style="xo" closed="false">7:17 </char><char style="xt" closed="false"><ref loc="PSA 72:9">Ps 72:9</ref>. <ref loc="ISA 49:23">És 49:23</ref>.</char></note>poussière, comme le serpent,</para>
+  <para style="q" vid="MIC 7:17">Comme les reptiles de la terre;</para>
+  <para style="q" vid="MIC 7:17">Elles seront saisies de frayeur hors de leurs forteresses;</para>
+  <para style="q" vid="MIC 7:17">Elles trembleront devant l’Éternel, notre Dieu,</para>
+  <para style="q" vid="MIC 7:17">Elles te craindront.<verse eid="MIC 7:17"/></para>
+  <para style="r">V. 18-20: cf. <ref loc="PSA 85">Ps 85</ref>. <ref loc="LUK 1:68-75">Lu 1:68-75</ref>.</para>
+  <para style="q">
+    <verse number="18" style="v" sid="MIC 7:18"/>Quel Dieu est semblable à toi,</para>
+  <para style="q" vid="MIC 7:18">Qui <note caller="l" style="x"><char style="xo" closed="false">7:18 </char><char style="xt" closed="false"><ref loc="EXO 34:6">Ex 34:6</ref>, <ref loc="EXO 34:7">7</ref>.</char></note>pardonnes l’iniquité, qui oublies les péchés</para>
+  <para style="q" vid="MIC 7:18">Du reste de ton héritage?</para>
+  <para style="q" vid="MIC 7:18">Il ne garde pas sa colère à toujours,</para>
+  <para style="q" vid="MIC 7:18">Car il prend plaisir à la miséricorde.<verse eid="MIC 7:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="MIC 7:19"/>Il aura encore compassion de nous,</para>
+  <para style="q" vid="MIC 7:19">Il mettra sous ses pieds nos iniquités;</para>
+  <para style="q" vid="MIC 7:19">Tu jetteras au fond de la mer tous leurs péchés.<verse eid="MIC 7:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="MIC 7:20"/>Tu témoigneras de la fidélité à Jacob,</para>
+  <para style="q" vid="MIC 7:20">De la bonté à Abraham,</para>
+  <para style="q" vid="MIC 7:20">Comme tu l’as juré à nos pères aux jours d’autrefois.<verse eid="MIC 7:20"/></para>
+  <chapter eid="MIC 7"/>
+</usx>

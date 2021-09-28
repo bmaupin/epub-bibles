@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usx version="3.0">
+  <book code="JOL" style="id">JOLFLS1910.PTX, Louis Segond 1910, French, 31-10-2011, Moon Sun Kim. Updated for DBL by E. Canales, September 2012.</book>
+  <para style="ide">UTF-8</para>
+  <para style="h">JOËL</para>
+  <para style="toc3">Joë</para>
+  <para style="toc1">Joël</para>
+  <para style="toc2">Joël</para>
+  <para style="mt1">JOËL</para>
+  <para style="imt1">INTRODUCTION AU LIVRE DE JOËL</para>
+  <para style="imt3">(Os 6:1-3. Hé 12:10, 11. Ap 21:3-6.)</para>
+  <para style="ip">Ce livre a pour titre «Joël», nom qui signifie «son Dieu est l’Éternel». Le premier verset ne nous apprend rien sur la personne et l’époque du prophète. Ce dernier apporta à Israël un message portant sur le thème du jour où le Seigneur manifestera sa puissance et jugera les nations en fonction de leur attitude vis-à-vis d’Israël, son peuple.</para>
+  <para style="ip">Le chapitre 1 traite des signes précurseurs du jour du Seigneur et de la réaction du peuple et du prophète Joël, fils de Pethuel. La venue de ce jour du jugement y est caractérisée par une invasion de sauterelles, la sécheresse et l’incendie. Que faire donc? Le peuple est invité à se repentir et à supplier l’Éternel (1:10-14) et le prophète lui-même intercède en faveur de son peuple (1:19-20).</para>
+  <para style="ip">Le chapitre 2 signale le jour du Seigneur comme proche, et l’urgence de sa venue est soulignée (2:1-11). C’est vraiment le moment de revenir à l’Éternel avec des jeûnes et des lamentations (2:12-13). Ce moment est déjà là. Tous sont concernés: <char style="it">«les vieillards, les enfants et les nourrissons»</char> (2:15-17). C’est à ce prix que viendra la réponse de Dieu à son peuple (2:18-27) avec la présence de l’Esprit de l’Éternel en action sur toute chair, avec des visions et des songes.</para>
+  <para style="ip">Le chapitre 3 porte sur le jugement des nations. Le procès de Dieu contre les nations qui ont dispersé Israël sera terrible. Il y aura une sorte de combat final et de jugement dans la vallée de Josaphat ou vallée de décision (3:9-17). Enfin viendra de nouveau la prospérité multiforme pour le peuple. Dans le livre de Joël, Israël est jugé en fonction de son attitude à l’égard de son Dieu, les peuples étrangers l’étant, répétons-le, en fonction de leur attitude à l’égard d’Israël.</para>
+  <para style="ip">Le livre de Joël annonce avec beaucoup de détails le jour où l’Éternel manifestera sa puissance et jugera les peuples. La situation de pénurie et de dépouillement du peuple précède l’abondance matérielle et surtout la présence de Dieu et l’effusion de son Esprit sur ses serviteurs et ses servantes.</para>
+  <para style="ie"/>
+  <chapter number="1" style="c" sid="JOL 1"/>
+  <para style="s">Une invasion de sauterelles. Exhortation à la repentance</para>
+  <para style="r">V. 1-20: cf. Ex 10:12-15. De 28:38-42. (Jé 14:1-9. Am 4:9.)</para>
+  <para style="q">
+    <verse number="1" style="v" sid="JOL 1:1"/>La parole de l’Éternel qui fut adressée à Joël, fils de Pethuel.<verse eid="JOL 1:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="JOL 1:2"/>Écoutez ceci, vieillards!</para>
+  <para style="q" vid="JOL 1:2">Prêtez l’oreille, vous tous, habitants du pays!</para>
+  <para style="q" vid="JOL 1:2">Rien de pareil est-il arrivé de votre temps,</para>
+  <para style="q" vid="JOL 1:2">Ou du temps de vos pères?<verse eid="JOL 1:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="JOL 1:3"/>Racontez-le à vos enfants,</para>
+  <para style="q" vid="JOL 1:3">Et que vos enfants le racontent à leurs enfants,</para>
+  <para style="q" vid="JOL 1:3">Et leurs enfants à la génération qui suivra!<verse eid="JOL 1:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="JOL 1:4"/>Ce qu’a laissé le gazam, la sauterelle l’a dévoré;</para>
+  <para style="q" vid="JOL 1:4">Ce qu’a laissé la sauterelle, le jélek l’a dévoré;</para>
+  <para style="q" vid="JOL 1:4">Ce qu’a laissé le jélek, le hasil l’a dévoré.<verse eid="JOL 1:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="JOL 1:5"/>Réveillez-vous, ivrognes, et pleurez!</para>
+  <para style="q" vid="JOL 1:5">Vous tous, buveurs de vin, gémissez,</para>
+  <para style="q" vid="JOL 1:5">Parce que le moût vous est enlevé de la bouche!<verse eid="JOL 1:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="JOL 1:6"/>Car un peuple est venu fondre sur mon pays,</para>
+  <para style="q" vid="JOL 1:6">Puissant et innombrable.</para>
+  <para style="q" vid="JOL 1:6">Il a les dents d’un lion,</para>
+  <para style="q" vid="JOL 1:6">Les mâchoires d’une lionne.<verse eid="JOL 1:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="JOL 1:7"/>Il a dévasté ma vigne;</para>
+  <para style="q" vid="JOL 1:7">Il a mis en morceaux mon figuier,</para>
+  <para style="q" vid="JOL 1:7">Il l’a dépouillé, abattu;</para>
+  <para style="q" vid="JOL 1:7">Les rameaux de la vigne ont blanchi.<verse eid="JOL 1:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="JOL 1:8"/>Lamente-toi, comme la vierge qui se revêt d’un sac</para>
+  <para style="q" vid="JOL 1:8">Pour pleurer l’ami de sa jeunesse!<verse eid="JOL 1:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="JOL 1:9"/>Offrandes et libations disparaissent de la maison de l’Éternel;</para>
+  <para style="q" vid="JOL 1:9">Les sacrificateurs, serviteurs de l’Éternel, sont dans le deuil.<verse eid="JOL 1:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="JOL 1:10"/>Les champs sont ravagés,</para>
+  <para style="q" vid="JOL 1:10">La terre est attristée;</para>
+  <para style="q" vid="JOL 1:10">Car les blés sont détruits,</para>
+  <para style="q" vid="JOL 1:10">Le moût est tari, l’huile est desséchée.<verse eid="JOL 1:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="JOL 1:11"/>Les laboureurs sont consternés, les vignerons gémissent,</para>
+  <para style="q" vid="JOL 1:11">A cause du froment et de l’orge,</para>
+  <para style="q" vid="JOL 1:11">Parce que la moisson des champs est perdue.<verse eid="JOL 1:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="JOL 1:12"/>La vigne est confuse,</para>
+  <para style="q" vid="JOL 1:12">Le figuier languissant;</para>
+  <para style="q" vid="JOL 1:12">Le grenadier, le palmier, le pommier,</para>
+  <para style="q" vid="JOL 1:12">Tous les arbres des champs sont flétris…</para>
+  <para style="q" vid="JOL 1:12">La joie a cessé parmi les fils de l’homme!<verse eid="JOL 1:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="JOL 1:13"/>Sacrificateurs, ceignez-vous et pleurez!</para>
+  <para style="q" vid="JOL 1:13">Lamentez-vous, serviteurs de l’autel!</para>
+  <para style="q" vid="JOL 1:13">Venez, passez la nuit revêtus de sacs,</para>
+  <para style="q" vid="JOL 1:13">Serviteurs de mon Dieu!</para>
+  <para style="q" vid="JOL 1:13">Car offrandes et libations ont disparu de la maison de votre Dieu.<verse eid="JOL 1:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="JOL 1:14"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">1:14 </char>
+      <char style="xt" closed="false">
+        <ref loc="JOL 2:15">Joë 2:15</ref>.</char>
+    </note>Publiez un jeûne, une convocation solennelle!</para>
+  <para style="q" vid="JOL 1:14">Assemblez les vieillards, tous les habitants du pays,</para>
+  <para style="q" vid="JOL 1:14">Dans la maison de l’Éternel, votre Dieu,</para>
+  <para style="q" vid="JOL 1:14">Et criez à l’Éternel!<verse eid="JOL 1:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="JOL 1:15"/>Ah! Quel jour!</para>
+  <para style="q" vid="JOL 1:15">Car <note caller="b" style="x"><char style="xo" closed="false">1:15 </char><char style="xt" closed="false"><ref loc="ISA 13:6">És 13:6</ref>.</char></note>le jour de l’Éternel est proche:</para>
+  <para style="q" vid="JOL 1:15">Il vient comme un ravage du Tout-Puissant.<verse eid="JOL 1:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="JOL 1:16"/>La nourriture n’est-elle pas enlevée sous nos yeux?</para>
+  <para style="q" vid="JOL 1:16">La joie et l’allégresse n’ont-elles pas disparu de la maison de notre Dieu?<verse eid="JOL 1:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="JOL 1:17"/>Les semences ont séché sous les mottes;</para>
+  <para style="q" vid="JOL 1:17">Les greniers sont vides,</para>
+  <para style="q" vid="JOL 1:17">Les magasins sont en ruines,</para>
+  <para style="q" vid="JOL 1:17">Car il n’y a point de blé.<verse eid="JOL 1:17"/></para>
+  <para style="q">
+    <verse number="18" style="v" sid="JOL 1:18"/>Comme les bêtes gémissent!</para>
+  <para style="q" vid="JOL 1:18">Les troupeaux de bœufs sont consternés,</para>
+  <para style="q" vid="JOL 1:18">Parce qu’ils sont sans pâturage;</para>
+  <para style="q" vid="JOL 1:18">Et même les troupeaux de brebis sont en souffrance.<verse eid="JOL 1:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="JOL 1:19"/>C’est vers toi que je crie, ô Éternel!</para>
+  <para style="q" vid="JOL 1:19">Car le feu a dévoré les plaines du désert,</para>
+  <para style="q" vid="JOL 1:19">Et la flamme a brûlé tous les arbres des champs.<verse eid="JOL 1:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="JOL 1:20"/>Les bêtes des champs crient aussi vers toi;</para>
+  <para style="q" vid="JOL 1:20">Car les torrents sont à sec,</para>
+  <para style="q" vid="JOL 1:20">Et le feu a dévoré les plaines du désert.<verse eid="JOL 1:20"/></para>
+  <chapter eid="JOL 1"/>
+  <chapter number="2" style="c" sid="JOL 2"/>
+  <para style="s">Le jour de l’Éternel</para>
+  <para style="r">V. 1-11: cf. <ref loc="JOL 1">Joë 1</ref>. <ref loc="REV 9:2-11">Ap 9:2-11</ref>.</para>
+  <para style="q">
+    <verse number="1" style="v" sid="JOL 2:1"/>Sonnez de la trompette en Sion!</para>
+  <para style="q" vid="JOL 2:1">Faites-la retentir sur ma montagne sainte!</para>
+  <para style="q" vid="JOL 2:1">Que tous les habitants du pays tremblent!</para>
+  <para style="q" vid="JOL 2:1">Car <note caller="a" style="x"><char style="xo" closed="false">2:1 </char><char style="xt" closed="false"><ref loc="JOL 1:15">Joë 1:15</ref>. <ref loc="ZEP 1:14">So 1:14</ref>, <ref loc="ZEP 1:15">15</ref>.</char></note>le jour de l’Éternel vient, car il est proche,<verse eid="JOL 2:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="JOL 2:2"/>Jour de ténèbres et d’obscurité,</para>
+  <para style="q" vid="JOL 2:2">Jour de nuées et de brouillards,</para>
+  <para style="q" vid="JOL 2:2">Il vient comme l’aurore se répand sur les montagnes.</para>
+  <para style="q" vid="JOL 2:2">Voici un peuple nombreux et puissant,</para>
+  <para style="q" vid="JOL 2:2">Tel qu’il n’y en a jamais eu,</para>
+  <para style="q" vid="JOL 2:2">Et qu’il n’y en aura jamais dans la suite des âges.<verse eid="JOL 2:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="JOL 2:3"/>Devant lui est un feu dévorant,</para>
+  <para style="q" vid="JOL 2:3">Et derrière lui une flamme brûlante;</para>
+  <para style="q" vid="JOL 2:3">Le pays était auparavant comme un jardin d’Éden,</para>
+  <para style="q" vid="JOL 2:3">Et depuis, c’est un désert affreux:</para>
+  <para style="q" vid="JOL 2:3">Rien ne lui échappe.<verse eid="JOL 2:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="JOL 2:4"/>A les voir, on dirait des chevaux,</para>
+  <para style="q" vid="JOL 2:4">Et ils courent comme des cavaliers.<verse eid="JOL 2:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="JOL 2:5"/>A les entendre, on dirait un bruit de chars</para>
+  <para style="q" vid="JOL 2:5">Sur le sommet des montagnes où ils bondissent,</para>
+  <para style="q" vid="JOL 2:5">On dirait un pétillement de la flamme du feu,</para>
+  <para style="q" vid="JOL 2:5">Quand elle consume le chaume.</para>
+  <para style="q" vid="JOL 2:5">C’est comme une armée puissante</para>
+  <para style="q" vid="JOL 2:5">Qui se prépare au combat.<verse eid="JOL 2:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="JOL 2:6"/>Devant eux les peuples tremblent,</para>
+  <para style="q" vid="JOL 2:6">Tous les visages pâlissent.<verse eid="JOL 2:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="JOL 2:7"/>Ils s’élancent comme des guerriers,</para>
+  <para style="q" vid="JOL 2:7">Ils escaladent les murs comme des gens de guerre;</para>
+  <para style="q" vid="JOL 2:7">Chacun va son chemin,</para>
+  <para style="q" vid="JOL 2:7">Sans s’écarter de sa route.<verse eid="JOL 2:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="JOL 2:8"/>Ils ne se pressent point les uns les autres,</para>
+  <para style="q" vid="JOL 2:8">Chacun garde son rang;</para>
+  <para style="q" vid="JOL 2:8">Ils se précipitent au travers des traits</para>
+  <para style="q" vid="JOL 2:8">Sans arrêter leur marche.<verse eid="JOL 2:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="JOL 2:9"/>Ils se répandent dans la ville,</para>
+  <para style="q" vid="JOL 2:9">Courent sur les murailles,</para>
+  <para style="q" vid="JOL 2:9">Montent sur les maisons,</para>
+  <para style="q" vid="JOL 2:9">Entrent par les fenêtres comme un voleur.<verse eid="JOL 2:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="JOL 2:10"/>
+    <note caller="b" style="x">
+      <char style="xo" closed="false">2:10 </char>
+      <char style="xt" closed="false">
+        <ref loc="ISA 13:10">És 13:10</ref>. <ref loc="EZK 32:7">Éz 32:7</ref>.</char>
+    </note>Devant eux la terre tremble,</para>
+  <para style="q" vid="JOL 2:10">Les cieux sont ébranlés,</para>
+  <para style="q" vid="JOL 2:10">Le soleil et la lune s’obscurcissent,</para>
+  <para style="q" vid="JOL 2:10">Et les étoiles retirent leur éclat.<verse eid="JOL 2:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="JOL 2:11"/>L’Éternel fait entendre sa voix devant son armée;</para>
+  <para style="q" vid="JOL 2:11">Car son camp est immense,</para>
+  <para style="q" vid="JOL 2:11">Et l’exécuteur de sa parole est puissant;</para>
+  <para style="q" vid="JOL 2:11">Car <note caller="c" style="x"><char style="xo" closed="false">2:11 </char><char style="xt" closed="false"><ref loc="JER 30:7">Jé 30:7</ref>. <ref loc="AMO 5:18">Am 5:18</ref>. <ref loc="ZEP 1:15">So 1:15</ref>.</char></note>le jour de l’Éternel est grand, il est terrible:</para>
+  <para style="q" vid="JOL 2:11">Qui pourra le soutenir?<verse eid="JOL 2:11"/></para>
+  <para style="s">Appel à la repentance</para>
+  <para style="r">V. 12-17: cf. 1 R 8:37-40. (1 S 7:3-13. Jon 3.)</para>
+  <para style="q">
+    <verse number="12" style="v" sid="JOL 2:12"/>Maintenant encore, dit l’Éternel,</para>
+  <para style="q" vid="JOL 2:12">
+    <note caller="d" style="x">
+      <char style="xo" closed="false">2:12 </char>
+      <char style="xt" closed="false">
+        <ref loc="JER 4:1">Jé 4:1</ref>.</char>
+    </note>Revenez à moi de tout votre cœur,</para>
+  <para style="q" vid="JOL 2:12">Avec des jeûnes, avec des pleurs et des lamentations!<verse eid="JOL 2:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="JOL 2:13"/>Déchirez vos cœurs et non vos vêtements,</para>
+  <para style="q" vid="JOL 2:13">Et revenez à l’Éternel, votre Dieu;</para>
+  <para style="q" vid="JOL 2:13">Car il est <note caller="e" style="x"><char style="xo" closed="false">2:13 </char><char style="xt" closed="false"><ref loc="EXO 34:6">Ex 34:6</ref>. <ref loc="PSA 86:15">Ps 86:15</ref>. <ref loc="JON 4:2">Jon 4:2</ref>.</char></note>compatissant et miséricordieux,</para>
+  <para style="q" vid="JOL 2:13">Lent à la colère et riche en bonté,</para>
+  <para style="q" vid="JOL 2:13">Et il se repent des maux qu’il envoie.<verse eid="JOL 2:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="JOL 2:14"/>
+    <note caller="f" style="x">
+      <char style="xo" closed="false">2:14 </char>
+      <char style="xt" closed="false">
+        <ref loc="JON 3:9">Jon 3:9</ref>.</char>
+    </note>Qui sait s’il ne reviendra pas et ne se repentira pas,</para>
+  <para style="q" vid="JOL 2:14">Et s’il ne laissera pas après lui la bénédiction,</para>
+  <para style="q" vid="JOL 2:14">Des offrandes et des libations pour l’Éternel, votre Dieu?<verse eid="JOL 2:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="JOL 2:15"/>Sonnez de la trompette en Sion!</para>
+  <para style="q" vid="JOL 2:15">
+    <note caller="g" style="x">
+      <char style="xo" closed="false">2:15 </char>
+      <char style="xt" closed="false">
+        <ref loc="JOL 1:14">Joë 1:14</ref>.</char>
+    </note>Publiez un jeûne, une convocation solennelle!<verse eid="JOL 2:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="JOL 2:16"/>Assemblez le peuple, formez une sainte réunion!</para>
+  <para style="q" vid="JOL 2:16">Assemblez les vieillards,</para>
+  <para style="q" vid="JOL 2:16">Assemblez les enfants,</para>
+  <para style="q" vid="JOL 2:16">Même les nourrissons à la mamelle!</para>
+  <para style="q" vid="JOL 2:16">Que l’époux sorte de sa demeure,</para>
+  <para style="q" vid="JOL 2:16">Et l’épouse de sa chambre!<verse eid="JOL 2:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="JOL 2:17"/>Qu’entre le portique et l’autel</para>
+  <para style="q" vid="JOL 2:17">Pleurent les sacrificateurs, Serviteurs de l’Éternel,</para>
+  <para style="q" vid="JOL 2:17">Et qu’ils disent: Éternel, épargne ton peuple!</para>
+  <para style="q" vid="JOL 2:17">Ne livre pas ton héritage à l’opprobre,</para>
+  <para style="q" vid="JOL 2:17">Aux railleries des nations!</para>
+  <para style="q" vid="JOL 2:17">Pourquoi dirait-on parmi les peuples:</para>
+  <para style="q" vid="JOL 2:17">
+    <note caller="h" style="x">
+      <char style="xo" closed="false">2:17 </char>
+      <char style="xt" closed="false">
+        <ref loc="PSA 42:11">Ps 42:11</ref>; <ref loc="PSA 79:10">79:10</ref>; <ref loc="PSA 115:2">115:2</ref>.</char>
+    </note>Où est leur Dieu?<verse eid="JOL 2:17"/></para>
+  <para style="s">Promesses</para>
+  <para style="r">V. 18-27: cf. Éz 36:6, etc. Ps 65:10, etc.</para>
+  <para style="q">
+    <verse number="18" style="v" sid="JOL 2:18"/>L’Éternel est ému de jalousie pour son pays,</para>
+  <para style="q" vid="JOL 2:18">Et il épargne son peuple.<verse eid="JOL 2:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="JOL 2:19"/>L’Éternel répond, il dit à son peuple:</para>
+  <para style="q" vid="JOL 2:19">Voici, je vous enverrai du blé,</para>
+  <para style="q" vid="JOL 2:19">Du moût et de l’huile,</para>
+  <para style="q" vid="JOL 2:19">Et vous en serez rassasiés;</para>
+  <para style="q" vid="JOL 2:19">Et je ne vous livrerai plus à l’opprobre parmi les nations.<verse eid="JOL 2:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="JOL 2:20"/>J’éloignerai de vous l’ennemi du nord,</para>
+  <para style="q" vid="JOL 2:20">Je le chasserai vers une terre aride et déserte,</para>
+  <para style="q" vid="JOL 2:20">Son avant-garde dans la mer orientale,</para>
+  <para style="q" vid="JOL 2:20">Son arrière-garde dans la mer occidentale;</para>
+  <para style="q" vid="JOL 2:20">Et son infection se répandra,</para>
+  <para style="q" vid="JOL 2:20">Sa puanteur s’élèvera dans les airs,</para>
+  <para style="q" vid="JOL 2:20">Parce qu’il a fait de grandes choses.<verse eid="JOL 2:20"/></para>
+  <para style="q">
+    <verse number="21" style="v" sid="JOL 2:21"/>Terre, ne crains pas,</para>
+  <para style="q" vid="JOL 2:21">Sois dans l’allégresse et réjouis-toi,</para>
+  <para style="q" vid="JOL 2:21">Car l’Éternel fait de grandes choses!<verse eid="JOL 2:21"/></para>
+  <para style="q">
+    <verse number="22" style="v" sid="JOL 2:22"/>Bêtes des champs, ne craignez pas,</para>
+  <para style="q" vid="JOL 2:22">Car les plaines du désert reverdiront,</para>
+  <para style="q" vid="JOL 2:22">Car les arbres porteront leurs fruits,</para>
+  <para style="q" vid="JOL 2:22">Le figuier et la vigne donneront leurs richesses.<verse eid="JOL 2:22"/></para>
+  <para style="q">
+    <verse number="23" style="v" sid="JOL 2:23"/>Et vous, enfants de Sion, soyez dans l’allégresse et réjouissez-vous</para>
+  <para style="q" vid="JOL 2:23">En l’Éternel, votre Dieu,</para>
+  <para style="q" vid="JOL 2:23">Car il vous donnera la pluie en son temps,</para>
+  <para style="q" vid="JOL 2:23">Il vous enverra la pluie de la première et de l’arrière-saison,</para>
+  <para style="q" vid="JOL 2:23">Comme autrefois.<verse eid="JOL 2:23"/></para>
+  <para style="q">
+    <verse number="24" style="v" sid="JOL 2:24"/>Les aires se rempliront de blé,</para>
+  <para style="q" vid="JOL 2:24">Et les cuves regorgeront de moût et d’huile.<verse eid="JOL 2:24"/></para>
+  <para style="q">
+    <verse number="25" style="v" sid="JOL 2:25"/>Je vous remplacerai les années</para>
+  <para style="q" vid="JOL 2:25">Qu’ont dévorées la <note caller="i" style="x"><char style="xo" closed="false">2:25 </char><char style="xt" closed="false"><ref loc="JOL 1:14">Joë 1:14</ref>.</char></note>sauterelle,</para>
+  <para style="q" vid="JOL 2:25">Le jélek, le hasil et le gazam,</para>
+  <para style="q" vid="JOL 2:25">Ma grande armée que j’avais envoyée contre vous.<verse eid="JOL 2:25"/></para>
+  <para style="q">
+    <verse number="26" style="v" sid="JOL 2:26"/>Vous mangerez et vous vous rassasierez,</para>
+  <para style="q" vid="JOL 2:26">Et vous célébrerez le nom de l’Éternel, votre Dieu,</para>
+  <para style="q" vid="JOL 2:26">Qui aura fait pour vous des prodiges;</para>
+  <para style="q" vid="JOL 2:26">Et mon peuple ne sera plus jamais dans la confusion.<verse eid="JOL 2:26"/></para>
+  <para style="q">
+    <verse number="27" style="v" sid="JOL 2:27"/>Et vous saurez que je suis au milieu d’Israël,</para>
+  <para style="q" vid="JOL 2:27">Que je suis l’Éternel, votre Dieu, et qu’il n’y en a point d’autre,</para>
+  <para style="q" vid="JOL 2:27">Et mon peuple ne sera plus jamais dans la confusion.<verse eid="JOL 2:27"/></para>
+  <para style="r">V. 28-32: cf. <ref loc="ACT 2:1-21">Ac 2:1-21</ref>. <ref loc="LUK 21:25-28">Lu 21:25-28</ref>.</para>
+  <para style="q">
+    <verse number="28" style="v" sid="JOL 2:28"/>Après cela, je répandrai mon <note caller="j" style="x"><char style="xo" closed="false">2:28 </char><char style="xt" closed="false"><ref loc="ISA 44:3">És 44:3</ref>. <ref loc="EZK 39:29">Éz 39:29</ref>. <ref loc="ACT 2:17">Ac 2:17</ref>.</char></note>esprit sur toute chair;</para>
+  <para style="q" vid="JOL 2:28">Vos fils et vos filles prophétiseront,</para>
+  <para style="q" vid="JOL 2:28">Vos vieillards auront des songes,</para>
+  <para style="q" vid="JOL 2:28">Et vos jeunes gens des visions.<verse eid="JOL 2:28"/></para>
+  <para style="q">
+    <verse number="29" style="v" sid="JOL 2:29"/>Même sur les serviteurs et sur les servantes,</para>
+  <para style="q" vid="JOL 2:29">Dans ces jours-là, je répandrai mon esprit.<verse eid="JOL 2:29"/></para>
+  <para style="q">
+    <verse number="30" style="v" sid="JOL 2:30"/>Je ferai paraître des prodiges dans les cieux et sur la terre,</para>
+  <para style="q" vid="JOL 2:30">Du sang, du feu, et des colonnes de fumée;<verse eid="JOL 2:30"/></para>
+  <para style="q">
+    <verse number="31" style="v" sid="JOL 2:31"/>
+    <note caller="k" style="x">
+      <char style="xo" closed="false">2:31 </char>
+      <char style="xt" closed="false">
+        <ref loc="JOL 3:15">Joë 3:15</ref>.</char>
+    </note>Le soleil se changera en ténèbres,</para>
+  <para style="q" vid="JOL 2:31">Et la lune en sang,</para>
+  <para style="q" vid="JOL 2:31">Avant l’arrivée du jour de l’Éternel,</para>
+  <para style="q" vid="JOL 2:31">De ce jour grand et terrible.<verse eid="JOL 2:31"/></para>
+  <para style="q">
+    <verse number="32" style="v" sid="JOL 2:32"/>
+    <note caller="l" style="x">
+      <char style="xo" closed="false">2:32 </char>
+      <char style="xt" closed="false">
+        <ref loc="ROM 10:13">Ro 10:13</ref>.</char>
+    </note>Alors quiconque invoquera le nom de l’Éternel sera sauvé;</para>
+  <para style="q" vid="JOL 2:32">Le salut sera sur la <note caller="m" style="x"><char style="xo" closed="false">2:32 </char><char style="xt" closed="false">Ab v. 17.</char></note>montagne de Sion et à Jérusalem,</para>
+  <para style="q" vid="JOL 2:32">Comme a dit l’Éternel,</para>
+  <para style="q" vid="JOL 2:32">Et parmi les réchappés que l’Éternel appellera.<verse eid="JOL 2:32"/></para>
+  <chapter eid="JOL 2"/>
+  <chapter number="3" style="c" sid="JOL 3"/>
+  <para style="s">Le jugement des nations</para>
+  <para style="r">V. 1-17: cf. 2 Ch 20:1-30. (Za 12:1-9, 14. Ap 14:14-20.)</para>
+  <para style="q">
+    <verse number="1" style="v" sid="JOL 3:1"/>Car voici, en ces jours, en ce temps-là,</para>
+  <para style="q" vid="JOL 3:1">Quand je ramènerai les captifs de Juda et de Jérusalem,<verse eid="JOL 3:1"/></para>
+  <para style="q">
+    <verse number="2" style="v" sid="JOL 3:2"/>Je rassemblerai toutes les nations,</para>
+  <para style="q" vid="JOL 3:2">Et je les ferai descendre dans la vallée de Josaphat;</para>
+  <para style="q" vid="JOL 3:2">Là, j’entrerai en jugement avec elles,</para>
+  <para style="q" vid="JOL 3:2">Au sujet de mon peuple, d’Israël, mon héritage,</para>
+  <para style="q" vid="JOL 3:2">Qu’elles ont dispersé parmi les nations,</para>
+  <para style="q" vid="JOL 3:2">Et au sujet de mon pays qu’elles se sont partagé.<verse eid="JOL 3:2"/></para>
+  <para style="q">
+    <verse number="3" style="v" sid="JOL 3:3"/>Ils ont tiré mon peuple au sort;</para>
+  <para style="q" vid="JOL 3:3">Ils ont donné le jeune garçon pour une prostituée,</para>
+  <para style="q" vid="JOL 3:3">Ils ont vendu la jeune fille pour du vin, et ils ont bu.<verse eid="JOL 3:3"/></para>
+  <para style="q">
+    <verse number="4" style="v" sid="JOL 3:4"/>Que me voulez-vous, Tyr et Sidon,</para>
+  <para style="q" vid="JOL 3:4">Et vous tous, districts des Philistins?</para>
+  <para style="q" vid="JOL 3:4">Voulez-vous tirer vengeance de moi?</para>
+  <para style="q" vid="JOL 3:4">Si vous voulez vous venger,</para>
+  <para style="q" vid="JOL 3:4">Je ferai bien vite retomber votre vengeance sur vos têtes.<verse eid="JOL 3:4"/></para>
+  <para style="q">
+    <verse number="5" style="v" sid="JOL 3:5"/>Vous avez pris mon argent et mon or;</para>
+  <para style="q" vid="JOL 3:5">Et ce que j’avais de plus précieux et de plus beau,</para>
+  <para style="q" vid="JOL 3:5">Vous l’avez emporté dans vos temples.<verse eid="JOL 3:5"/></para>
+  <para style="q">
+    <verse number="6" style="v" sid="JOL 3:6"/>Vous avez vendu les enfants de Juda et de Jérusalem aux enfants de Javan,</para>
+  <para style="q" vid="JOL 3:6">Afin de les éloigner de leur territoire.<verse eid="JOL 3:6"/></para>
+  <para style="q">
+    <verse number="7" style="v" sid="JOL 3:7"/>Voici, je les ferai revenir du lieu où vous les avez vendus,</para>
+  <para style="q" vid="JOL 3:7">Et je ferai retomber votre vengeance sur vos têtes.<verse eid="JOL 3:7"/></para>
+  <para style="q">
+    <verse number="8" style="v" sid="JOL 3:8"/>Je vendrai vos fils et vos filles aux enfants de Juda,</para>
+  <para style="q" vid="JOL 3:8">Et ils les vendront aux Sabéens, nation lointaine;</para>
+  <para style="q" vid="JOL 3:8">Car l’Éternel a parlé.<verse eid="JOL 3:8"/></para>
+  <para style="q">
+    <verse number="9" style="v" sid="JOL 3:9"/>Publiez ces choses parmi les nations!</para>
+  <para style="q" vid="JOL 3:9">Préparez la guerre!</para>
+  <para style="q" vid="JOL 3:9">Réveillez les héros!</para>
+  <para style="q" vid="JOL 3:9">Qu’ils s’approchent, qu’ils montent,</para>
+  <para style="q" vid="JOL 3:9">Tous les hommes de guerre!<verse eid="JOL 3:9"/></para>
+  <para style="q">
+    <verse number="10" style="v" sid="JOL 3:10"/>De vos hoyaux forgez des épées,</para>
+  <para style="q" vid="JOL 3:10">Et de vos serpes des lances!</para>
+  <para style="q" vid="JOL 3:10">Que le faible dise: Je suis fort!<verse eid="JOL 3:10"/></para>
+  <para style="q">
+    <verse number="11" style="v" sid="JOL 3:11"/>Hâtez-vous et venez, vous toutes, nations d’alentour,</para>
+  <para style="q" vid="JOL 3:11">Et rassemblez-vous!</para>
+  <para style="q" vid="JOL 3:11">Là, ô Éternel, fais descendre tes héros!<verse eid="JOL 3:11"/></para>
+  <para style="q">
+    <verse number="12" style="v" sid="JOL 3:12"/>Que les nations se réveillent, et qu’elles montent</para>
+  <para style="q" vid="JOL 3:12">Vers la vallée de Josaphat!</para>
+  <para style="q" vid="JOL 3:12">Car là je siégerai pour juger toutes les nations d’alentour.<verse eid="JOL 3:12"/></para>
+  <para style="q">
+    <verse number="13" style="v" sid="JOL 3:13"/>
+    <note caller="a" style="x">
+      <char style="xo" closed="false">3:13 </char>
+      <char style="xt" closed="false">
+        <ref loc="REV 14:15">Ap 14:15</ref>.</char>
+    </note>Saisissez la faucille,</para>
+  <para style="q" vid="JOL 3:13">Car la moisson est mûre!</para>
+  <para style="q" vid="JOL 3:13">Venez, foulez,</para>
+  <para style="q" vid="JOL 3:13">Car le pressoir est plein,</para>
+  <para style="q" vid="JOL 3:13">Les cuves regorgent!</para>
+  <para style="q" vid="JOL 3:13">Car grande est leur méchanceté,<verse eid="JOL 3:13"/></para>
+  <para style="q">
+    <verse number="14" style="v" sid="JOL 3:14"/>C’est une multitude, une multitude,</para>
+  <para style="q" vid="JOL 3:14">Dans la vallée du jugement;</para>
+  <para style="q" vid="JOL 3:14">Car le jour de l’Éternel est proche,</para>
+  <para style="q" vid="JOL 3:14">Dans la vallée du jugement.<verse eid="JOL 3:14"/></para>
+  <para style="q">
+    <verse number="15" style="v" sid="JOL 3:15"/>
+    <note caller="b" style="x">
+      <char style="xo" closed="false">3:15 </char>
+      <char style="xt" closed="false">
+        <ref loc="JOL 2:10">Joë 2:10</ref>, <ref loc="JOL 2:31">31</ref>.</char>
+    </note>Le soleil et la lune s’obscurcissent,</para>
+  <para style="q" vid="JOL 3:15">Et les étoiles retirent leur éclat.<verse eid="JOL 3:15"/></para>
+  <para style="q">
+    <verse number="16" style="v" sid="JOL 3:16"/>De Sion l’Éternel rugit,</para>
+  <para style="q" vid="JOL 3:16">De Jérusalem il fait entendre sa voix;</para>
+  <para style="q" vid="JOL 3:16">Les cieux et la terre sont ébranlés.</para>
+  <para style="q" vid="JOL 3:16">Mais l’Éternel est un refuge pour son peuple,</para>
+  <para style="q" vid="JOL 3:16">Un abri pour les enfants d’Israël.<verse eid="JOL 3:16"/></para>
+  <para style="q">
+    <verse number="17" style="v" sid="JOL 3:17"/>Et vous saurez que je suis l’Éternel, votre Dieu,</para>
+  <para style="q" vid="JOL 3:17">Résidant à Sion, ma sainte montagne.</para>
+  <para style="q" vid="JOL 3:17">Jérusalem sera sainte,</para>
+  <para style="q" vid="JOL 3:17">
+    <note caller="c" style="x">
+      <char style="xo" closed="false">3:17 </char>
+      <char style="xt" closed="false">
+        <ref loc="REV 21:27">Ap 21:27</ref>.</char>
+    </note>Et les étrangers n’y passeront plus.<verse eid="JOL 3:17"/></para>
+  <para style="r">V. 18-21: cf. <ref loc="EZK 47:1-12">Éz 47:1-12</ref>; <ref loc="EZK 48:35">48:35</ref>. <ref loc="AMO 9:13-15">Am 9:13-15</ref>.</para>
+  <para style="q">
+    <verse number="18" style="v" sid="JOL 3:18"/>En ce temps-là, <note caller="d" style="x"><char style="xo" closed="false">3:18 </char><char style="xt" closed="false"><ref loc="AMO 9:13">Am 9:13</ref>.</char></note>le moût ruissellera des montagnes,</para>
+  <para style="q" vid="JOL 3:18">Le lait coulera des collines,</para>
+  <para style="q" vid="JOL 3:18">Et il y aura de l’eau dans tous les torrents de Juda;</para>
+  <para style="q" vid="JOL 3:18">Une source sortira aussi de la maison de l’Éternel,</para>
+  <para style="q" vid="JOL 3:18">Et arrosera la vallée de Sittim.<verse eid="JOL 3:18"/></para>
+  <para style="q">
+    <verse number="19" style="v" sid="JOL 3:19"/>L’Égypte sera dévastée,</para>
+  <para style="q" vid="JOL 3:19">Édom sera réduit en désert,</para>
+  <para style="q" vid="JOL 3:19">A cause des violences contre les enfants de Juda,</para>
+  <para style="q" vid="JOL 3:19">Dont ils ont répandu le sang innocent dans leur pays.<verse eid="JOL 3:19"/></para>
+  <para style="q">
+    <verse number="20" style="v" sid="JOL 3:20"/>Mais Juda sera toujours habité,</para>
+  <para style="q" vid="JOL 3:20">Et Jérusalem, de génération en génération.<verse eid="JOL 3:20"/></para>
+  <para style="q">
+    <verse number="21" style="v" sid="JOL 3:21"/>Je vengerai leur sang que je n’ai point encore vengé,</para>
+  <para style="q" vid="JOL 3:21">Et L’Éternel résidera dans Sion.<verse eid="JOL 3:21"/></para>
+  <chapter eid="JOL 3"/>
+</usx>
