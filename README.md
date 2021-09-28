@@ -37,13 +37,14 @@ You can read these files using an app such as [calibre](https://calibre-ebook.co
 ## Features
 
 - Custom covers featuring public domain art in the style of [Standard Ebooks](https://standardebooks.org/) covers
-- Table of contents with entries only for each book
+- Table of contents with entries for each book
 - Content page for each book with entries for each chapter
   - The heading links back to the main table of contents
 - Chapter titles that link back to the book content page
+- Separate files for each chapter to speed loading
 - Uniform line spacing
 - Punctuation fixes
-- Deliberately minimal styling (no custom fonts, margins, etc) since most E-readers have very good default styling
+- Deliberately minimal styling (colours, fonts, margins, etc) to better allow E-readers to apply their own styling
 
 ## Other free EPUB Bible sources
 
