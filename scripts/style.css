@@ -22,3 +22,7 @@ sup {
   font-style: italic;
   text-align: right;
 }
+
+.section-heading {
+  text-align: center;
+}
