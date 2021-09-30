@@ -1,4 +1,4 @@
-Public domain Bibles for E-readers.
+Public domain Bibles for e-readers.
 
 <!--- TODO: update link to cover.jpg once https://github.com/kcartlidge/nodepub/issues/17 is fixed --->
 <img alt="cover sample" align="left" src="data/fr/Bible Segond 1910/cover.jpeg" width="400"/>
@@ -6,7 +6,7 @@ Public domain Bibles for E-readers.
 
 ## About
 
-This is a simple attempt to generate well-formatted EPUB Bibles intended primarily for use with E-readers.
+This is a simple attempt to generate well-formatted EPUB Bibles intended primarily for use with e-readers.
 
 This is loosely inspired by [Standard Ebooks](https://standardebooks.org/), which [does not include Bibles as part of their collection](https://standardebooks.org/contribute/collections-policy).
 
@@ -14,9 +14,9 @@ This is loosely inspired by [Standard Ebooks](https://standardebooks.org/), whic
 
 ### E-readers
 
-For most E-readers (Kobo, Nook, etc.), you should just be able to copy the file to your E-reader.
+For most e-readers (Kobo, Nook, etc.), you should just be able to copy the file to your e-reader.
 
-For Kindle E-readers, you will need to convert them first to MOBI files using a tool such as [calibre](https://calibre-ebook.com/).
+For Kindle e-readers, you will need to convert them first to MOBI files using a tool such as [calibre](https://calibre-ebook.com/). Some formatting may be lost, but the conversion is necessary because EPUB is the standard format used by most other e-book stores and Amazon wants to discourage you from buying e-books elsewhere.
 
 ### Other devices
 
@@ -44,7 +44,7 @@ You can read these files using an app such as [calibre](https://calibre-ebook.co
 - Separate files for each chapter to speed loading
 - Uniform line spacing
 - Punctuation fixes
-- Deliberately minimal styling (colours, fonts, margins, etc) to better allow E-readers to apply their own styling
+- Deliberately minimal styling (colours, fonts, margins, etc) to better allow e-readers to apply their own styling
 
 ## Other free EPUB Bible sources
 
