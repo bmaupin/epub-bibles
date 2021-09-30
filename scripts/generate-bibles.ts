@@ -189,7 +189,7 @@ const processElement = (
 
   // s (Section heading)
   else if (style === 's') {
-    // TODO
+    // TODO: After an initial implementation of section headings, the end result felt quite cluttered. Sit on it for now.
     return '';
   }
 
@@ -462,6 +462,8 @@ const applyPunctuationFixes = (
 };
 
 // Add a chapter title heading to each chapter with a link back to the contents page
+// We could do this in processElement but at least for now I'd like to do it separately so we don't have to update every
+// test case if we make a minor tweak here.
 const insertChapterTitle = (
   chapterData: string,
   bookName: string,
