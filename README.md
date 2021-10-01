@@ -19,7 +19,7 @@ See the [Releases](../../releases) page for the files.
 #### Other free EPUB Bibles
 
 - English Standard Version: [Crossway](https://www.crossway.org/books/esv-classic-reference-bible-ebook/) | [Kobo](https://www.kobo.com/ebook/esv-classic-reference-bible) | [Apple](https://books.apple.com/book/esv-classic-reference-bible/id368214461) | [Barnes and Noble](https://www.barnesandnoble.com/w/esv-classic-reference-bible-crossway-bibles/1116793426) | [Amazon](https://www.amazon.com/dp/B00IFG0920/?tag=thewire06-20)
-- [https://ebible.org/download.php](https://ebible.org/download.php)
+- [ebible.org](https://ebible.org/download.php)
 
 ## How to read these files
 
@@ -56,6 +56,8 @@ You can read these files using an app such as [calibre](https://calibre-ebook.co
 - Uniform line spacing
 - Punctuation fixes
 - Deliberately minimal styling (colours, fonts, margins, etc) to better allow e-readers to apply their own styling
+- Other elements (section headings, references, footnotes, etc) have been left out
+  - These elements are nice but not always ideal on an e-reader with limited space, lower resolution, and less options for visually distinguighing them from the text. EPUB Bibles for devices other than e-readers and that have these elements can be found elsewhere, such as [ebible.org](https://ebible.org/download.php)
 
 ## Development
 
