@@ -10,6 +10,17 @@ This is a simple attempt to generate well-formatted EPUB Bibles intended primari
 
 This is loosely inspired by [Standard Ebooks](https://standardebooks.org/), which [does not include Bibles as part of their collection](https://standardebooks.org/contribute/collections-policy).
 
+## The Bibles
+
+See the [Releases](../../releases) page for the files.
+
+- Bible Segond 1910
+
+#### Other free EPUB Bibles
+
+- English Standard Version: [Crossway](https://www.crossway.org/books/esv-classic-reference-bible-ebook/) | [Kobo](https://www.kobo.com/ebook/esv-classic-reference-bible) | [Apple](https://books.apple.com/book/esv-classic-reference-bible/id368214461) | [Barnes and Noble](https://www.barnesandnoble.com/w/esv-classic-reference-bible-crossway-bibles/1116793426) | [Amazon](https://www.amazon.com/dp/B00IFG0920/?tag=thewire06-20)
+- [https://ebible.org/download.php](https://ebible.org/download.php)
+
 ## How to read these files
 
 ### E-readers
@@ -45,11 +56,6 @@ You can read these files using an app such as [calibre](https://calibre-ebook.co
 - Uniform line spacing
 - Punctuation fixes
 - Deliberately minimal styling (colours, fonts, margins, etc) to better allow e-readers to apply their own styling
-
-## Other free EPUB Bible sources
-
-- [ESV Classic Reference Bible](https://www.crossway.org/books/esv-classic-reference-bible-ebook/)
-- [https://ebible.org/download.php](https://ebible.org/download.php)
 
 ## Development
 
