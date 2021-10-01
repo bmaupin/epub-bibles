@@ -111,7 +111,7 @@ npm start
 1. Run `se create-draft`, e.g.
 
    ```
-   $ se create-draft -a Anonymous -t "La Bible Segond 1910"
+   $ se create-draft -t "La Bible" -a "Louis Segond 1910"
    ```
 
    - The title will go on top in a larger font, the author will go on the bottom in a smaller font
@@ -120,25 +120,31 @@ npm start
 1. Copy the image, e.g.
 
    ```
-   $ cp ../data/fr/La\ Bible\ Segond\ 1910/cover-source.jpg anonymous_la-bible-segond-1910/images/cover.jpg
+   $ cp ../data/fr/La\ Bible\ Segond\ 1910/cover-source.jpg louis-segond-1910_la-bible/images/cover.jpg
    ```
 
 1. Build the image, e.g.
 
    ```
-   $ se build-images anonymous_la-bible-segond-1910/
+   $ se build-images louis-segond-1910_la-bible/
    ```
 
 1. Build the ebook, e.g.
 
    ```
-   $ se build --output-dir=dist anonymous_la-bible-segond-1910/
+   $ se build --output-dir=dist louis-segond-1910_la-bible/
    ```
 
 1. Extract the generated cover image, e.g.
 
    ```
-   $ unzip -j dist/anonymous_la-bible-segond-1910.epub epub/images/cover.jpg -d .
+   $ unzip -j dist/louis-segond-1910_la-bible.epub epub/images/cover.jpg -d .
+   ```
+
+1. Extract the generated title page image, e.g.
+
+   ```
+   $ unzip -j dist/louis-segond-1910_la-bible.epub epub/images/titlepage.png -d .
    ```
 
 1. Move the generated cover image somewhere

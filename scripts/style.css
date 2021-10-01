@@ -22,3 +22,27 @@ sup {
   font-style: italic;
   text-align: right;
 }
+
+/* TODO: center imprint vertically? */
+#imprint img {
+  display: block;
+  margin-top: 3em;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+#imprint p {
+  margin-top: 2em;
+  text-align: center;
+}
+
+/* TODO: center vertically */
+#titlepage img {
+  display: block;
+  margin-top: 3em;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  width: 100%;
+}

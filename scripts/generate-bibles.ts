@@ -498,8 +498,10 @@ const generateBible = async (languageCode: string, bibleName: string) => {
     // TODO: remove this (https://github.com/kcartlidge/nodepub/issues/15)
     genre: 'Non-Fiction',
     id: getEpubId(bibleName),
-    // TODO: remove this (https://github.com/kcartlidge/nodepub/issues/15)
-    images: [],
+    images: [
+      `${DATA_DIRECTORY}/${languageCode}/${bibleName}/titlepage.png`,
+      '../public-domain-mark.png',
+    ],
     language: languageCode,
     title: bibleName,
   };
@@ -515,6 +517,26 @@ const generateBible = async (languageCode: string, bibleName: string) => {
 
   // This should always point to the index of the current book contents page
   let bookContentsPageIndex = 1;
+
+  epub.addSection(
+    'Title page',
+    `<div id="titlepage">
+			<img alt="${bibleName}" src="../images/titlepage.png"/>
+		</div>`,
+    // Exclude from the TOC and the contents page
+    true
+  );
+  bookContentsPageIndex += 1;
+
+  epub.addSection(
+    'Imprint',
+    `<div id="imprint">
+			<img alt="${bibleName}" src="../images/public-domain-mark.png"/>
+      <p>Cet œuvre est dans le domaine public</p>
+		</div>`,
+    true
+  );
+  bookContentsPageIndex += 1;
 
   const booksMetadata = await getBooksMetadata(languageCode, bibleName);
 
