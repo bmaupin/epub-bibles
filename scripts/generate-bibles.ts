@@ -386,13 +386,31 @@ const processBook = async (
   return chaptersData;
 };
 
+const getSingularForPsalms = (languageCode: string) => {
+  switch (languageCode) {
+    case 'ar':
+      return 'المزمور';
+    case 'en':
+      return 'Psalm';
+    case 'es':
+      return 'Salmo';
+    case 'fr':
+      return 'Psaume';
+    default:
+      throw new Error(
+        `Unhandled language code when singular for Psalms: ${languageCode}`
+      );
+  }
+};
+
 const generateBookContentsPageData = (
-  bookMetadata: BookMetadata,
+  bookLongName: string,
+  bookShortName: string,
   chapterCount: number,
   bookContentsPageIndex: number
 ): string => {
   // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
-  let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookMetadata.longName.toUpperCase()}</a></h2>\n<p>`;
+  let bookContentsPageData = `<h2 class="book-title"><a href="toc.xhtml">${bookLongName.toUpperCase()}</a></h2>\n<p>`;
 
   for (
     let chapterNumber = 1;
@@ -404,7 +422,7 @@ const generateBookContentsPageData = (
 
     // Use non-breaking spaces here and elsewhere to prevent line breaks in the middle of the chapter entry
     const chapterTitle = replaceAll(
-      `${bookMetadata.shortName} ${chapterNumber}`,
+      `${bookShortName} ${chapterNumber}`,
       ' ',
       '&nbsp;'
     );
@@ -528,8 +546,14 @@ const generateBible = async (languageCode: string, bibleName: string) => {
       bookMetadata
     );
 
+    const bookShortName =
+      bookMetadata.bookCode === 'PSA'
+        ? getSingularForPsalms(languageCode)
+        : bookMetadata.shortName;
+
     const bookContentsPageData = generateBookContentsPageData(
-      bookMetadata,
+      bookMetadata.longName,
+      bookShortName,
       chaptersData.length,
       bookContentsPageIndex
     );
@@ -546,7 +570,7 @@ const generateBible = async (languageCode: string, bibleName: string) => {
       chapterData = applyPunctuationFixes(chapterData, languageCode);
       chapterData = insertChapterTitle(
         chapterData,
-        bookMetadata.shortName,
+        bookShortName,
         chapterNumber,
         bookContentsPageIndex
       );
