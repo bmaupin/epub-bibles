@@ -121,8 +121,9 @@ const getBooksMetadata = async (languageCode: string, bibleName: string) => {
  */
 const processElement = (
   element: Element,
-  bookCode: string,
-  chapterNumber: number
+  bookMetadata: BookMetadata,
+  chapterNumber: number,
+  bookContentsPageIndex: number
 ): string => {
   const stylesToSkip = [
     'mr', // Major section reference range
@@ -146,7 +147,7 @@ const processElement = (
   const style = element.getAttribute('style');
   if (!style) {
     throw new Error(
-      `Style missing in ${bookCode} ${chapterNumber}: ${element.outerHTML}`
+      `Style missing in ${bookMetadata.bookCode} ${chapterNumber}: ${element.outerHTML}`
     );
   }
 
@@ -198,7 +199,16 @@ const processElement = (
     // Get the verse number. It would probably be more "correct" to use something like <span class="verse-number"> but
     // as long as we're not using <sup> anywhere else this keeps the EPUB slightly smaller while technically being less
     // correct
-    processedElement = `<sup>${element.getAttribute('number')}</sup>`;
+    const verseNumber = Number(element.getAttribute('number'));
+
+    if (verseNumber === 1) {
+      // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
+      processedElement =
+        `<span class="chapter-title-book"><a href="s${bookContentsPageIndex}.xhtml">${bookMetadata.shortName.toUpperCase()}</a> </span>` +
+        `<span class="chapter-title-number">${chapterNumber}</span> `;
+    } else {
+      processedElement = `<sup>${element.getAttribute('number')}</sup>`;
+    }
   }
 
   // wj (Words of Jesus)
@@ -230,8 +240,9 @@ const processElement = (
       if (childElement.nodeType === Node.ELEMENT_NODE) {
         processedElement += processElement(
           childElement as Element,
-          bookCode,
-          chapterNumber
+          bookMetadata,
+          chapterNumber,
+          bookContentsPageIndex
         );
       } else if (childElement.nodeType === Node.TEXT_NODE) {
         // Only include text element contents if it's more than just whitespace; should slightly reduce EPUB file size
@@ -240,7 +251,7 @@ const processElement = (
         }
       } else {
         throw new Error(
-          `Unhandled node type in ${bookCode} ${chapterNumber}: ${childElement.nodeName} ${childElement.nodeType}`
+          `Unhandled node type in ${bookMetadata.bookCode} ${chapterNumber}: ${childElement.nodeName} ${childElement.nodeType}`
         );
       }
     }
@@ -296,7 +307,8 @@ const postProcessChapterData = (chapterData: string): string => {
 const processBook = async (
   languageCode: string,
   bibleName: string,
-  bookMetadata: BookMetadata
+  bookMetadata: BookMetadata,
+  bookContentsPageIndex: number
 ) => {
   const chaptersData = [];
 
@@ -369,8 +381,9 @@ const processBook = async (
       } else {
         chapterData += processElement(
           element,
-          bookMetadata.bookCode,
-          chapterNumber
+          bookMetadata,
+          chapterNumber,
+          bookContentsPageIndex
         );
       }
     }
@@ -479,32 +492,6 @@ const applyPunctuationFixes = (
   return chapterData;
 };
 
-// Add a chapter title heading to each chapter with a link back to the contents page
-// We could do this in processElement but at least for now I'd like to do it separately so we don't have to update every
-// test case if we make a minor tweak here.
-const insertChapterTitle = (
-  chapterData: string,
-  bookName: string,
-  chapterNumber: number,
-  bookContentsPageIndex: number
-): string => {
-  // Replace the first verse number with the chapter title
-  const openingSup = chapterData.indexOf('<sup>');
-  const closingSup = chapterData.indexOf('</sup>');
-
-  const chapterTitle =
-    // Use .toUpperCase() because some ereaders don't support text-transform: uppercase;
-    `<span class="chapter-title-book"><a href="s${bookContentsPageIndex}.xhtml">${bookName.toUpperCase()}</a> </span>` +
-    `<span class="chapter-title-number">${chapterNumber}</span> `;
-
-  chapterData =
-    chapterData.slice(0, openingSup) +
-    chapterTitle +
-    chapterData.slice(closingSup + '</sup>'.length);
-
-  return chapterData;
-};
-
 const generateBible = async (languageCode: string, bibleName: string) => {
   console.log(`Generating EPUB for ${bibleName}`);
 
@@ -543,7 +530,8 @@ const generateBible = async (languageCode: string, bibleName: string) => {
     const chaptersData = await processBook(
       languageCode,
       bibleName,
-      bookMetadata
+      bookMetadata,
+      bookContentsPageIndex
     );
 
     const bookShortName =
@@ -568,12 +556,6 @@ const generateBible = async (languageCode: string, bibleName: string) => {
 
       let chapterData = chaptersData[chapterNumber - 1];
       chapterData = applyPunctuationFixes(chapterData, languageCode);
-      chapterData = insertChapterTitle(
-        chapterData,
-        bookShortName,
-        chapterNumber,
-        bookContentsPageIndex
-      );
 
       // TODO
       // if (bookMetadata.bookCode === 'PSA' && chapterNumber === 3) {
