@@ -18,7 +18,6 @@ See the [Releases](../../releases) page for the files.
 
 #### Other free EPUB Bibles
 
-- English Standard Version: [Crossway](https://www.crossway.org/books/esv-classic-reference-bible-ebook/) | [Kobo](https://www.kobo.com/ebook/esv-classic-reference-bible) | [Apple](https://books.apple.com/book/esv-classic-reference-bible/id368214461) | [Barnes and Noble](https://www.barnesandnoble.com/w/esv-classic-reference-bible-crossway-bibles/1116793426) | [Amazon](https://www.amazon.com/dp/B00IFG0920/?tag=thewire06-20)
 - [ebible.org](https://ebible.org/download.php)
 
 ## How to read these files
